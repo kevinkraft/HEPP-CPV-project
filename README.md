@@ -15,3 +15,5 @@ To Do:
 * Set weekly time for meeting
 * Get everyones email addresses
 * Add git hub tutorial to fb group
+
+test, test, test, testy testy test.
