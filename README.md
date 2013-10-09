@@ -16,4 +16,4 @@ To Do:
 * Get everyones email addresses
 * Add git hub tutorial to fb group
 
-testicals!
+
