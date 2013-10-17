@@ -8,5 +8,9 @@ echo "note you still have to add a commit for main.tex"
 echo "Run with: bash gitrun.sh "
 ENDCOMMENT
 
+git add main.aux
+git add main.log
+git add main.pdf
+git commit -m "ran pdflatex"
 
 
