@@ -36,3 +36,4 @@ CPV in Kaon system/Kaon Mixing
 * Observed neutral Kaons are K0_s "short", K0_L "long" 
   * AS K0_s -> 2pi => CP=1, K0_L -> 2pi => CP=-1, we can say, if CP conserved then K0_S=K0_1, K0_L=K0_2
   * But K0_L (CP=-1)-> pi+ pi- (CP=1) observed by Christenson, Cronin, Fitch, Turlay (1964) "Evidence for the 2pi Decay of the K^2_0 Meson" (M+S pg 292)
+  * This implies K0_L and K0_S are not entirely aligned with the basis states (M+S eq 10.33 pg 294)
