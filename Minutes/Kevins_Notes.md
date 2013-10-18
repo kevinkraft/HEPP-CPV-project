@@ -37,3 +37,22 @@ CPV in Kaon system/Kaon Mixing
   * AS K0_s -> 2pi => CP=1, K0_L -> 2pi => CP=-1, we can say, if CP conserved then K0_S=K0_1, K0_L=K0_2
   * But K0_L (CP=-1)-> pi+ pi- (CP=1) observed by Christenson, Cronin, Fitch, Turlay (1964) "Evidence for the 2pi Decay of the K^2_0 Meson" (M+S pg 292)
   * This implies K0_L and K0_S are not entirely aligned with the basis states (M+S eq 10.33 pg 294)
+
+CKM Mechanism 
+-------------
+* Cabbibo-Kobayashi-Maskawa
+* CPV depends on phase of CKM matrix
+* Essential: Quark Mixing (not part of "CKM mechanism" though)
+  * lepton-quark symmetry
+  * first two generations (u,d) (c,s) of quarks and leptons have identical weak interactios (not actually true yet) (M+S pg 226) 
+  * Cabbibo said real quarks are lin.combs of other quark states (just like in Kaon system)
+  * (u,d') (c,s') (M+S 8.15) with d'=d*cos(theta_C)+s*sin(theta_C), cos(theta_C)>sin(theta_C)  
+  * This gives cabbibo favoured and cabbibo suppresed decays. Favoured have a cos(theta_C), suppressed have a sin(theta_C)
+    * Reason why charm hadrons almost always go to strange hadrons
+  * In three generations mixing happens between d,s,t, the extension for the top quark was made by K. and M.. CKM matrix is unitary (M+S pg 236)
+* CKM matrix can be paramterized in many ways (M+S pg 304 eqn 10.56)
+  * Contains imaginary terms, T operator involes complx conjugate => T violation, assuming CPT conservation (Necessary for validity of Lorentz transformation (check)) => CP violation
+
+
+
+
