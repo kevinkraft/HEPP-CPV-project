@@ -7,7 +7,7 @@ Contributers
 * John Ronayne
 * Kevin Maguire
 * Sinead Hales
-* Dudley Grant (dudley.grant+github@gmail.com)
+* Dudley Grant (firstname.lastname@gmail.com)
 
 To Do:
 * Set (second) weekly time for meeting
