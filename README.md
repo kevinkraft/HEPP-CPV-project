@@ -7,12 +7,10 @@ Contributers
 * John Ronayne
 * Kevin Maguire
 * Sinead Hales
-* Dudley Grant
+* Dudley Grant (dudley.grant+github@gmail.com)
 
 To Do:
-* Eveyone needs to set up git hub
-* Add Dudley to fb group
-* Set weekly time for meeting
+* Set (second) weekly time for meeting
 * Get everyones email addresses
 * Add git hub tutorial to fb group
 
