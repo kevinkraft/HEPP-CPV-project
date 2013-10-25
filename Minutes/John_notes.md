@@ -21,6 +21,7 @@ Glashow, Iliopoulos and Maiana. GIM is a mechanism that suppresses FCNC. It was 
 
 
 Strong CP problem
+--------------------------------------------------------------------------------------------------------
 Why is the strong force seem to not break CP symmetry. QCD allows for a possible violation of this term. A rather interesting unsolved problem in particle physics with either trivial results or some seeming large implications. There is a theta parameter in the Lagrangian that had usually been ignored due to the lack of physical implications by being divergent, this is the leading cause of a possible CPV in QCD [4]. A completer run through of this on the Lagrangian and in relation to a the smallness of theta and scale of symmetry breaking. The model also predicts a particle that may facilitate this called the axion. Such particles inevitably
 appear in string theory and in super symmetric field theories. Of which I just going to peer into Susy.
 
