@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  18 OCT 2013 21:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.4)  30 OCT 2013 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -198,31 +198,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box37
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count107
-\lst@gtempboxa=\box38
-\lst@token=\toks25
-\lst@length=\count108
-\lst@currlwidth=\dimen115
-\lst@column=\count109
-\lst@pos=\count110
-\lst@lostspace=\dimen116
-\lst@width=\dimen117
-\lst@newlines=\count111
-\lst@lineno=\count112
-\lst@maxwidth=\dimen118
+(/usr/share/texlive/texmf-dist/tex/latex/listing/listing.sty
+Package: listing 1999/05/25
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count113
-\lst@skipnumbers=\count114
-\lst@framebox=\box39
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
-))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
- (./main.aux)
+Package `listing', V1.2, <1999/05/25>
+\c@listing=\count107
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -240,20 +221,19 @@ LaTeX Font Info:    ... okay on input line 9.
 Class revtex4 Info: Patching LaTeX tabular. on input line 9.
 Class revtex4 Info: cite was not loaded (OK!) on input line 9.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 9.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen119
-\scratchbox=\box40
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen120
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count108
+\scratchdimen=\dimen115
+\scratchbox=\box38
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen116
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -302,11 +282,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count121
-
 
 Class revtex4 Warning: Assuming \noaffiliation for John Ronayne (), Kevin Magui
-re (10318135), Sinead Hales(), Dudley Grant().
+re (10318135), Sinead Hales(), Dudley Grant (10275291).
 
 (./Introduction.tex) (./P_C_CPT.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
@@ -330,13 +308,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 ) (./CKM_Mechanism.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5248 strings out of 495059
- 69814 string characters out of 3182030
- 144821 words of memory out of 3000000
- 8350 multiletter control sequences out of 15000+200000
+ 4091 strings out of 495059
+ 52774 string characters out of 3182031
+ 125006 words of memory out of 3000000
+ 7201 multiletter control sequences out of 15000+200000
  9867 words of font info for 39 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,5n,32p,463b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,5n,26p,463b,157s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
@@ -348,7 +326,7 @@ ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on main.pdf (1 page, 120367 bytes).
+Output written on main.pdf (1 page, 120302 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
