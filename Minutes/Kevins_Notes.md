@@ -30,7 +30,6 @@ CPV in Kaon system/Kaon Mixing
 * Section Layout:
   * 1, 2 use C, P CP operator maths in (M+S) and from lecture notes, 
 
-
 ----------------------------
 1.Two Neutral Kaon states
   * K0 (d)(s^bar), K0^bar (s)(d^bar)

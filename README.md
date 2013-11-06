@@ -14,4 +14,6 @@ To Do:
 * Get everyones email addresses
 * Add git hub tutorial to fb group
 
-
+New Latex:
+----------
+* Added braket package for bra's and ket's

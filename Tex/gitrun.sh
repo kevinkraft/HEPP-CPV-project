@@ -11,6 +11,6 @@ ENDCOMMENT
 git add main.aux
 git add main.log
 git add main.pdf
-git commit -m "ran pdflatex"
+
 
 
