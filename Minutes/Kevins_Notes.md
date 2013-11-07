@@ -54,6 +54,11 @@ CPV in Kaon system/Kaon Mixing
 
 * Kaon CPV in semi-leptonic
   * No direct CPV in these channels (D'Ambrosio Kaon review pg 12)
+  * Selection rules
+    * Delta_Strangeness = Delta Q = +/- 1
+    * Q = charge
+    * Delta_Strangeness =  - Delta Q = +/- 1 are forbidden
+    * overall Delta_S = 0, +/- 1 for ALLOWED
 
 * Charged Kaon CPV
   * No mass mixing (d'ambrosio pg 13)
