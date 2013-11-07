@@ -1,3 +1,7 @@
+Apparently I was using twocolumn format and maybe that was changed.
+
+I don't mind to switch back, then I did 2.5 pages. Whichever looks the best.
+
 I will put my TeX into just \section format near the end.
 (less temporary clutter this way.)
 
