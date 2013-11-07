@@ -1,0 +1,140 @@
+\documentclass[twocolumn,floatfix,aps,prd,amsmath,amssymb]{revtex4}
+
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listing} %listings
+
+\begin{document}
+
+\section{Spontaneous Charge Parity Violation} 
+A major motivation for creating models with new CPV mechanisms is to explain Baryon asymmetry. This is a huge research area, a simple search on arXiv.org reveals over $500$ papers. The most prevalent theories are based around Super-Symmetry (SUSY) and Spontaneous Charge Parity Violation (SCPV). 
+
+Typically these models are created by looking for Gauge symmetries which coincide with Langrangians similar to the Standard Model, but with extra terms that may account for the preference of antimatter to decay into matter.  
+
+SCPV is praised for its ``naturalness" in comparison to regular CPV\cite{SCPV1}. It supposes the possibility to have spontaneous CPV by the vacuum, as opposed to explicit CPV from the CKM matrices. That is, the vacuum is no longer invariant under CP. In a sense this is nice as it may not introduce as many new particles.
+
+Indeed, the Minimal SUSY Standard Model is not compatible with SCPV, and in general it is difficult to incorporate SCPV in SUSY models\cite{SCPV1}, but it has been done. For example in SUSY $\mathrm{SO}(10)$ \cite{SCPV2}.
+
+There are two primary goals to this section. First, to elucidate the use of groups in physics, particularly particle physics. Second, to use this knowledge to understand various SCPV  models beyond the insufficient description given in this introduction.
+
+\subsection{SCPV. Group Theory Basics}
+Some physicists take pride in never having learned group theory and still understanding its applications. This is not an unreasonable point of view, an engineer can launch a rocket without knowing real analysis. 
+
+Undergraduate group theory modules quite commonly focus entirely on groups useful for pure mathematics. This is understandable as it is taught by the math department, but the picture of group theory young physicists may end up with is often quite different to its use in physics.
+
+
+Part of the reasons groups can be so abstract is that they have very little structure. Even basic physics requires complicated structure. Simply changing coordinates in classical mechanics requires differential geometry, which requires analysis and topology. A \textbf{Group} is a set $G$ with a function $\cdot:G^2\rightarrow G$, having the following properties $\forall g,h,k \in G$
+\begin{align*}
+\begin{array}{l l l}
+(GA1) & g\cdot h \in G & \text{closure} \\
+(GA2) & \exists e\in G,\phantom{a} e\cdot g = g \cdot e = g \phantom{a}& \text{identity} \\
+(GA3) & \exists g^{-1}\in G, \phantom{a} g^{-1} \cdot g = g \cdot g^{-1} = e & \text{inverse} \\
+(GA4) & (g\cdot h)\cdot k = g\cdot(h \cdot k) & \text{associativity} \\
+\end{array}
+\end{align*}
+Abstract definitions will be avoided in general. To understand this proceed with a useful example. Let $\mathrm{GL}(n,\mathbb{R})$ be the set of all $n\times n$ matrices with real coefficients and non-zero determinant. This forms a group under matrix multiplication.
+\begin{itemize}
+\item[(GA1)] The product of two $n\times n$ matrices is an $n \times n$ matrix, so it is closed.  
+\item[(GA2)] The identity matrix $I$ satisfies $IM=MI=M$.
+\item[(GA3)] Non-zero determinant matrices are invertible $M^{-1}M=MM^{-1}=I$.
+\item[(GA4)] As real multiplication and addition are associative ($(1+2)+3=1+(2+3)$) Matrix multiplication inherits this property.
+\end{itemize}
+\textsc{Note:}
+\begin{itemize}
+\item The set of all real matrices would fail, as zero determinant matrices do not have inverses.
+\item Associativity is usually trivial by the definition and not checked.
+\end{itemize}
+The purpose of this proof was to give some familiar meaning to the abstraction. Detailed proofs shall be avoided in favour of intuition. Note that already  a more powerful structure is present than a group, the field of real numbers, $(\mathbb{R},+,\times)$. This is essentially just two groups glued together, addition and multiplication.
+
+Similarly, every vector space is a group under vector addition. With this it could be said that all of physics uses groups, however a secondary school student does not use differential geometry with Newton's laws. At this stage groups are still useless to the practical Physicist.
+
+A \textbf{Transformation Group} is a more useful idea. Let $X$ be a set, $\mathrm{Transf}(X)$ is the set of all one-to-one functions from $X$ to $X$. This is the set of all ways of rearranging $X$. In the context of a finite group $S=\{1,2,...,n\}$, $\mathrm{Transf}(S)$ is just the set of all permutations. 
+
+If $3$-dimensional was modelled space by $\mathbb{R}^3$ the transformation group would not be useful, it would have horribly discontinuous functions that do not relate to intuition about space. What would be useful is:
+\begin{center}
+The transformations that preserve a property of a space form a group. It is known as the \textbf{invariance group} or the \textbf{symmetry group}.
+\end{center}
+ This is an extremely general and potent idea. It is also not difficult to prove, so it shall be after the following motivation.
+ 
+Model space again as $\mathbb{R}^3$, transformations should preserve distance. Where Euclidean distance is defined by
+\begin{align*}
+d(\mathbf{x},\mathbf{y}):= \sqrt{(x_1-y_1)^2+(x_2-y_2)^2+(x_3-y_3)^2}
+\end{align*}
+ The desired transformation $\mathrm{R}$ has form such that $d(\mathrm{R}\mathbf{x},\mathrm{R}\mathbf{y}) = d(\mathbf{x},\mathbf{y})$. From intuition there are some obvious transformations $\mathrm{R}=I$, the identity matrix, or $\mathrm{R}\mathbf{x} = \mathbf{x}+\mathbf{a}$ a translation in space
+\begin{align*}
+d(\mathrm{R}\mathbf{x},\mathrm{R}\mathbf{y}) &= d(\mathbf{x}+\mathbf{a},\mathbf{y}+\mathbf{a}) \\
+&= \sqrt{\sum_{i=1}^3((x_i+a_i)-(y_i+a_i))^2} \\
+&= \sqrt{\sum_{i=1}^3(x_i+a_i-y_i-a_i)^2} \\
+&= \sqrt{\sum_{i=1}^3(x_i-y_i)^2} \\
+&= d(\mathbf{x},\mathbf{y})
+\end{align*}
+Now note
+\begin{align*}
+d(\mathbf{x},\mathbf{y})^2=(\mathbf{x}-\mathbf{y})\cdot(\mathbf{x}-\mathbf{y})
+\end{align*}
+Where $\cdot$ is the regular dot product. Calling $\Delta\mathbf{x}:=\mathbf{x}-\mathbf{y}$ and using serif to represent matrix representation
+\begin{align*}
+\Delta\mathbf{x}\cdot\Delta\mathbf{x} &= \mathsf{\Delta x}^T \mathsf{\Delta x} \\
+&= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})
+\end{align*}
+In other words dot product in an orthonormal basis is a row vector times a column vector. Apply the transformation and assume it holds
+\begin{align*}
+(\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y})^T(\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y}) = (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})
+\end{align*}
+The only way this can hold for any $\mathbf{x}$ and $\mathbf{y}$ is if $\mathrm{R}$ is affine, $\mathrm{R}\mathbf{x}=\mathrm{A}\mathbf{x}+\mathbf{a}$ where $\mathrm{A}$ is linear, i.e. a Matrix,
+\begin{align*}
+(\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y})^T(\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y}) &= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y}) \\
+(\mathsf{A}\mathsf{x}+\mathsf{a}-\mathrm{A}\mathsf{y}-\mathsf{a})^T(\mathsf{A}\mathsf{x}+\mathsf{a}-\mathrm{A}\mathsf{y}-\mathsf{a}) &= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})\\
+(\mathrm{A}(\mathsf{x}-\mathsf{y}))^T(\mathrm{A}(\mathsf{x}-\mathsf{y})) &= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y}) \\
+(\mathrm{A}\mathsf{\Delta x})^T(\mathrm{A}\mathsf{\Delta x}) &= \mathsf{\Delta x}^T\mathsf{\Delta x} \\
+\mathsf{\Delta x}^T\mathrm{A}^T\mathrm{A}\mathsf{\Delta x} &= \mathsf{\Delta x}^T\mathsf{\Delta x}
+\end{align*}
+This can only hold if $\mathsf{A}\mathsf{A}^T=I$, so $\mathsf{A}^T = \mathsf{A}^{-1}$. Immediately taking the determinant of both sides gives
+\begin{align*}
+\det \mathsf{A}\mathsf{A}^T &= \det I \\
+\det \mathsf{A} \det \mathsf{A}^T &= 1 \\
+\det \mathsf{A} \det \mathsf{A} &= 1 \\
+\det \mathsf{A}^2 &= 1 \\
+\det \mathsf{A} &\in \{-1,1\}
+\end{align*}
+This relates to intuition. The determinant of a matrix corresponds to how much it changes a volume. If the determinant of a matrix is $\pm 7$, it will turn a $1$ $m^3$ cube into a $7$ $m^3$ cube, in order to preserve distance the determinant must have absolute value $1$.
+
+What sort of matrices have determinant $-1$? Consider the example
+\begin{align*}
+\left( \begin{array}{l l l}
+1 &0&0 \\
+0&-1&0 \\
+0&0&1
+\end{array} \right)
+\end{align*}
+This represents a reflection in through the x-z plane. Likewise for determinant $+1$
+\begin{align*}
+\left( \begin{array}{l l l}
+0&-1&0 \\
+1&0&0 \\
+0&0&1
+\end{array} \right)
+\end{align*}
+This represents a rotation by $\pi/2$ in the x-y plane. It turns out that all matrices with $\mathsf{A}^T = \mathsf{A}^{-1}$ are either rotations or reflections, together they make the orthogonal group $\mathrm{O}(3)$. A transformation that is an orthogonal matrix plus a translation preserves distance, and the set of all such transformations form a group. Just the usual isometrics of Euclidean space.
+
+Denote the set of rotations, which preserve length and handedness (reflection changes the right hand rule to the left hand rule), as $SO(3)$, this is also a group.
+
+So far this may seem over simplified but now it is already possible to define groups which preserve much more interesting and unintuitive quantities
+\begin{itemize}
+\item Galilean Transformations. Preserve Newton's Laws.
+\item Unitary Matrices. Preserve complex dot product.
+\item Unitary Operators. Preserve normalisation in quantum mechanics. Propagators should have this.
+\item Lorrentz Transformations. Preserve the light cone. Equivalently the Minkowski metric.
+\end{itemize}
+Intuitively, because these preserve something about a space, they form a group. This can greatly simplify some things, they are always invertible, a composition of two transformations still preserves.
+
+ There are many other aspects of group theory that can be useful here. Consider similar matrices, in the context of groups these are called conjugate elements. In the context of rotations they rotate by the same angle (but not the same direction), in the context of Lorrentz Boosts they have the same speed (but not the same direction).
+ 
+ If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SZE}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. After that only applications.
+
+\vspace{50mm} 
+pig
+
+\end{document}

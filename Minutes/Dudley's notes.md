@@ -1,4 +1,16 @@
 Right.
+What I plan for TeX
+-------------------
+
+<1/2 page intro,
+2 pages group theory, 
+1 page specific physical groups (Lorrentz/SU(n) as a Lie Group)
+THEN:
+As much as possible on SCPV groups, using what was explained before to avoid wishy-washyness (to a resonable degree).
+
+It's definitely possible to get 10 pages out of this, but I might need another topic.
+
+Conclusion will talk about Babar measuring CP, etc.
 
 
 
