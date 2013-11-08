@@ -7,7 +7,7 @@ g between the neutral Kaon and its anti-particle, corresponding to the states $\
 
 In interactions involving the strong or EM force, the quantum number strangeness, which tells us the number of strange quarks in a particle, must be conserved. For the weak force it is found that, like parity, this symmetry is not conserved. Due to this many processes forbidden for the strong and EM interactions are allowed through the weak force. This violation is what makes mixing possible. Mixing is the decay of a particle into its anti-particle and can only take place when a particle is its own anti-particle, or if the particles differ by a quantum number which is not conserved by some interaction. This is the case in neutral Kaon mixing, also know as Kaon oscillations. The neutral Kaon and its anti-particle have opposite strangeness but can decay into each other through the strangeness violating weak force. See Fig.(add in feynman digram of M+S pg 289) 
 
-Analogous to the mixing of mass eigenstate quarks to different quark flavours, it is found that the neutral Kaon states do not correspond to eigenfuctions of the $\hat{C}\hat{P}$ operator. To show this we first operate on the Kaon states with the $\hat{C}$ operator. We first assume that there is no $\hat{C}\hat{P}$V:
+Analogous to the mixing of mass eigenstate quarks to different quark flavours, it is found that the neutral Kaon flavour eigenstates do not correspond to eigenstates of the $\hat{C}\hat{P}$ operator. To show this we first operate on the Kaon states with the $\hat{C}$ operator. We first assume that there is no $\hat{C}\hat{P}$V, then neglecting phase throughout we obtain:
 
 \begin{align*}
 \hat{C} \ket{K^{0}(d \bar{s})} = (1)(-1) \ket{\bar{K}^{0}(s \bar{d})} = - \ket{\bar{K}^{0}(s \bar{d})}  \\
@@ -23,7 +23,7 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 
 \smallskip
 
-\noindent Where we have used the convention $\hat{P} (fermion) = 1$ and $\hat{P} (anti-fermion) = -1$ as well as $l=0$ because the Kaon is the lowest energy combination of these quarks. Now we are in a position to determine the eigenstates of $\hat{C}\hat{P}$:
+\noindent Where we have used the convention $\hat{P} (fermion) = 1$ and $\hat{P} (anti-fermion) = -1$ as well as $l=0$ because the Kaon is the lowest energy combination of these quarks and itself has a $J^{P}$ pf $0^{-}$. Now we are in a position to determine the eigenstates of $\hat{C}\hat{P}$:
 
 \begin{align*}
 \hat{C}\hat{P} \ket{K^{0}} = \ket{\bar{K}^{0}} \\
@@ -46,11 +46,26 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 \hat{C}\hat{P} \ket{K^{0}_{2}} & = \frac{1}{2} (\hat{C}\hat{P} \ket{K^{0}} - \hat{C}\hat{P} \ket{\bar{K}^{0}}) =   \frac{1}{2} (\ket{\bar{K}^{0}} - \ket{K^{0}}) = - \ket{K^{0}_{2}} \\
 \end{align*} 
 
-In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGliveKaonLifetime}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with (CP = 1), and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$)must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
+In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGliveKaonLifetime}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with (CP = 1), and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$) must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
 
 \begin{eqnarray*}    
 K^{0}_S \rightarrow \pi^0 \pi^0 (B = 0.31),  &   &   K^{0}_{S} \rightarrow \pi^{+} \pi^{-} (B = 0.69)\\ [6pt]
 K^{0}_L \rightarrow \pi^0 \pi^0 \pi^0 (B = 0.20),   &   &   K^{0}_{L} \rightarrow \pi^{+}  \pi^{-} \pi^0 (B =0.13)  
 \end{eqnarray*}    
 
+\noindent The reason for the difference in lifetimes of these two Kaon states is that the mass of the $K^{0}_L$ is not much bigger than the mass of three pions, thus it is relatively unlikey for it to undergo decay, compared to the $K^{0}_L$ which must only create energy to make two pions. We now determine the $CP$ of these final states. This is easy for the two pion final states. We find:
 
+\begin{align*}
+{P} ({\pi^0 \pi^0})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1 \\
+{C} ({\pi^0 \pi^0})   = & 1                       & \Rightarrow C = 1 \\
+{P} ({\pi^+ \pi^-})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1 \\
+{C} ({\pi^+ \pi^-})   = & 1                       & \Rightarrow C = 1 \\
+\end{align*}
+
+\noindent Thus $\hat{C}\hat{P} \ket{\pi \pi} = 1$. Now for the three pion final state we must take account of the second orbital angular momentum introduced by the  third pion. The general formula for such a system is $\hat{P} (ABC) = \hat{P} (A) \hat{P} (B) \hat{P}(C) (-1)^{\mathbf{L}_{AB}} (-1)^{\mathbf{L}_{(AB)C}}$ where $\mathbf{L}_{AB}$ is the orbital angular momentum of the first two pions and $\mathbf{L}_{(AB)C}$ is the orbital angular momentum of the third pion with respect to the mutual centre of mass of the first two pions. The $J^{P}$ of the Kaon is $0^{-}$, thus the overall orbital angular momentum must be zero: $\mathbf{L} = \mathbf{L}_{AB} + \mathbf{L}_{(AB)C} = 0$. As this is angular momentum addition and $\mathbf{L}$ can only take positive values, we conclude that ${L}_{AB} = {L}_{(AB)C}$ so ${L}_{AB} + {L}_{(AB)C} = 2L$, which is an even number: 
+
+\begin{align*}
+P(\pi^0 \pi^0 \pi^0)  = & (-1)(-1)(-1)(-1)^{L = even} = -1 & \Rightarrow P = -1 \\
+C(\pi^0 \pi^0 \pi^0)  = & (1)(1)(1) = 1                     & \Rightarrow C = +1 \\
+CP(\pi^0 \pi^0 \pi^0) = & -1                                &
+\end{align*}
