@@ -2,6 +2,11 @@ Kevin's Notes
 -------------
 -------------
 
+Time Reversal
+-------------
+  * time-reversal operator is Ke{−iπSy/ℏ} where K is complex conjugate
+  * http://physics.stackexchange.com/questions/70179/time-reversal-operator
+
 CPV
 ---
 * Direct
@@ -32,7 +37,7 @@ CPV in Kaon system/Kaon Mixing
 
 ----------------------------
 1.Two Neutral Kaon states
-  * K0 (d)(s^bar), K0^bar (s)(d^bar)
+  * K0 (d)(s^bar), K0^bar (s)(d^bar), these are flavour eigen states
   * Weak doesn't conserve strangeness so these can decay to one another by (Martin and Shaw, 10.8 pg 289)
   * In fact there is no quantum number conservation violated(for weak decay) in going from one to the other as for similar decays involving other particles and anti particles
   * Kaon has P=-1
@@ -52,15 +57,25 @@ CPV in Kaon system/Kaon Mixing
   * But K0_L (CP=-1)-> pi+ pi- (CP=1) observed by Christenson, Cronin, Fitch, Turlay (1964) "Evidence for the 2pi Decay of the K^2_0 Meson" (M+S pg 292) (J. H. Christenson et al., Phys. Rev. Lett. 13 (1964) 138)
   * This implies K0_L and K0_S are not entirely aligned with the basis states (M+S eq 10.33 pg 294)
 
-* Kaon CPV in semi-leptonic
+Kaon CPV in semi-leptonic
+--------------------------
   * No direct CPV in these channels (D'Ambrosio Kaon review pg 12)
+  * time-reversal operator is Ke{−iπSy/ℏ} where K is complex conjugate
   * Selection rules
+    * Ask McNulty about the delta_S = delta_Q selection rule !!!! (check M+S)
     * Delta_Strangeness = Delta Q = +/- 1
     * Q = charge
     * Delta_Strangeness =  - Delta Q = +/- 1 are forbidden
     * overall Delta_S = 0, +/- 1 for ALLOWED
+  * eqn 2.50 in D'ambrosio
+  * charge asymmetries in the decays Ks -> pi l nu, KL -> pi l nu, with various charges on the decay products
+    * A- = amp(K0 -> pi+ l- nu) forbidden by delta S = delta Q rule
+    * \barA- = amp(\barK0 -> pi+ l- nu) 
+    * A+ = amp(K0 -> pi- l+ nu) 
+    * \barA+ = amp(\barK0 -> pi- l+ nu) strongly suppressed relative to A+ (delta S = delta Q rule) 
 
-* Charged Kaon CPV
+Charged Kaon CPV
+------------------
   * No mass mixing (d'ambrosio pg 13)
   * check if this has been observed (See also http://arxiv.org/pdf/hep--ph/0401236.pdf )
 
