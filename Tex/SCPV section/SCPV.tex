@@ -100,7 +100,7 @@ This can only hold if $\mathsf{A}\mathsf{A}^T=I$, so $\mathsf{A}^T = \mathsf{A}^
 \det \mathsf{A}^2 &= 1 \\
 \det \mathsf{A} &\in \{-1,1\}
 \end{align*}
-This relates to intuition. The determinant of a matrix corresponds to how much it changes a volume. If the determinant of a matrix is $\pm 7$, it will turn a $1$ $m^3$ cube into a $7$ $m^3$ cube, in order to preserve distance the determinant must have absolute value $1$.
+This relates to intuition. The determinant of a matrix corresponds to how much it changes a volume. If the determinant of a matrix is $\pm 7$, it will turn a $1$ $m^3$ cube into a $7$ $m^3$ parallelepiped, in order to preserve distance the determinant must have absolute value $1$.
 
 What sort of matrices have determinant $-1$? Consider the example
 \begin{align*}
@@ -178,17 +178,17 @@ In the language of symmetry groups, useful physical transformations including th
 
 \begin{flushleft}\textit{example 1.0} The Euclidean Isometries. \end{flushleft}
 
-As was show in the previous section any combination of rotation, reflection and translation preserve Euclidean distance. This can be extended to n-dimensional Euclidean space $\mathbb{E}^n$, here the group of orthogonal transformations and rotations are denoted respectively as $\mathrm{O}(n)$ and $\mathrm{SO}(n)$.
+As was shown in the previous section any combination of rotation, reflection and translation preserve Euclidean distance. This can be extended to n-dimensional Euclidean space $\mathbb{E}^n$, here the group of orthogonal transformations and rotations are denoted respectively as $\mathrm{O}(n)$ and $\mathrm{SO}(n)$.
 
 \begin{flushleft}\textit{example 1.1} Galilean Transformations.\end{flushleft}
 
-Solely preserving distance does not say much about physics. Consider Newton's laws in cartesian coordinates in an inertial frame with column vector representation
+Solely preserving distance does not say much about physics. Consider Newton's laws in Cartesian coordinates in an inertial frame with column vector representation
 \begin{align*}
 m \ddot{\mathsf{x}} = \mathsf{F}
 \end{align*}
 What sort of transformations $\mathsf{Tx}=\mathsf{Rx}+\mathsf{a}$ preserve this equation? Here $R$ is a function of time, for example transforming to a rotating frame
 \begin{align*} 
-m \frac{d^2}{dt^2}\mathsf{Rx+a} &= \mathsf{RF} 
+m \frac{d^2}{dt^2}(\mathsf{Rx+a}) &= \mathsf{RF} 
 \\
 m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a} &= \mathsf{RF} \\
 m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a}&= \mathsf{RF} \\
