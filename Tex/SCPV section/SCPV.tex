@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{listing} %listings
+\usepackage{braket}
 
 \begin{document}
 
@@ -19,7 +20,7 @@ Indeed, the Minimal SUSY Standard Model is not compatible with SCPV, and in gene
 
 There are two primary goals to this section. First, to elucidate the use of groups in physics, particularly particle physics. Second, to use this knowledge to understand various SCPV  models beyond the insufficient description given in this introduction.
 
-\subsection{SCPV. Group Theory Basics}
+\subsection{SCPV. Group Theory for Physics}
 Some physicists take pride in never having learned group theory and still understanding its applications. This is not an unreasonable point of view, an engineer can launch a rocket without knowing real analysis. 
 
 Undergraduate group theory modules quite commonly focus entirely on groups useful for pure mathematics. This is understandable as it is taught by the math department, but the picture of group theory young physicists may end up with is often quite different to its use in physics.
@@ -28,10 +29,10 @@ Undergraduate group theory modules quite commonly focus entirely on groups usefu
 Part of the reasons groups can be so abstract is that they have very little structure. Even basic physics requires complicated structure. Simply changing coordinates in classical mechanics requires differential geometry, which requires analysis and topology. A \textbf{Group} is a set $G$ with a function $\cdot:G^2\rightarrow G$, having the following properties $\forall g,h,k \in G$
 \begin{align*}
 \begin{array}{l l l}
-(GA1) & g\cdot h \in G & \text{closure} \\
-(GA2) & \exists e\in G,\phantom{a} e\cdot g = g \cdot e = g \phantom{a}& \text{identity} \\
-(GA3) & \exists g^{-1}\in G, \phantom{a} g^{-1} \cdot g = g \cdot g^{-1} = e & \text{inverse} \\
-(GA4) & (g\cdot h)\cdot k = g\cdot(h \cdot k) & \text{associativity} \\
+(\mathrm{GA}1) & g\cdot h \in G & \text{closure} \\
+(\mathrm{GA}2) & \exists e\in G,\phantom{a} e\cdot g = g \cdot e = g \phantom{a}& \text{identity} \\
+(\mathrm{GA}3) & \exists g^{-1}\in G, \phantom{a} g^{-1} \cdot g = g \cdot g^{-1} = e & \text{inverse} \\
+(\mathrm{GA}4) & (g\cdot h)\cdot k = g\cdot(h \cdot k) & \text{associativity} \\
 \end{array}
 \end{align*}
 Abstract definitions will be avoided in general. To understand this proceed with a useful example. Let $\mathrm{GL}(n,\mathbb{R})$ be the set of all $n\times n$ matrices with real coefficients and non-zero determinant. This forms a group under matrix multiplication.
@@ -48,7 +49,7 @@ Abstract definitions will be avoided in general. To understand this proceed with
 \end{itemize}
 The purpose of this proof was to give some familiar meaning to the abstraction. Detailed proofs shall be avoided in favour of intuition. Note that already  a more powerful structure is present than a group, the field of real numbers, $(\mathbb{R},+,\times)$. This is essentially just two groups glued together, addition and multiplication.
 
-Similarly, every vector space is a group under vector addition. With this it could be said that all of physics uses groups, however a secondary school student does not use differential geometry with Newton's laws. At this stage groups are still useless to the practical Physicist.
+Similarly, every vector space is a group under vector addition. With this it could be said that all of physics uses groups, however a secondary school student does not use differential geometry with Newton's laws. At this stage groups are still useless to the practical physicist.
 
 A \textbf{Transformation Group} is a more useful idea. Let $X$ be a set, $\mathrm{Transf}(X)$ is the set of all one-to-one functions from $X$ to $X$. This is the set of all ways of rearranging $X$. In the context of a finite group $S=\{1,2,...,n\}$, $\mathrm{Transf}(S)$ is just the set of all permutations. 
 
@@ -74,12 +75,12 @@ Now note
 \begin{align*}
 d(\mathbf{x},\mathbf{y})^2=(\mathbf{x}-\mathbf{y})\cdot(\mathbf{x}-\mathbf{y})
 \end{align*}
-Where $\cdot$ is the regular dot product. Calling $\Delta\mathbf{x}:=\mathbf{x}-\mathbf{y}$ and using serif to represent matrix representation
+Where $\cdot$ is the regular dot product. Calling $\Delta\mathbf{x}:=\mathbf{x}-\mathbf{y}$ and using serif font to signify matrix representation
 \begin{align*}
 \Delta\mathbf{x}\cdot\Delta\mathbf{x} &= \mathsf{\Delta x}^T \mathsf{\Delta x} \\
 &= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})
 \end{align*}
-In other words dot product in an orthonormal basis is a row vector times a column vector. Apply the transformation and assume it holds
+In other words dot product in an orthonormal basis is a row vector times a column vector. Apply the transformation and assume it preserves distance
 \begin{align*}
 (\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y})^T(\mathrm{R}\mathsf{x}-\mathrm{R}\mathsf{y}) = (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})
 \end{align*}
@@ -119,9 +120,9 @@ This represents a reflection in through the x-z plane. Likewise for determinant 
 \end{align*}
 This represents a rotation by $\pi/2$ in the x-y plane. It turns out that all matrices with $\mathsf{A}^T = \mathsf{A}^{-1}$ are either rotations or reflections, together they make the orthogonal group $\mathrm{O}(3)$. A transformation that is an orthogonal matrix plus a translation preserves distance, and the set of all such transformations form a group. Just the usual isometrics of Euclidean space.
 
-Denote the set of rotations, which preserve length and handedness (reflection changes the right hand rule to the left hand rule), as $SO(3)$, this is also a group.
+Denote the set of rotations, which preserve length and handedness (reflection changes the right hand rule to the left hand rule), as $\mathrm{SO}(3)$, this is also a group.
 
-So far this may seem over simplified but now it is already possible to define groups which preserve much more interesting and unintuitive quantities
+So far this may seem over simplified but now it is already possible to define groups which preserve much more interesting and relevant properties
 \begin{itemize}
 \item Galilean Transformations. Preserve Newton's Laws.
 \item Unitary Matrices. Preserve complex dot product.
@@ -132,9 +133,105 @@ Intuitively, because these preserve something about a space, they form a group. 
 
  There are many other aspects of group theory that can be useful here. Consider similar matrices, in the context of groups these are called conjugate elements. In the context of rotations they rotate by the same angle (but not the same direction), in the context of Lorrentz Boosts they have the same speed (but not the same direction).
  
- If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SZE}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. After that only applications.
+ If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SZE}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. 
+\vspace{2mm} \\
+\textsc{Theorem:}
 
-\vspace{50mm} 
-pig
+{\centering \textit{Consider a set $X$ with a function $f:X\rightarrow Y$, the set of all transformations of $X$ that preserve the function at $x$,\\
+$S_f:=\{ T \in \mathrm{Transf}(X) : f(Tx)=f(x), \forall x \in X \}$,\\
+form a group called the \textbf{symmetry group} of $f$.}}
+\vspace{2mm} \\
+
+For the example of distance in Euclidean space $f(Tx)=f(x)$ corresponded to $d(R\mathbf{x},R\mathbf{y}) = d(\mathbf{x},\mathbf{y})$.
+\newpage 
+
+\begin{flushleft}\textsc{Proof:} \end{flushleft}
+
+$(\mathrm{GA}1)$ Let $S,T\in S_f$, then
+\begin{align*}
+f((ST)x)&=f(S(Tx)) \\
+&= f(Sx) \\
+&= f(x)
+\end{align*}
+So $ST$ also preserves $f$, $ST \in S_f$. \\
+
+$(\mathrm{GA}2)$ The identity element of $e$ of $\mathrm{Transf}(X)$ satisfies $f(ex)=f(x)$ by definition of the identity function, so $e \in S_f$.\\
+
+$(\mathrm{GA}3)$  Let $S \in S_f$. Since it is a bijection, an inverse $S^{-1}$ exists. 
+\begin{align*}
+f(S^{-1}x) &= f(SS^{-1}x) \\
+ &= f(ex) \\
+  &= f(x)
+\end{align*}
+$S$ was introduced as it satisfies $f(Sy)=f(y)$ and pick $y=S^{-1}x$. $S^{-1} \in S_f$.\\
+
+$(\mathrm{GA}4)$ is inherited from $\mathrm{Transf}(X)$. \hfill $\square$\\
+
+\textsc{Note}
+\begin{itemize}
+\item The proof of the Euclidean transformations is incomplete but trivial to extend. Assume $R$ is affine, show it preserves distance.
+\item Strictly speaking symmetry groups should be considered group actions. They act on a set $X$, as matrices act on column vectors.
+\end{itemize}
+\subsection{SCPV. Physical Groups and Gauge Theory}
+
+In the language of symmetry groups, useful physical transformations including the Gauge-symmetry of the standard model are investigated.
+
+\begin{flushleft}\textit{example 1.0} The Euclidean Isometries. \end{flushleft}
+
+As was show in the previous section any combination of rotation, reflection and translation preserve Euclidean distance. This can be extended to n-dimensional Euclidean space $\mathbb{E}^n$, here the group of orthogonal transformations and rotations are denoted respectively as $\mathrm{O}(n)$ and $\mathrm{SO}(n)$.
+
+\begin{flushleft}\textit{example 1.1} Galilean Transformations.\end{flushleft}
+
+Solely preserving distance does not say much about physics. Consider Newton's laws in cartesian coordinates in an inertial frame with column vector representation
+\begin{align*}
+m \ddot{\mathsf{x}} = \mathsf{F}
+\end{align*}
+What sort of transformations $\mathsf{Tx}=\mathsf{Rx}+\mathsf{a}$ preserve this equation? Here $R$ is a function of time, for example transforming to a rotating frame
+\begin{align*} 
+m \frac{d^2}{dt^2}\mathsf{Rx+a} &= \mathsf{RF} 
+\\
+m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a} &= \mathsf{RF} \\
+m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a}&= \mathsf{RF} \\
+m (\ddot{\mathsf{R}} \mathsf{x} + 2\dot{\mathsf{R}} \dot{\mathsf{x}}+\mathsf{R} \ddot{\mathsf{x}} )+m\ddot{a} &= \mathsf{RF} 
+\end{align*}
+To have the same form this requires, $\dot{R}=0$ and $\ddot{a}=0$. This is equivalent to saying $R$ is a constant change of basis, such as a rotation, and $\mathsf{a} = \mathsf{v}t + \mathsf{b}$, a translation and a constant velocity. In other words
+\begin{align*}
+\mathsf{Tx} =  \mathsf{Rx} + \mathsf{a}t+\mathsf{b}
+\end{align*}
+A Galilean transformation is a symmetry group which preserves Newton's laws. It can be readily extended to also preserve distance and time intervals. \\
+
+The goal is to explain the Quantum Field Theory models, Euclidean distance and Newton's Laws are not applicable. They act as an analogy for the Minkowski metric and Quantum Mechanics.
+
+\begin{flushleft}\textit{example 2.0} Lorrentz Transformations. \end{flushleft}
+Suppose one wishes to preserve the Minkowski Metric, or equivalently, the light-cone. The transformations that do so are called Lorrentz transformations, essentially defined by
+\begin{align*}
+\mathsf{L}^T \mathsf{\eta} \mathsf{L} = \mathsf{\eta}
+\end{align*}
+Extending the transformations to allow for a translation $P^\mu_\nu x^\nu = L^\mu_\nu x^\nu + a^\mu$, these are called Poincaré transformations. The essence of Special Relativity is that the laws of physics are invariant under Poincaré transformation.
+
+\begin{flushleft}\textit{example 2.1} Unitary Transformations. \end{flushleft}
+In quantum mechanics the total probability of a time evolving state must always be $1$, otherwise it is simply not a probability. In the context of Hilbert spaces (complex inner product spaces complete under the induced norm), the norm of a state gives its probability, so the norm must be preserved.
+
+Recall in Euclidean space Orthogonal Transformations preserve the norm of a vector, as it preserves the dot product. The complex result is analogous but in the case of operators extends far more, for example
+\begin{align*}
+\ket{\Psi(t)}=e^{-i\hbar t\hat{\mathcal{H}}}\ket{\Psi(0)}
+\end{align*}
+The formal solution to the Sch\"odinger equation, the exponential operator on the right is unitary. In general this has quite complicated form. 
+
+If the Hilbert Space is spanned by a finite set $\{\ket{\psi_1},...,\ket{\psi_n} \}$ it is isometrically isomorphic to the inner product space $\mathbb{C}^n$. To preserve the norm here is similar to $\mathbb{R}^n$
+
+\begin{align*}
+|U\mathbf{u}|^2 =(\mathsf{Uu})^{*T}\mathsf{Uu} = \mathsf{u}^{*T}\mathsf{U}^{*T}\mathsf{Uu} = \mathsf{u}^{*T}\mathsf{u} = |\mathbf{u}|^2
+\end{align*}
+This holds $\forall u \in \mathbb{C}^n$ if and only if  $U^{*T}U=I$. This is similar to orthogonal matrices except there is a complex conjugate. The group of all such matrices is denoted $\mathrm{U}(n)$ and those which have positive determinant form a group $\mathrm{SU}(n)$.
+
+
+
+
+$\phantom{a}$
+\vspace{150mm}
+\\
+ pigs
+
 
 \end{document}
