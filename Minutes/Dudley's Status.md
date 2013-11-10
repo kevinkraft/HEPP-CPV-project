@@ -1,12 +1,25 @@
-Apparently I was using twocolumn format and maybe that was changed.
+2-column format:
+5.5 pages  (intro + prerequsite non-rigourous maths section)
 
-I don't mind to switch back, then I did 2.5 pages. Whichever looks the best.
+1-column format.
+7 pages!!!
+I consider this too much, but, consider the ending sections (3-4 pages)
 
-I will put my TeX into just \section format near the end.
-(less temporary clutter this way.)
 
-Give it a read if you're bored, let me know what you think.
-Above all I don't want it to be too mathsy, but it needs explanation before I got into SCPV.
 
-Haven't put in references, will do when deciding on order of report.
+BATTLE PLAN:
 
+SCPV detailed:
+Talk about VEV (vacuum expectation value).
+Show (or state) that vaccuum is invariant under CP in SM.
+
+Talk about group conditiosn for SCPV
+"What symmetries must a theory have for SCPV to be possible?"
+ - example that SM does not have these conditions.
+ - examples of various extensions that do thave it.
+
+What sort of experiments could detail SCPV?
+
+mini-conclusion (???)
+
+(group condition is powerful tool for evaluating and creating new theories yadda yadda)
