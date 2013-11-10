@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  9 NOV 2013 00:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  10 NOV 2013 21:35
 entering extended mode
 **SCPV.tex
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.tex"
@@ -241,80 +241,81 @@ Class revtex4 Info: multicol was not loaded (OK!) on input line 10.
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
  (E:\Maths\MikTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (E:\Maths\MikTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 17.
+Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 23.
 
 
-Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 19.
+Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 25.
 
 
-Package natbib Warning: Citation `SCPV2' on page 1 undefined on input line 19.
+Package natbib Warning: Citation `SCPV2' on page 1 undefined on input line 25.
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 42--43
+Underfull \hbox (badness 4899) in paragraph at lines 48--49
  []\OT1/cmr/m/n/10 Non-zero de-ter-mi-nant ma-tri-ces are in-vert-ible
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
 (E:\Maths\MikTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
 
-Underfull \hbox (badness 1742) in paragraph at lines 65--67
+Underfull \hbox (badness 1742) in paragraph at lines 71--73
 \OT1/cmr/m/n/10 The de-sired trans-for-ma-tion $R$ has form such that
  []
 
 [1{C:/Users/Dud1337/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 1939) in paragraph at lines 127--128
+Underfull \hbox (badness 1939) in paragraph at lines 133--134
  []\OT1/cmr/m/n/10 Galilean Trans-for-ma-tions. Pre-serve New-ton's
  []
 
 
-Package natbib Warning: Citation `SZE' on page 2 undefined on input line 136.
+Package natbib Warning: Citation `SCPV3' on page 2 undefined on input line 142.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 145--146
+Underfull \hbox (badness 1701) in paragraph at lines 151--152
 []\OT1/cmr/m/n/10 For the ex-am-ple of dis-tance in Eu-clidean space
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
@@ -323,41 +324,81 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 1484) in paragraph at lines 221--222
+Underfull \hbox (badness 1484) in paragraph at lines 227--228
 []\OT1/cmr/m/n/10 If the Hilbert Space is spanned by a fi-nite set
  []
 
 [3]
 
-Package natbib Warning: There were undefined citations.
+Package natbib Warning: Citation `SCPV4' on page 4 undefined on input line 273.
+
+
+
+Package natbib Warning: Citation `SCPVgroups' on page 4 undefined on input line
+ 275.
 
 [4]
+Underfull \hbox (badness 4846) in paragraph at lines 299--301
+\OT1/cmr/m/n/10 Where in carte-sian co-or-di-nates $(\OML/cmm/m/it/10 x[]; x[];
+ x[]; x[]\OT1/cmr/m/n/10 ) =$
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 319--320
+[]$\OT1/cmr/m/n/10 O(\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$, $U(\OML/cmm/m/it/10 
+n\OT1/cmr/m/n/10 )$ and $[](\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$ have man-i-fol
+d di-men-sion
+ []
+
+
+Package natbib Warning: Citation `SCPV6' on page 5 undefined on input line 332.
+
+
+
+Package natbib Warning: Citation `SCPV6' on page 5 undefined on input line 336.
+
+
+
+Package natbib Warning: Citation `SCPV3' on page 5 undefined on input line 336.
+
+
+[5]
+
+Package natbib Warning: There were undefined citations.
+
+[6]
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.aux"
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 3760 strings out of 493921
- 46746 string characters out of 3152087
+ 3763 strings out of 493921
+ 46774 string characters out of 3152087
  123988 words of memory out of 3000000
- 7022 multiletter control sequences out of 15000+200000
+ 7025 multiletter control sequences out of 15000+200000
  8784 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,16n,28p,420b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Maths/MikTeX/
-fonts/type1/public/amsfonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/am
-sfonts/cm/cmbxti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmcsc10.
-pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Maths/MikTeX
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Maths/MikTeX/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Maths/MikTeX/font
-s/type1/public/amsfonts/cm/cmss10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:
-/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:/Maths/MikTeX/fonts/
-type1/public/amsfonts/symbols/msam10.pfb><E:/Maths/MikTeX/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/
-msbm7.pfb>
-Output written on SCPV.pdf (4 pages, 188797 bytes).
+ 34i,16n,28p,539b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Maths/MikTeX/f
+onts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Maths/MikTeX/fonts/type1/public/ams
+fonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/Maths/MikTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><E:/Maths/MikTeX/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Maths/MikTeX/font
+s/type1/public/amsfonts/cm/cmr5.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><E:/Ma
+ths/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Maths/MikTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><E:
+/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/f
+onts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on SCPV.pdf (6 pages, 223920 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

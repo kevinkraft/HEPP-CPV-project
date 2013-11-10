@@ -8,11 +8,17 @@
 \usepackage{braket}
 
 \begin{document}
-
+% cite:
+% SCPV1 ! INTRO (CP3 Seminar)
+% SCPV2 SUSY SCPV SO(10)
+% SCPV3 Szekeres
+% SCPV4 GUT Algebra Baez
+% SCPV5 SCPV Group Conditions
+% SCPV6 Local Gauge Invariance
 \section{Spontaneous Charge Parity Violation} 
 A major motivation for creating models with new CPV mechanisms is to explain Baryon asymmetry. This is a huge research area, a simple search on arXiv.org reveals over $500$ papers. The most prevalent theories are based around Super-Symmetry (SUSY) and Spontaneous Charge Parity Violation (SCPV). 
 
-Typically these models are created by looking for Gauge symmetries which coincide with Langrangians similar to the Standard Model, but with extra terms that may account for the preference of antimatter to decay into matter.  
+Typically these models are created by looking for gauge symmetries which coincide with Langrangians similar to the Standard Model, but with extra terms that may account for the preference of antimatter to decay into matter.  
 
 SCPV is praised for its ``naturalness" in comparison to regular CPV\cite{SCPV1}. It supposes the possibility to have spontaneous CPV by the vacuum, as opposed to explicit CPV from the CKM matrices. That is, the vacuum is no longer invariant under CP. In a sense this is nice as it may not introduce as many new particles.
 
@@ -133,7 +139,7 @@ Intuitively, because these preserve something about a space, they form a group. 
 
  There are many other aspects of group theory that can be useful here. Consider similar matrices, in the context of groups these are called conjugate elements. In the context of rotations they rotate by the same angle (but not the same direction), in the context of Lorrentz Boosts they have the same speed (but not the same direction).
  
- If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SZE}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. 
+ If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SCPV3}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. 
 \vspace{2mm} \\
 \textsc{Theorem:}
 
@@ -172,7 +178,7 @@ $(\mathrm{GA}4)$ is inherited from $\mathrm{Transf}(X)$. \hfill $\square$\\
 \item The proof of the Euclidean transformations is incomplete but trivial to extend. Assume $R$ is affine, show it preserves distance.
 \item Strictly speaking symmetry groups should be considered group actions. They act on a set $X$, as matrices act on column vectors.
 \end{itemize}
-\subsection{SCPV. Physical Groups and Gauge Theory}
+\subsection{SCPV. Useful Physical Groups}
 
 In the language of symmetry groups, useful physical transformations including the Gauge-symmetry of the standard model are investigated.
 
@@ -190,9 +196,9 @@ What sort of transformations $\mathsf{Tx}=\mathsf{Rx}+\mathsf{a}$ preserve this 
 \begin{align*} 
 m \frac{d^2}{dt^2}(\mathsf{Rx+a}) &= \mathsf{RF} 
 \\
-m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a} &= \mathsf{RF} \\
-m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{a}&= \mathsf{RF} \\
-m (\ddot{\mathsf{R}} \mathsf{x} + 2\dot{\mathsf{R}} \dot{\mathsf{x}}+\mathsf{R} \ddot{\mathsf{x}} )+m\ddot{a} &= \mathsf{RF} 
+m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{\mathsf{a}} &= \mathsf{RF} \\
+m \frac{d}{dt}(\dot{\mathsf{R}} \mathsf{x} + \mathsf{R} \dot{\mathsf{x}} )+m\ddot{\mathsf{a}}&= \mathsf{RF} \\
+m (\ddot{\mathsf{R}} \mathsf{x} + 2\dot{\mathsf{R}} \dot{\mathsf{x}}+\mathsf{R} \ddot{\mathsf{x}} )+m\ddot{\mathsf{a}} &= \mathsf{RF} 
 \end{align*}
 To have the same form this requires, $\dot{R}=0$ and $\ddot{a}=0$. This is equivalent to saying $R$ is a constant change of basis, such as a rotation, and $\mathsf{a} = \mathsf{v}t + \mathsf{b}$, a translation and a constant velocity. In other words
 \begin{align*}
@@ -214,7 +220,7 @@ In quantum mechanics the total probability of a time evolving state must always 
 
 Recall in Euclidean space Orthogonal Transformations preserve the norm of a vector, as it preserves the dot product. The complex result is analogous but in the case of operators extends far more, for example
 \begin{align*}
-\ket{\Psi(t)}=e^{-i\hbar t\hat{\mathcal{H}}}\ket{\Psi(0)}
+\ket{\Psi(t)}=e^{-it\hat{\mathcal{H}} / \hbar}\ket{\Psi(0)}
 \end{align*}
 The formal solution to the Sch\"odinger equation, the exponential operator on the right is unitary. In general this has quite complicated form. 
 
@@ -225,13 +231,117 @@ If the Hilbert Space is spanned by a finite set $\{\ket{\psi_1},...,\ket{\psi_n}
 \end{align*}
 This holds $\forall u \in \mathbb{C}^n$ if and only if  $U^{*T}U=I$. This is similar to orthogonal matrices except there is a complex conjugate. The group of all such matrices is denoted $\mathrm{U}(n)$ and those which have positive determinant form a group $\mathrm{SU}(n)$.
 
+\begin{flushleft}\textit{example 3.0} Classical Electrodynamics. \end{flushleft}
+\begin{align*}
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon} \\
+\nabla \cdot \mathbf{B} &= 0 \\
+\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
+\frac{1}{\mu}\nabla \times \mathbf{B} &= \mathbf{j}+\varepsilon\frac{\partial \mathbf{E}}{\partial t}
+\end{align*}
+As $\nabla \cdot \mathbf{B} = 0$ a theorem shows $\exists \mathbf{A}, \mathbf{B}=\nabla \times \mathbf{A}$ this together with the third equation is
+\begin{align*}
+\nabla \times \mathbf{E} &= - \partial_t (\nabla \times \mathbf{E}) \\
+\nabla \times (\mathbf{E}+\frac{\partial \mathbf{A}}{\partial t}) &=0
+\end{align*}
+Which in turn gives $\mathbf{E} = -\frac{\partial \mathbf{A}}{\partial t} - \nabla \phi$, where in the time independent case $\phi$ reduced to the electrostatic potential
+\begin{align*}
+\phi := -\int \mathbf{E} \cdot \mathrm{d}\mathbf{x}
+\end{align*}
+Consider the following transformation
+\begin{align*}
+\left( \begin{array}{l}
+\mathbf{A} \\ \phi
+\end{array} \right) \mapsto
+\left( \begin{array}{l}
+\mathbf{A}+\nabla \lambda \\
+\phi - \partial_t \lambda
+\end{array} \right)
+\end{align*}
+These transformed potentials are also valid
+\begin{align*}
+\nabla \times (\mathbf{A}+\nabla \lambda) = \nabla\times \mathbf{A} + \nabla \times \nabla \cdot \lambda  = \mathbf{B} + 0 \\
+-\partial_t(\mathbf{A}+\nabla \lambda)-\nabla (\phi - \partial_t \lambda) = -\partial_t(\mathbf{A})-\nabla \phi = \mathbf{E}
+\end{align*}
+As these equations are preserved the gauge transformations form a symmetry group. Just as preserving Newton's laws formed a symmetry group. This is an example of a \textbf{Gauge Transformation}.
+
+More generally a gauge transformation is defined as a \textit{local} transformation that preserves the Lagrangian of a theory. What local means exactly is yet to be defined.
+
+\subsection{SCPV. Gauge Theory}
+
+The reader may be having a hard time seeing how this relates to particle physics. With the benefit of language being developed some light may be shed on what the remainder of this section will contain.
+
+Most of the groups discussed have their place in modern particle physics. Lorrentz invariance and unitarity of symmetry operators obviusly extend from special relativity and quantum mechanics. That is not all, the gauge-symmetry group of the standard model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
+
+It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPVgroups}. Explaining how to use this with the mathematics being developed is the primary goal of the section.
 
 
+The hierarchy of knowledge required for theoretical physics is unfortunately large. Although the material has attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
 
-$\phantom{a}$
-\vspace{150mm}
-\\
- pigs
+In Quantum Mechanics we know overall phase is unimportant, that is $\ket{\psi} \sim \ket{\psi}e^{i\xi}$ where $\xi \in [0,2\pi)$. When making any physical measurement the phase cancels out in the complex inner product. It forms a \textit{global} gauge Symmetry. Phase is still important in Quantum mechanics in the form of phase difference. Consider two energy eigenstates with $a,b\in mathbb{R}$
+\begin{align*}
+&\ket{\psi} = a\ket{E_1}e^{-iE_1/\hbar} +b \ket{E_2}e^{-iE_2/\hbar} \\
+&\ket{\psi}e^{iE_1/\hbar} = a\ket{E_1} +b \ket{E_2}e^{i(E_1-E_2)/\hbar} \\
+&\braket{\mathbf{x}} = a^2 \braket{E_1|\mathbf{x}|E_1} +2ab\braket{E_1 |\mathbf{x}|E_2}\cos \theta + b^2 \braket{E_2|\mathbf{x}|E_2}
+\end{align*}
+So here the phase \textit{difference} $\theta := (E_1-E_2)/\hbar$ appears explicitly in a measurable quantity. Consider $\mathrm{U}(1)$, a "matrix" that acts on one-dimensional complex vectors, i.e., complex numbers. In this case then, both the "matrix" and "vector" can both be represented as complex numbers 
+\begin{align*}
+|uz|^2=(uz)^* uz = u^*z^* uz = |z^2||u|^2 = |z|^2
+\end{align*}
+This holds for all $z$ if and only if $u$ has length 1, so $u = e^{i\xi}$ where $\xi \in [0,2\pi)$. So it can be said that the global phase symmetry of Quantum Mechanics can be represented as $\mathrm{U}(1)$. 
 
+Note that $\mathrm{SU}(1)=\mathrm{U}(1)$ in this case, as the norm of a single complex number must be positive. Likewise as $\mathrm{U}(1)$ represents a rotation in the complex plane it must have the same group structure as $\mathrm{SO}(2)$. In mathematical language the groups are isomorphic, written as $\mathrm{U}(1) \cong \mathrm{SO}(2)$.
+
+Thus it is clearer to say that the global phase invariance group of quantum mechanics is isomorphic to $\mathrm{U}(1)$. Frequently it is the case that there is a deeper physical meaning behind symmetries. Merely stating a theory is invariant under $\mathrm{U}(1)$ is not sufficient as one must define how $\mathrm{U}(1)$ acts. For example, it can act globally or locally.
+\newpage
+Consider Quantum Electrodynamics (QED) the Lagrangian of the theory is invariant under \textbf{local gauge symmetry} of $\mathrm{U}(1)$.
+\begin{align*}
+\psi(x^1,x^2,x^3,x^4) \mapsto e^{i \xi(x^1,x^2,x^3,x^4)} \psi(x^1,x^2,x^3,x^4)
+\end{align*}
+Where in cartesian coordinates $(x^1,x^2,x^3,x^4)=(x,y,z,ct)$. In shorthand
+\begin{align*}
+\psi(x) \mapsto  \tilde{\psi}(x)=e^{i \xi(x)} \psi(x)
+\end{align*}
+Where x:=(x,y,z,ct) This inherently insists that phase is irrelevant at any point. 
+
+
+It was noted that more structure than merely a group is being used  concerning physical groups. Fields, vector spaces, and vector calculus to name a few. Primarily calculus, an inherently geometric structure, appears everywhere in physics. The real scalar function $\xi(x)$ must be differentiable.
+
+This differentiability calls for the structure of a \textbf{Lie Group} (acting on a set). A Lie Group is simply a group where the group operation and taking inverses is differentiable. For a simple example consider the group of addition on $\mathbb{R}^n$.
+\begin{align*}
+&\cdot(x,y) = x+y &\mathrm{inv}(x) = -x
+\end{align*}
+Both of these functions are differentiable in their arguments so $(\mathbb{R},+)$ forms a Lie Group. Likewise other familiar groups $\mathrm{SU}(n)$,$\mathrm{O}(n)$ and $\mathrm{GL}(n,\mathrm)$ all form Lie groups.
+
+To define calculus on non-Euclidean spaces one needs the structure of differential manifolds. The details of which will have to be omitted but some intuitive and useful properties are worth discussing.
+
+The dimension of a differential manifold is related to our understanding of dimension of space. The surface of a sphere is a two-dimensional space and as expected forms a two-dimensional manifold. This means, for the most part, the sphere can be parametrised by two numbers $(\theta,\phi)$.
+
+$\mathrm{O}(n)$, $\mathrm{U}(n)$ and $\mathrm{SU}(n)$ have manifold dimension $\frac{1}{2}n(n-1)$, $n^2$ and $n^2-1$ respectively. So these objects are no longer purely to be considered as groups but also as abstract smooth geometric spaces.
+
+Returning the example of QED's local gauge symmetry and comparing with the global gauge symmetry of QM
+\begin{align*}
+\ket{\psi} &\mapsto  \ket{\tilde{\phi}}=e^{i \xi} \ket{\psi(x)} \\
+\psi(x) &\mapsto  \tilde{\psi}(x)=e^{i \xi(x)} \psi(x)
+\end{align*}
+Both symmetries are isomorphic to $\mathrm{U}(1)$ but in very different contexts. In QM it may be regarded simply as a group, but in QED it effects the lagrangian much differently.
+
+The local gauge symmetry of the strong force is $\mathrm{SU}(3)$ and for the weak force it is $\mathrm{SU}(2)$. Like $U(1)$ was represented by one parameter which was a function of space-time position $\xi(x)$, $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ have $2^2-1=3$ and $3^3-1=8$ respectively.
+
+Notice peculiarly these these are the amount of force carriers in each theory.
+
+What do these symmetries mean physically? According to \cite{SCPV6}, they are like the the potentials $\mathbf{A}, \phi$ for classical electromagnetism; merely a tool to make the mathematics easier. In the same way as one could use $\mathbf{E}$ and $\mathbf{B}$ without the degeneracy of $\mathbf{A}$ and $\phi$, in principle one could formulate QED completely independent of phase, even without complex numbers.
+However the difference between usability would be extreme.
+
+
+A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie-algebras and differential manifolds related to physics can be found at \cite{SCPV3}. 
+
+The gauge symmetries of the standard model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a project manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the SUSY theory $\mathrm{SU}(5)$ as $5^2-1 = 24$ then tells us the number of force carriers in this theory.
+
+One must call it at a day at some point, actually dealing with Lagrangians is a much more time consuming and worth-while task, but the language developed shall suffice to investigate SCPV.
+
+\subsection{SCPV. Group Theoretic Conditions.}
+
+\newpage
+pig
 
 \end{document}
