@@ -16,4 +16,5 @@ To Do:
 
 New Latex:
 ----------
-* Added braket package for bra's and ket's
+* Added "bracket" package for bra's and ket's
+* Added "mathtools" package for define equals sign

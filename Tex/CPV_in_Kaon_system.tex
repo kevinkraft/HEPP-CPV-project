@@ -32,10 +32,10 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 
 \noindent So we can see that any eigenfunction of the $\hat{C}\hat{P}$ operator will be a linear combination of the two Kaon states:
 
-\begin{align*}
-\ket{K^{0}_{1}} = \frac{1}{2} (\ket{K^{0}} + \ket{\bar{K}^{0}}) \\
-\ket{K^{0}_{2}} = \frac{1}{2} (\ket{K^{0}} - \ket{\bar{K}^{0}})
-\end{align*} 
+\begin{align}\label{FirstKaonLinComb}
+\ket{K^{0}_{1}} = \frac{1}{\sqrt{2}} (\ket{K^{0}} + \ket{\bar{K}^{0}}) \\
+\ket{K^{0}_{2}} = \frac{1}{\sqrt{2}} (\ket{K^{0}} - \ket{\bar{K}^{0}})
+\end{align} 
 
 \noindent Where 1 and 2 are the usual labels given to these states. Now we investigate the action of $\hat{C}\hat{P}$ on these linear combinations
 
@@ -46,7 +46,7 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 \hat{C}\hat{P} \ket{K^{0}_{2}} & = \frac{1}{2} (\hat{C}\hat{P} \ket{K^{0}} - \hat{C}\hat{P} \ket{\bar{K}^{0}}) =   \frac{1}{2} (\ket{\bar{K}^{0}} - \ket{K^{0}}) = - \ket{K^{0}_{2}} \\
 \end{align*} 
 
-In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGliveKaonLifetime}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with $CP = 1$, and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$) must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
+In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGKaons}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with $CP = 1$, and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$) must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
 
 \begin{eqnarray*}    
 K^{0}_S \rightarrow \pi^0 \pi^0 (B = 0.31),  &   &   K^{0}_{S} \rightarrow \pi^{+} \pi^{-} (B = 0.69)\\ [6pt]
@@ -80,10 +80,52 @@ CP(\pi^0 \pi^0 \pi^0) = & -1                                &
  
 \noindent Where ${L}_{AB} = 0$ is an experimentally determined quantity [Verify: ``Measurement of the $1H(\gamma,\pi^{0})$ cross section near threshold. II. Pion angular distributions'' - J. C. Bergstrom, R. Igarashi, and J. M. Vogt , Phys. Rev. C 55, 2016–2023 (1997)]. Thus as long as $K^{0}_{L}$ deacy to final states with three pions or other $CP = -1$ states and $K^{0}_{S}$ only decay to two pion final states or other $CP = 1$ states, then $CP$ is conserved.
 
-This was thought to be the case until in 1964 when Christenson et al discovered the decay mode $K^{0}_{L}(CP = -1) \rightarrow \pi^+ \pi^- (CP = 1)$ with a branching ratio of $(2.3 \pm 0.3) \time 10^{−3}$, thus discovering CP violation for the first time[\cite{FirstCPV}].  
+This was thought to be the case until in 1964 when Christenson et al discovered the decay mode $K^{0}_{L}(CP = -1) \rightarrow \pi^+ \pi^- (CP = 1)$ with a branching ratio of $(2.3 \pm 0.3) \times {10}^{- 3}$, thus discovering CP violation for the first time \cite{FirstCPV}. The experiment exploits the difference in lifetimes between $K^{0}_{S}$ and $K^{0}_{L}$. A 30GeV proton beam is incident on a metal target which creates a secondary beam of many different particles. The centre of mass energy for such an arrangement is $787~$MeV, which is more than enough energy to produce a neutral Kaon having about a $497~$MeV rest mass. The secondary beam is passed through a magnetic field to remove any charged particles and through a $4~$cm thick block of lead to remove photons. At this point the beam contains both $K^{0}_{S}$ and $K^{0}_{L}$. The detecting aparatus is placed $18~$m away from the metal target, so by the time the beam reaches it, all of the $K^{0}_{S}$ have decayed and only $K^{0}_{L}$ remain. The beam is further collimated and then undergoes collisions in a helium filled bag. Two arms containing a series of detectors are mounted symmetrically around the helium bag, so they both make the same angle with the horizontal. These arms consist of a spark chamber and magnet to determine the momentum and direction of an incident particle. Water Cherenkov and scintillation detectos act as a trigger by only recording events with two oppositely charged particles and a velocity of $0.75~$c to eliminate background, see Fig.(\ref{Christenson_apparatus}). The aim of the experiment is to measure the angular distribution of produced particles. The results of the experiment are shown in Fig.(\ref{Christenson_apparatus}) where N is the number of counts and $\theta$ is the angle between the net momentum of the detected particles and the initial beam direction. These measurements were taken in various mass ranges, two are shown. If $K^{0}_{L} \rightarrow \pi^+ \pi^-$ is observed, the detected particles will have opposite signs, their invariant mass will match that of $K^{0}_{L}(497)$ and their net momentum will be in the same direction as the incident beam, hence the measured angle will be zero. We see from the results that a peak occurs at an angle of $0^{\circ}$ in the correct mass range. This is clear evidence of the $CP$ violating decay $K^{0}_{L} \rightarrow \pi^+ \pi^-$.   
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.1]{figs/Christenson_apparatus.png}
+\end{center}
+\caption{\textit{Apparatus used in the Christenson et al experiment \cite{Christenson_apparatus_ref}}}
+\label{Christenson_apparatus}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.3]{figs/Christenson_results.png}
+\end{center}
+\caption{\textit{Results of the Christenson et al experiment \cite{FirstCPV}}}
+\label{Christenson_apparatus}
+\end{figure}
+
+The results of the Christensen et al experiment implies, that the weak eigenstates $\ket{K^{0}_{S}}$ and $\ket{K^{0}_{L}}$ are not aligned with the true $CP$ eigenstates $\ket{K^{0}_{1}}$ and $\ket{K^{0}_{2}}$. As in Eqn.(\ref{FirstKaonLinComb})  we write:
+
+\begin{align*}
+\ket{K^{0}_{S}} = a \ket{K^{0}_{1}} + b \ket{K^{0}_{2}} \\
+\ket{K^{0}_{L}} = a \ket{K^{0}_{1}} - b \ket{K^{0}_{2}}
+\end{align*}
+
+\noindent Where $a$ and $b$ are complex numbers. We can determine the degree to which the states are not aligned using the CP violation decay amplitudes and corresponding CP conserving amplitudes \cite{Measurements_Direct_CPV_Kaons_KTev}: 
+
+\begin{align*}
+\eta_{+-} \vcentcolon= \frac{A(K^{0}_L \rightarrow \pi^+ \pi^-)}{A(K^{0}_S \rightarrow \pi^+ \pi^-)} = \epsilon + \epsilon' \\ 
+\eta_{00} \vcentcolon= \frac{A(K^{0}_L \rightarrow \pi^0 \pi^0)}{A(K^{0}_S \rightarrow \pi^0 \pi^0)} = \epsilon - 2\epsilon' 
+\end{align*}
+
+\noindent The two complex parameters $\epsilon$ and $\epsilon'$ determine the amount of indirect and direct $CPV$, respectively. The indirect $CPV$ is due to the CP conserving decay of the $K^{0}_{1}(CP =1)$ component of the $K^{0}_{L}(CP=-1)$ to $CP=1$ final states, this is possible because of Kaon oscillations. The direct $CPV$ is due to the CP violating decay of the $K^{0}_{2}(CP =-1)$ component of the $K^{0}_{L}(CP=-1)$ to $CP=1$ final states, this is possible due to interference between different decay methods with the same final state in Fig.(\ref{HEPP_intro_Perkins}).  
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.3]{figs/Perkins_Interference_Kaons.png}
+\end{center}
+\caption{\textit{Two possible decay modes for $K^{0} \rightarrow \pi^+ \pi^-$. (a) Tree diagram for decay by exchanging W boson (b) Penguin diagram for decay via quark states \cite{HEPP_intro_Perkins}}}
+\label{HEPP_intro_Perkins}
+\end{figure}
+
+\noindent However it is found that the direct CPV contribution is much smaller in this case. The indirect CPV almost completely dominates as can be seen from the similarity of the experimental values for $|\eta_{+-}|$ and $|\eta_{00}|$ \cite{PDGKaons}:
+
+\begin{align*}
+|\eta_{00}| = 0.002220 \pm 0.000011 &  & |\eta_{+-}| = 0.002232 \pm 0.000011 
+\end{align*}  
 
 
-
-This implies, as with the $\ket{K^{0}}$ and $\ket{\bar{K}^{0}}$ states, that the $\ket{K^{0}_{S}}$ and $\ket{K^{0}_{L}}$ states are not aligned with the true $CP$ eigenfunctions $\ket{K^{0}_{1}}$ and $\ket{K^{0}_{2}}$. 
-
-  
