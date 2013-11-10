@@ -46,26 +46,44 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 \hat{C}\hat{P} \ket{K^{0}_{2}} & = \frac{1}{2} (\hat{C}\hat{P} \ket{K^{0}} - \hat{C}\hat{P} \ket{\bar{K}^{0}}) =   \frac{1}{2} (\ket{\bar{K}^{0}} - \ket{K^{0}}) = - \ket{K^{0}_{2}} \\
 \end{align*} 
 
-In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGliveKaonLifetime}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with (CP = 1), and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$) must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
+In experiment, two Kaon states are observed, a short lived state denoted by $\ket{K^{0}_{S}}$ and a relatively long lived state, $\ket{K^{0}_{L}}$. The lifetimes of these particles are $8.954 \pm 0.004 \times 10^{−11}~$s and $5.116 \pm 0.021 \times 10^{−8}~$s \cite{PDGliveKaonLifetime}. We make the natural assumption that these are the $\hat{C}\hat{P}$ eigenstates just derived. We make the identifications $\ket{K^{0}_{S}} = \ket{K^{0}_{1}}$ and $\ket{K^{0}_{L}} = \ket{K^{0}_{2}}$ and see what this predicts. If $\hat{C}\hat{P}$ is conserved then all the decays of the $\ket{K^{0}_{S}}$ ($CP = 1$) state must be to final products with $CP = 1$, and similarly, the decays of $\ket{K^{0}_{L}}$ ($CP = -1$) must be to final products with $CP = -1$. The observed decays for these states are as follows \cite[pg. 292]{Martin+Shaw}:
 
 \begin{eqnarray*}    
 K^{0}_S \rightarrow \pi^0 \pi^0 (B = 0.31),  &   &   K^{0}_{S} \rightarrow \pi^{+} \pi^{-} (B = 0.69)\\ [6pt]
 K^{0}_L \rightarrow \pi^0 \pi^0 \pi^0 (B = 0.20),   &   &   K^{0}_{L} \rightarrow \pi^{+}  \pi^{-} \pi^0 (B =0.13)  
 \end{eqnarray*}    
 
-\noindent The reason for the difference in lifetimes of these two Kaon states is that the mass of the $K^{0}_L$ is not much bigger than the mass of three pions, thus it is relatively unlikey for it to undergo decay, compared to the $K^{0}_L$ which must only create energy to make two pions. We now determine the $CP$ of these final states. This is easy for the two pion final states. We find:
+\noindent The reason for the difference in lifetimes of these two Kaon states is that the mass of the $K^{0}_L$ is not much bigger than the mass of three pions, thus it is relatively unlikey for it to undergo decay, compared to the $K^{0}_S$ which must only create energy to make two pions. We now determine the $CP$ of these final states. This is easy for the two pion final states. We find:
 
-\begin{align*}
-{P} ({\pi^0 \pi^0})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1 \\
-{C} ({\pi^0 \pi^0})   = & 1                       & \Rightarrow C = 1 \\
-{P} ({\pi^+ \pi^-})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1 \\
-{C} ({\pi^+ \pi^-})   = & 1                       & \Rightarrow C = 1 \\
-\end{align*}
+\begin{align}
+{P} ({\pi^0 \pi^0})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1  \\
+{C} ({\pi^0 \pi^0})   = & 1                       & \Rightarrow C = 1  \\
+{P} ({\pi^+ \pi^-})   = & (-1)(-1)(-1)^{l=0} = +1 & \Rightarrow P = 1  \\
+\label{TwoPionFinalStateCalc}
+{C} ({\pi^+ \pi^-})   = & (-1)^{l=0}             & \Rightarrow C = 1 
+\end{align}
 
 \noindent Thus $\hat{C}\hat{P} \ket{\pi \pi} = 1$. Now for the three pion final state we must take account of the second orbital angular momentum introduced by the  third pion. The general formula for such a system is $\hat{P} (ABC) = \hat{P} (A) \hat{P} (B) \hat{P}(C) (-1)^{\mathbf{L}_{AB}} (-1)^{\mathbf{L}_{(AB)C}}$ where $\mathbf{L}_{AB}$ is the orbital angular momentum of the first two pions and $\mathbf{L}_{(AB)C}$ is the orbital angular momentum of the third pion with respect to the mutual centre of mass of the first two pions. The $J^{P}$ of the Kaon is $0^{-}$, thus the overall orbital angular momentum must be zero: $\mathbf{L} = \mathbf{L}_{AB} + \mathbf{L}_{(AB)C} = 0$. As this is angular momentum addition and $\mathbf{L}$ can only take positive values, we conclude that ${L}_{AB} = {L}_{(AB)C}$ so ${L}_{AB} + {L}_{(AB)C} = 2L$, which is an even number: 
 
 \begin{align*}
-P(\pi^0 \pi^0 \pi^0)  = & (-1)(-1)(-1)(-1)^{L = even} = -1 & \Rightarrow P = -1 \\
+P(\pi^0 \pi^0 \pi^0)  = & (-1)(-1)(-1)(-1)^{2L = even} = -1 & \Rightarrow P = -1 \\
 C(\pi^0 \pi^0 \pi^0)  = & (1)(1)(1) = 1                     & \Rightarrow C = +1 \\
 CP(\pi^0 \pi^0 \pi^0) = & -1                                &
 \end{align*}
+
+\noindent For the $\ket{\pi^+ \pi^- \pi^0}$ final state the parity is also -1, but the charge conjugation picks up an extra factor of $(-1)^{l}$ as in Eqn.(\ref{TwoPionFinalStateCalc}). So if we take the centre of mass of pions A and B to be the centre of mass between the $\pi^{+}$ and $\pi^{-}$ we obtain:
+
+\begin{align*}
+C(\pi^+ \pi^- \pi^0)  = & C(\pi^{0})(-1)^{{L}_{AB}} = 1     & \Rightarrow C = +1 \\
+CP(\pi^0 \pi^0 \pi^0) = & -1                                &
+\end{align*}
+ 
+\noindent Where ${L}_{AB} = 0$ is an experimentally determined quantity [Verify: ``Measurement of the $1H(\gamma,\pi^{0})$ cross section near threshold. II. Pion angular distributions'' - J. C. Bergstrom, R. Igarashi, and J. M. Vogt , Phys. Rev. C 55, 2016–2023 (1997)]. Thus as long as $K^{0}_{L}$ deacy to final states with three pions or other $CP = -1$ states and $K^{0}_{S}$ only decay to two pion final states or other $CP = 1$ states, then $CP$ is conserved.
+
+This was thought to be the case until in 1964 when Christenson et al discovered the decay mode $K^{0}_{L}(CP = -1) \rightarrow \pi^+ \pi^- (CP = 1)$ with a branching ratio of $(2.3 \pm 0.3) \time 10^{−3}$, thus discovering CP violation for the first time[\cite{FirstCPV}].  
+
+
+
+This implies, as with the $\ket{K^{0}}$ and $\ket{\bar{K}^{0}}$ states, that the $\ket{K^{0}_{S}}$ and $\ket{K^{0}_{L}}$ states are not aligned with the true $CP$ eigenfunctions $\ket{K^{0}_{1}}$ and $\ket{K^{0}_{2}}$. 
+
+  

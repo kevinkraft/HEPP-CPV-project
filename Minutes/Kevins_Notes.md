@@ -2,11 +2,6 @@ Kevin's Notes
 -------------
 -------------
 
-Time Reversal
--------------
-  * time-reversal operator is Ke{−iπSy/ℏ} where K is complex conjugate
-  * http://physics.stackexchange.com/questions/70179/time-reversal-operator
-
 CPV
 ---
 * Direct
@@ -20,20 +15,19 @@ http://www2.slac.stanford.edu/tip/special/cp.htm
 
 * Indirect
   * From mixing due to basis vectors not aligning with particle and anti particle states, quantum interference between these states
+
+Time Reversal
+-------------
+  * time-reversal operator is Ke{−iπSy/ℏ} where K is complex conjugate
+  * http://physics.stackexchange.com/questions/70179/time-reversal-operator
  
-Electroweak
------------
-* Conditions for electroweak unification (Martin and Shaw pg253)
-  1. unification condition
-  2. anomoly condition
-* Weak mixing angle can be calculated from rates of charged and neutral EM current reactions
-
-
 CPV in Kaon system/Kaon Mixing
 -----------------------------
 
 * Section Layout:
-  * 1, 2 use C, P CP operator maths in (M+S) and from lecture notes, 
+  * 1, 2 use C, P CP operator maths in (M+S) and from lecture notes,
+  * Do Christenson experiment, then epsilon formula from KTeV, then approximation to no direct CPV with explanation of how both happen using Feynmann diagrams in Zeng and quote the lincomb pg 294 (M+S), quote epsilon value, and adjusted epsilon value with direct CPV 
+  * Might do strangeness oscillations and time dep calcs from Nakada, maybe come back to it if I need to fill space
 
 ----------------------------
 1.Two Neutral Kaon states
@@ -54,8 +48,17 @@ CPV in Kaon system/Kaon Mixing
 	* Used to determine the mass difference
 * Observed neutral Kaons are K0_s "short", K0_L "long" 
   * AS K0_s -> 2pi => CP=1, K0_L -> 2pi => CP=-1, we can say, if CP conserved then K0_S=K0_1, K0_L=K0_2
-  * But K0_L (CP=-1)-> pi+ pi- (CP=1) observed by Christenson, Cronin, Fitch, Turlay (1964) "Evidence for the 2pi Decay of the K^2_0 Meson" (M+S pg 292) (J. H. Christenson et al., Phys. Rev. Lett. 13 (1964) 138)
+  * But K0_L (CP=-1)-> pi+ pi- (CP=1) observed by Christenson, Cronin, Fitch, Turlay (1964) "Evidence for the 2pi Decay of the K^2_0 Meson" (M+S pg 292) (J. H. Christenson et al., Phys. Rev. Lett. 13 (1964) 138) 
   * This implies K0_L and K0_S are not entirely aligned with the basis states (M+S eq 10.33 pg 294)
+* Direct/Indirect
+  * Direct by straight forward CPV due to interference with two diagrams, see Zeng
+  * Indirect by mixing then allowed CP decay
+* Zeng
+  * has results of Christenson experiment and calculation of epsilon
+* Nakada
+  * Good time dep oscillations calculations
+*KTeV
+  * Good reference for epsilon formulas in terms of Ks and KL decay amplitudes
 
 Kaon CPV in semi-leptonic
 --------------------------
@@ -78,6 +81,18 @@ Charged Kaon CPV
 ------------------
   * No mass mixing (d'ambrosio pg 13)
   * check if this has been observed (See also http://arxiv.org/pdf/hep--ph/0401236.pdf )
+
+CPV in D mesons
+--------------
+
+
+Electroweak
+-----------
+* need more resources
+* Conditions for electroweak unification (Martin and Shaw pg253)
+  1. unification condition
+  2. anomoly condition
+* Weak mixing angle can be calculated from rates of charged and neutral EM current reactions
 
 CKM Mechanism 
 -------------
