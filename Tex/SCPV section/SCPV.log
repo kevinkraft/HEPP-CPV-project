@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  10 NOV 2013 21:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  10 NOV 2013 23:39
 entering extended mode
 **SCPV.tex
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.tex"
@@ -254,151 +254,104 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 23.
 
 
-Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 25.
+Package natbib Warning: Citation `SCPV1' on page 1 undefined on input line 23.
 
 
-Package natbib Warning: Citation `SCPV2' on page 1 undefined on input line 25.
+Package natbib Warning: Citation `SCPV2' on page 1 undefined on input line 23.
 
-
-Underfull \hbox (badness 4899) in paragraph at lines 48--49
- []\OT1/cmr/m/n/10 Non-zero de-ter-mi-nant ma-tri-ces are in-vert-ible
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
 (E:\Maths\MikTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [1{C:/Users/Dud1337/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 
-Underfull \hbox (badness 1742) in paragraph at lines 71--73
-\OT1/cmr/m/n/10 The de-sired trans-for-ma-tion $R$ has form such that
- []
-
-[1{C:/Users/Dud1337/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 1939) in paragraph at lines 133--134
- []\OT1/cmr/m/n/10 Galilean Trans-for-ma-tions. Pre-serve New-ton's
- []
-
-
-Package natbib Warning: Citation `SCPV3' on page 2 undefined on input line 142.
+Package natbib Warning: Citation `SCPV3' on page 3 undefined on input line 135.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 151--152
-[]\OT1/cmr/m/n/10 For the ex-am-ple of dis-tance in Eu-clidean space
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
-
- []
-
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-
-Underfull \hbox (badness 1484) in paragraph at lines 227--228
-[]\OT1/cmr/m/n/10 If the Hilbert Space is spanned by a fi-nite set
  []
 
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
-Package natbib Warning: Citation `SCPV4' on page 4 undefined on input line 273.
+ []
 
-
-
-Package natbib Warning: Citation `SCPVgroups' on page 4 undefined on input line
- 275.
-
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
 [4]
-Underfull \hbox (badness 4846) in paragraph at lines 299--301
-\OT1/cmr/m/n/10 Where in carte-sian co-or-di-nates $(\OML/cmm/m/it/10 x[]; x[];
- x[]; x[]\OT1/cmr/m/n/10 ) =$
- []
 
-
-Underfull \hbox (badness 1502) in paragraph at lines 319--320
-[]$\OT1/cmr/m/n/10 O(\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$, $U(\OML/cmm/m/it/10 
-n\OT1/cmr/m/n/10 )$ and $[](\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$ have man-i-fol
-d di-men-sion
- []
-
-
-Package natbib Warning: Citation `SCPV6' on page 5 undefined on input line 332.
+Package natbib Warning: Citation `SCPV4' on page 5 undefined on input line 261.
 
 
 
-Package natbib Warning: Citation `SCPV6' on page 5 undefined on input line 336.
-
-
-
-Package natbib Warning: Citation `SCPV3' on page 5 undefined on input line 336.
-
+Package natbib Warning: Citation `SCPVgroups' on page 5 undefined on input line
+ 263.
 
 [5]
 
+Package natbib Warning: Citation `SCPV6' on page 6 undefined on input line 310.
+
+
+
+Package natbib Warning: Citation `SCPV6' on page 6 undefined on input line 314.
+
+
+
+Package natbib Warning: Citation `SCPV3' on page 6 undefined on input line 314.
+
+
+
 Package natbib Warning: There were undefined citations.
 
-[6]
+[6] [7]
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.aux"
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 3763 strings out of 493921
- 46774 string characters out of 3152087
- 123988 words of memory out of 3000000
- 7025 multiletter control sequences out of 15000+200000
+ 3764 strings out of 493921
+ 46785 string characters out of 3152087
+ 122977 words of memory out of 3000000
+ 7026 multiletter control sequences out of 15000+200000
  8784 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,16n,28p,539b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Maths/MikTeX/f
-onts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Maths/MikTeX/fonts/type1/public/ams
-fonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/Maths/MikTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><E:/Maths/MikTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Maths/MikTeX/font
-s/type1/public/amsfonts/cm/cmr5.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><E:/Ma
-ths/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Maths/MikTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm
-/cmti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><E:
-/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/f
-onts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on SCPV.pdf (6 pages, 223920 bytes).
+ 34i,16n,28p,570b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Maths/MikTeX/
+fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Maths/MikTeX/fonts/type1/public/am
+sfonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pf
+b><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/Maths/MikTeX/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Maths/MikTeX/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Maths/MikTeX/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><E:/M
+aths/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Maths/MikTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><E
+:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/
+fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on SCPV.pdf (7 pages, 223687 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
