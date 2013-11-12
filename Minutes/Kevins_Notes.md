@@ -27,7 +27,7 @@ CPV in Kaon system/Kaon Mixing
 * Section Layout:
   * 1, 2 use C, P CP operator maths in (M+S) and from lecture notes,
   * Do Christenson experiment, then epsilon formula from KTeV, then approximation to no direct CPV with explanation of how both happen using Feynmann diagrams in Zeng and quote the lincomb pg 294 (M+S), quote epsilon value, and adjusted epsilon value with direct CPV 
-  * Might do strangeness oscillations and time dep calcs from Nakada, maybe come back to it if I need to fill space
+  * Might do strangeness oscillations (determineation of K mass difference, see zeng)and time dep calcs from Nakada, maybe come back to it if I need to fill space
 
 ----------------------------
 1.Two Neutral Kaon states
@@ -60,18 +60,25 @@ CPV in Kaon system/Kaon Mixing
 * Zeng
   * has results of Christenson experiment and calculation of epsilon
 * Nakada
-  * Good time dep oscillations calculations
+  * Good time dep oscillations calculations(ehh no, its in Zeng)
 *KTeV
   * Good reference for epsilon formulas in terms of Ks and KL decay amplitudes
 
 Kaon CPV in semi-leptonic
 --------------------------
+* Layout
+  1. Go through Delat_S = Delta_Q = +/- 1 rule with examples on pg 232 M+S
+  2. Which implies no direct CPV in these channel as only one decay method see [1] pg 10 of D'ambrosio
+  3. Oscillation experiment on pg 294 M+S 
+     maybe make the following a separate subsection:
+  4. Strangeness oscillations (Zeng calculation)=> CPT confirmation through masses of Kaons
+
   * No direct CPV in these channels (D'Ambrosio Kaon review pg 12)
   * time-reversal operator is Ke{−iπSy/ℏ} where K is complex conjugate
   * Selection rules
-    * Ask McNulty about the delta_S = delta_Q selection rule !!!! (check M+S)
+    * see pg 232
     * Delta_Strangeness = Delta Q = +/- 1
-    * Q = charge
+    * Q = charge of hadrons, i.e only the quaraks in most reactions
     * Delta_Strangeness =  - Delta Q = +/- 1 are forbidden
     * overall Delta_S = 0, +/- 1 for ALLOWED
   * eqn 2.50 in D'ambrosio
