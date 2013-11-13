@@ -1,1 +1,25 @@
-john
+john:
+
+to pull from repo:
+
+git pull kevinkraft master
+
+to commit:
+
+git commit -m "my comment"
+
+to add a file:
+
+git add filename.whatever
+
+if you delete a file you have to tell git hub:
+
+git rm filename.whatever
+
+if you move or rename a file git hub sees it as you deleting a file and creating a new one, so you have to git add the new file and git rm the old file
+
+to make a new folder you need to put a file in it then git add the file before the folder will appear
+
+to push to repo:
+
+git push kevinkraft master 
