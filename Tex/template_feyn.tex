@@ -1,0 +1,61 @@
+\documentclass[9pt]{report}
+
+ %package we are using to make feynman diagrams
+ \usepackage{feynmp} 
+ \usepackage[pdftex]{graphicx}
+ \DeclareGraphicsRule{*}{mps}{*}{} 
+
+\begin{document}
+
+\unitlength = 1mm % Unit length of everything in diagram
+
+%I've had to put it in a figure to get it to work
+\begin{figure}[htb] %htb will make sure the figure is put where you want it
+
+\centering
+
+\begin{fmffile}{beta} %create a fmffile named beta
+\begin{fmfgraph*}(40,40) %creates the graph of sixe 40,40
+\fmfstraight % we want straigh lines in this case
+
+\fmfleft{i0,i1,i2,i3,i4,i5,i6} % imagine these as grid numbers with 0 at the bottem and 6 at the top. i is used to mean in ( not sure if important or just a general method)
+\fmfright{o0,o1,o2,o3,o4,o5,o6} % o is out
+
+\fmf{fermion}{i5,o5} % we want a fermion going from grid point i5 to grid point o5 in that direction (o5,i5 is the antiparticle of this)
+\fmf{fermion}{i4,o4}
+
+\fmf{fermion,tension=1.5}{i3,v3} % in 3 is going to vertex 3
+%havent quite figured out tension yet thing its to do with the angle the boson makes. h
+\fmf{fermion}{v3,o3} % here vertex 3 is going to out 3
+\fmffreeze % we want to freeze the layout we have and apply more to it
+
+\fmf{fermion}{o1,v2,o2} % out 1 goes to vertex 2 as does out 2
+ %we make a boson (using a photon class for photons and w/z. we can also use gluons  
+\fmf{photon,label=$W^{\mp}$}{v3,v2} % we let the boson go from v3 to v2 ( pretty sure it also works from v2, v3 in which both cases will be "anti bosons but hey we don't need to worry about that)
+
+%labeling 
+\fmflabel{{\bf $N/P$}}{i6}
+\fmflabel{{\bf $P/N + e^-/e^+ + \overline{\nu_e}/\nu_e$}}{o6}
+\fmflabel{$u$}{i5}
+\fmflabel{$u$}{o5}
+\fmflabel{$d$}{i4}
+\fmflabel{$d$}{o4}
+\fmflabel{$d/u$}{i3}
+\fmflabel{$u/d$}{o3}
+\fmflabel{$e^-/e^+$}{o2}
+\fmflabel{$\overline{\nu_e} / \nu_e$}{o1}
+\end{fmfgraph*}
+\end{fmffile}
+
+%caption and label to your hearts desire
+\caption{$\beta^{\mp}$ decay}
+\label{beta}
+\end{figure}
+To create \ref{beta} we must run in terminal:
+\begin{center}
+pdflatex template\_feyn.tex \newline
+mpost beta\newline
+pdflatex template\_feyn.tex\newline
+\end{center}
+The first time we run pdflatex we create the file needed for mpost which will creat the diagram. The second time we run pdflatex the diagram is already created and is put it. If you have you diagram created you don't need to run mpost again. We only need to follow this procedure when editing the diagram.
+\end{document}
