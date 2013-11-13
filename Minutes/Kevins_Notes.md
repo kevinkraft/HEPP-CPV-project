@@ -88,7 +88,7 @@ Kaon CPV in semi-leptonic
     * A+ = amp(K0 -> pi- l+ nu) 
     * \barA+ = amp(\barK0 -> pi- l+ nu) strongly suppressed relative to A+ (delta S = delta Q rule) 
 
-Charged Kaon CPV
+Charged Kaon CPV(Don't do this)
 ------------------
   * No mass mixing (d'ambrosio pg 13)
   * check if this has been observed (See also http://arxiv.org/pdf/hep--ph/0401236.pdf )

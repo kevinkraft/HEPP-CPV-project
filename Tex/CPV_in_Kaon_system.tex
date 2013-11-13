@@ -32,8 +32,10 @@ Analogous to the mixing of mass eigenstate quarks to different quark flavours, i
 
 \noindent So we can see that any eigenfunction of the $\hat{C}\hat{P}$ operator will be a linear combination of the two Kaon states:
 
-\begin{align}\label{FirstKaonLinComb}
+\begin{align}
+\label{FirstKaonLinComb1}
 \ket{K^{0}_{1}} = \frac{1}{\sqrt{2}} (\ket{K^{0}} + \ket{\bar{K}^{0}}) \\
+\label{FirstKaonLinComb2}
 \ket{K^{0}_{2}} = \frac{1}{\sqrt{2}} (\ket{K^{0}} - \ket{\bar{K}^{0}})
 \end{align} 
 
@@ -218,4 +220,38 @@ Shown decay of  & $\Delta S$ & $\Delta Q$ & $\Delta S = \Delta Q$ \\
 \label{DeltaSQruleKsemi}
 \end{table}
 
-\noindent Thus it is clear that the only possible semi-leptonic decays of this form for $K^{0}$ and $\bar{K}^{0}$ are (\ref{Ksemi1}) and (\ref{Ksemi2}). As there is only one way for these processes to occur we determine that there can be no direct CP violation in the semi-leptonic decays of Kaons as there is no interference between processes, because there is only one.     
+\noindent Thus it is clear that the only possible semi-leptonic decays of this form for $K^{0}$ and $\bar{K}^{0}$ are (\ref{Ksemi1}) and (\ref{Ksemi2}). As there is only one way for these processes to occur we determine that there can be no direct CP violation in the semi-leptonic decays of Kaons as there is no interference between processes, because there is only one \cite[pg. 10]{DAmbrosio}. So it is clear that the amplitudes of the $\Delta S = \Delta Q$ violating decays are:
+
+\begin{equation*}
+A(K^{0} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l}) = A(\bar{K}^{0} \rightarrow \pi^{-} l^{+} \nu_{l}) = 0  
+\end{equation*}
+
+It is possible now to write these amplitudes in terms of $K^{0}_{S}$ and $K^{0}_{L}$. Using Eqn.(\ref{FirstKaonLinComb1}),(\ref{FirstKaonLinComb2}),(\ref{KaonLincomb21}) and (\ref{KaonLincomb22}) we obtain\cite[pg. 11]{DAmbrosio}:
+
+\begin{align*}
+A({K}^{0}_{S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l}) = - A(K^{0}_{L} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l}) = \frac{1 - \epsilon}{\sqrt{2}} A(\bar{K}^{0} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l}) \\  
+A({K}^{0}_{S} \rightarrow \pi^{-} l^{+} \nu_{l}) = A(K^{0}_{L} \rightarrow \pi^{-} l^{+} \nu_{l}) = \frac{1 + \epsilon}{\sqrt{2}} A(K^{0} \rightarrow \pi^{-} l^{+} \nu_{l})   
+\end{align*}
+
+\noindent Where terms of order $|\epsilon|^{2}$ have been neglected. The quantities $\delta_L,S$ can now be defined, which show the tendency for the oscillations $K^{0} \leftrightarrow \bar{K}^{0}$ to favour the matter particle state. Thus making a very small contribution to the matter anti-matter assymmetry.
+
+\begin{equation*}
+\delta_L,S = \frac{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) - A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})}{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) + A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})} \vcentcolon= 2 \mathbb{R}(\epsilon)
+\end{equation*}
+
+\noindent The experimental value for this quantity is $\delta_{L} = (3.27 \pm 0.12) \e{−3}$. Which clearly indicates a small tendency to favour the matter particle in oscillations. This can also be illustrated graphically by measuring the relative number(N) of $K^{0}$ and $\bar{K}^{0}$ particles over time in a beam consisting initially of $K^{0}$. See Fig.(\ref{AsymmetryPicFig})
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.4]{figs/Asymmetry_pic}
+\end{center}
+\caption{\textit{Meaurements of observed Kaon semi-leptonic decays from a beam initially consisting of $K^{0}$ mesons which shows the oscillation between the states $K^{0}$ and $\bar{K}^{0}$ as well as the small asymmetry, favouring the matter particle \cite{AsymmetryPic}}}
+\label{AsymmetryPicFig}
+\end{figure}
+
+
+\subsection{Testing CPT conservation through Strangenss Oscillation}
+
+The CPT theorem links conservation of CPT with Lorentz invarience. Thus to preserve the fundamental Lorentz symmetry we desperately hope CPT is conserved. Here is presented some evidence that this is indeed the case. The theorem requires particles and their anti-particles to have the same masses and lifetimes. It has been stated previously that the $K^{0}_{L}$ and $K^{0}_{S}$ particles have very different lifetimes, but thankfully these are not a particle anti-particle pair. From earlier it is clear that $K^{0}$ and $\bar{K}^{0}$ are such a pair. Thus we aim to test CPT conservation by measuring their mass difference.    
+
+ 
