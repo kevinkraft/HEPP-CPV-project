@@ -1,25 +1,16 @@
-2-column format:
-5.5 pages  (intro + prerequsite non-rigourous maths section)
+I think my section is done (9.5 pages)
 
-1-column format.
-7 pages!!!
-I consider this too much, but, consider the ending sections (3-4 pages)
+Things worked out pretty great!
+
+One of the example SCPV theories, aspons (very close to the SM) actually has made an experimental prediction (1998) which does not work with an experimental value obtained in Kevin's section (2013).
+
+That is: Aspons is proven wrong! Quite cool to see real science.
+SCPV still stands as it is a very general principle, but one of the more basic extensions to the standard model I discussed does not!
+
+I feel like this really ties the sections together. (at least more than they were).
 
 
-
-BATTLE PLAN:
-
-SCPV detailed:
-Talk about VEV (vacuum expectation value).
-Show (or state) that vaccuum is invariant under CP in SM.
-
-Talk about group conditiosn for SCPV
-"What symmetries must a theory have for SCPV to be possible?"
- - example that SM does not have these conditions.
- - examples of various extensions that do thave it.
-
-What sort of experiments could detail SCPV?
-
-mini-conclusion (???)
-
-(group condition is powerful tool for evaluating and creating new theories yadda yadda)
+To do:
+ - Proof read final pages
+ - Feynman Diagrams in TeX
+ - Read your guys stuff

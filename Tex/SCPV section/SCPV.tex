@@ -6,6 +6,7 @@
 \usepackage{float}
 \usepackage{listing} %listings
 \usepackage{braket}
+\usepackage{mathtools}
 
 \begin{document}
 % cite:
@@ -15,6 +16,7 @@
 % SCPV4 GUT Algebra Baez
 % SCPV5 SCPV Group Conditions
 % SCPV6 Local Gauge Invariance
+% SCPV7 Apson Model
 \section{Spontaneous Charge Parity Violation} 
 A major motivation for creating models with new CPV mechanisms is to explain Baryon asymmetry. This is a huge research area, a simple search on arXiv.org reveals over $500$ papers. The most prevalent theories are based around Super-Symmetry (SUSY) and Spontaneous Charge Parity Violation (SCPV). 
 
@@ -65,7 +67,7 @@ The transformations that preserve a property of a space form a group. It is know
  
 Model space again as $\mathbb{R}^3$, transformations should preserve distance. Where Euclidean distance is defined by
 \begin{align*}
-d(\mathbf{x},\mathbf{y}):= \sqrt{(x_1-y_1)^2+(x_2-y_2)^2+(x_3-y_3)^2}
+d(\mathbf{x},\mathbf{y})\vcentcolon = \sqrt{(x_1-y_1)^2+(x_2-y_2)^2+(x_3-y_3)^2}
 \end{align*}
  The desired transformation $\mathrm{R}$ has form such that $d(\mathrm{R}\mathbf{x},\mathrm{R}\mathbf{y}) = d(\mathbf{x},\mathbf{y})$. From intuition there are some obvious transformations $\mathrm{R}=I$, the identity matrix, or $\mathrm{R}\mathbf{x} = \mathbf{x}+\mathbf{a}$ a translation in space
 \begin{align*}
@@ -79,7 +81,7 @@ Now note
 \begin{align*}
 d(\mathbf{x},\mathbf{y})^2=(\mathbf{x}-\mathbf{y})\cdot(\mathbf{x}-\mathbf{y})
 \end{align*}
-Where $\cdot$ is the regular dot product. Calling $\Delta\mathbf{x}:=\mathbf{x}-\mathbf{y}$ and using serif font to signify matrix representation
+Where $\cdot$ is the regular dot product. Calling $\Delta\mathbf{x}\vcentcolon =\mathbf{x}-\mathbf{y}$ and using serif font to signify matrix representation
 \begin{align*}
 \Delta\mathbf{x}\cdot\Delta\mathbf{x} &= \mathsf{\Delta x}^T \mathsf{\Delta x} \\
 &= (\mathsf{x}-\mathsf{y})^T(\mathsf{x}-\mathsf{y})
@@ -118,7 +120,7 @@ What sort of matrices have determinant $-1$ and $+1$? Consider the examples
 0&0&1
 \end{array} \right)
 \end{align*}
-The left matrix represents a reflection in through the x-z plane. The right represents a rotation by $\pi/2$ in the x-y plane. It turns out that all matrices with $\mathsf{A}^T = \mathsf{A}^{-1}$ are either rotations or reflections, together they make the orthogonal group $\mathrm{O}(3)$. A transformation that is an orthogonal matrix plus a translation preserves distance, and the set of all such transformations form a group. Just the usual isometrics of Euclidean space.
+The left matrix represents a reflection in through the xz-plane. The right represents a rotation by $\pi/2$ in the xy-plane. It turns out that all matrices with $\mathsf{A}^T = \mathsf{A}^{-1}$ are either rotations or reflections, together they make the orthogonal group $\mathrm{O}(3)$. A transformation that is an orthogonal matrix plus a translation preserves distance, and the set of all such transformations form a group. Just the usual isometrics of Euclidean space.
 
 Denote the set of rotations, which preserve length and handedness (reflection changes the right hand rule to the left hand rule), as $\mathrm{SO}(3)$, this is also a group.
 
@@ -137,7 +139,7 @@ Intuitively, because these preserve something about a space, they form a group. 
 \textsc{Theorem:}
 
 {\centering \textit{Consider a set $X$ with a function $f:X\rightarrow Y$, the set of all transformations of $X$ that preserve the function at $x$,\\
-$S_f:=\{ T \in \mathrm{Transf}(X) : f(Tx)=f(x), \forall x \in X \}$,\\
+$S_f\vcentcolon =\{ T \in \mathrm{Transf}(X) : f(Tx)=f(x), \forall x \in X \}$,\\
 $\phantom{a}$ \hspace{48mm} form a group called the \textbf{symmetry group} of $f$.}}
 \vspace{2mm} \\
 
@@ -167,7 +169,7 @@ $(\mathrm{GA}4)$ is inherited from $\mathrm{Transf}(X)$. \hfill $\square$\\
 \end{itemize}
 \subsection{SCPV. Useful Physical Groups}
 
-In the language of symmetry groups, useful physical transformations including the Gauge-symmetry of the standard model are investigated.
+In the language of symmetry groups, useful physical transformations including the Gauge-symmetry of the Standard Model are investigated.
 
 \begin{flushleft}\textit{example 1.0} The Euclidean Isometries. \end{flushleft}
 
@@ -232,7 +234,7 @@ As $\nabla \cdot \mathbf{B} = 0$ a theorem shows $\exists \mathbf{A}, \mathbf{B}
 \nabla \times \mathbf{E} &= - \partial_t (\nabla \times \mathbf{E}) \\
 \nabla \times (\mathbf{E}+\frac{\partial \mathbf{A}}{\partial t}) &=0
 \end{align*}
-Which in turn gives $\mathbf{E} = -\frac{\partial \mathbf{A}}{\partial t} - \nabla \phi$, where in the time independent case $\phi$ reduced to the electrostatic potential $\phi := -\int \mathbf{E} \cdot \mathrm{d}\mathbf{x}$
+Which in turn gives $\mathbf{E} = -\frac{\partial \mathbf{A}}{\partial t} - \nabla \phi$, where in the time independent case $\phi$ reduced to the electrostatic potential $\phi \vcentcolon = -\int \mathbf{E} \cdot \mathrm{d}\mathbf{x}$
 
 
 Consider the following transformation
@@ -250,7 +252,7 @@ These transformed potentials are also valid
 \nabla \times (\mathbf{A}+\nabla \lambda) = \nabla\times \mathbf{A} + \nabla \times \nabla \cdot \lambda  = \mathbf{B} + 0 \\
 -\partial_t(\mathbf{A}+\nabla \lambda)-\nabla (\phi - \partial_t \lambda) = -\partial_t(\mathbf{A})-\nabla \phi = \mathbf{E}
 \end{align*}
-As these equations are preserved the gauge transformations form a symmetry group. Just as preserving Newton's laws formed a symmetry group. This is an example of a \textbf{Gauge Transformation}.
+As these equations are preserved the gauge transformations form a symmetry group. Just as preserving Newton's laws formed a symmetry group. This is an example of a \textbf{gauge transformation}.
 
 More generally a gauge transformation is defined as a \textit{local} transformation that preserves the Lagrangian of a theory. What local means exactly is yet to be defined.
 
@@ -258,7 +260,7 @@ More generally a gauge transformation is defined as a \textit{local} transformat
 
 The reader may be having a hard time seeing how this relates to particle physics. With the benefit of the language being developed some light may be shed on what the remainder of this section will contain.
 
-Most of the groups discussed have their place in modern particle physics. Lorrentz invariance and unitarity of symmetry operators obviously extend from special relativity and quantum mechanics. That is not all, the gauge-symmetry group of the standard model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
+Most of the groups discussed have their place in modern particle physics. Lorrentz invariance and unitarity of symmetry operators obviously extend from special relativity and quantum mechanics. That is not all, the gauge-symmetry group of the Standard Model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the Standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
 
 It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPVgroups}. Explaining how to use this with the mathematics being developed is the primary goal of the section. Although, the hierarchy of knowledge required for theoretical physics is unfortunately large. Despite that the material has attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
 
@@ -268,25 +270,23 @@ In Quantum Mechanics overall phase is unimportant, that is $\ket{\psi} \sim \ket
 \rightarrow\ket{\psi}e^{iE_1/\hbar} &= a\ket{E_1} +b \ket{E_2}e^{i(E_1-E_2)/\hbar} \\
 \braket{\mathbf{x}} &= a^2 \braket{E_1|\mathbf{x}|E_1} +2ab\braket{E_1 |\mathbf{x}|E_2}\cos \theta + b^2 \braket{E_2|\mathbf{x}|E_2}
 \end{align*}
-So here the phase \textit{difference} $\theta := (E_1-E_2)/\hbar$ appears explicitly in a measurable quantity. Consider $\mathrm{U}(1)$, a "matrix" that acts on one-dimensional complex vectors, i.e., complex numbers. In this case then, both the "matrix" and "vector" can both be represented as complex numbers 
+So here the phase \textit{difference} $\theta \vcentcolon= (E_1-E_2)/\hbar$ appears explicitly in a measurable quantity. Compare to the phase of the CKM matrix, both phases have physical consequences. It will be shown the case is similar for SCPV. Consider $\mathrm{U}(1)$, a "matrix" that acts on one-dimensional complex vectors, i.e., complex numbers. In this case then, both the "matrix" and "vector" can both be represented as complex numbers 
 \begin{align*}
 |uz|^2=(uz)^* uz = u^*z^* uz = |z^2||u|^2 = |z|^2
 \end{align*}
-This holds for all $z$ if and only if $u$ has length 1, so $u = e^{i\xi}$ where $\xi \in [0,2\pi)$. So it can be said that the global phase symmetry of Quantum Mechanics can be represented as $\mathrm{U}(1)$. 
-
-Note that $\mathrm{SU}(1)=\mathrm{U}(1)$ in this case, as the norm of a single complex number must be positive. Likewise as $\mathrm{U}(1)$ represents a rotation in the complex plane it must have the same group structure as $\mathrm{SO}(2)$. In mathematical language the groups are isomorphic, written as $\mathrm{U}(1) \cong \mathrm{SO}(2)$.
+This holds for all $z$ if and only if $u$ has length 1, so $u = e^{i\xi}$ where $\xi \in [0,2\pi)$. So it can be said that the global phase symmetry of Quantum Mechanics can be represented as $\mathrm{U}(1)$. Note that $\mathrm{SU}(1)=\mathrm{U}(1)$ in this case, as the norm of a single complex number must be positive. Likewise as $\mathrm{U}(1)$ represents a rotation in the complex plane it must have the same group structure as $\mathrm{SO}(2)$. In mathematical language the groups are isomorphic, written as $\mathrm{U}(1) \cong \mathrm{SO}(2)$.
 
 Thus it is clearer to say that the global phase invariance group of quantum mechanics is isomorphic to $\mathrm{U}(1)$. Frequently it is the case that there is a deeper physical meaning behind symmetries. Merely stating a theory is invariant under $\mathrm{U}(1)$ is not sufficient as one must define how $\mathrm{U}(1)$ acts. For example, it can act globally or locally.
 
 Consider Quantum Electrodynamics (QED) the Lagrangian of the theory is invariant under \textbf{local gauge symmetry} of $\mathrm{U}(1)$.
 \begin{align*}
-\psi(x^1,x^2,x^3,x^4) \mapsto e^{i \xi(x^1,x^2,x^3,x^4)} \psi(x^1,x^2,x^3,x^4)
+\psi(x^0,x^1,x^2,x^3) \mapsto e^{i \xi(x^0,x^1,x^2,x^3)} \psi(x^0,x^1,x^2,x^3)
 \end{align*}
-Where in cartesian coordinates $(x^1,x^2,x^3,x^4)=(x,y,z,ct)$. In shorthand
+Where in cartesian coordinates $(x^0,x^1,x^2,x^3)=(ct,x,y,z)$. In shorthand
 \begin{align*}
 \psi(x) \mapsto  \tilde{\psi}(x)=e^{i \xi(x)} \psi(x)
 \end{align*}
-Where x:=(x,y,z,ct) This inherently insists that phase is irrelevant at any point. It was noted that more structure than merely a group is being used  concerning physical groups. Fields, vector spaces, and vector calculus to name a few. Primarily calculus, a fundamentally geometric structure, appears everywhere in physics. The real scalar function $\xi(x)$ must be differentiable.
+Where $x\vcentcolon=(ct,x,y,z)$ This inherently insists that phase is irrelevant at any point. It was noted that more structure than merely a group is being used  concerning physical groups. Fields, vector spaces, and vector calculus to name a few. Primarily calculus, a fundamentally geometric structure, appears everywhere in physics. The real scalar function $\xi(x)$ must be differentiable.
 
 This differentiability calls for the structure of a \textbf{Lie Group} (acting on a set). A Lie group is simply a group where the group operation and taking inverses are differentiable. For a simple example consider the group of addition on $\mathbb{R}$.
 \begin{align*}
@@ -313,11 +313,186 @@ However the difference between usability would be extreme.
 
 A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie-algebras and differential manifolds related to physics can be found at \cite{SCPV3}. 
 
-The gauge symmetries of the standard model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a project manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the SUSY theory $\mathrm{SU}(5)$ as $5^2-1 = 24$ then tells us the number of force carriers in this theory.
+The gauge symmetries of the Standard Model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a project manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the SUSY theory $\mathrm{SU}(5)$ as $5^2-1 = 24$ then tells us the number of force carriers in this theory.
 
 One must call it at a day at some point, actually dealing with Lagrangians is a much more time consuming and worth-while task, but the language developed shall suffice to investigate SCPV models.
 
 \subsection{SCPV. Group Theoretic Conditions.}
+The \textbf{vacuum expectation value} (VEV) of an operator is the expected value of the operator acting on the vacuum state. A vacuum state is analogous to the lowest energy eigenstate of the quantum harmonic oscillator (QHO). For the QHO, the VEV of $\hat{\mathcal{H}}$ is $\hbar \omega /2$. Considering the ladder operators for the QHO analogously to the creation and annihilation operators in QED, this lowest energy state is equivalent to the `no quanta' state. For the remainder of the section the vacuum state for any system shall be denoted  $\ket{0}$.
+
+In the Standard Model vacuum state in general may refer to the vacuum state of different fields. For example in the process of vacuum polarization photons may exist while the electron-positron field is in vacuum state. In order to most generally consider new models abstract scalar fields will be considered. Meaning, $\phi$ need not represent the wave function solely for electromagnetism. It simply represents some interesting field to a new theory.\\
+
+The following is a sketch of a more rigorous development found in \cite{SCPV5}. This paper assumes familiarity with modern Lie Group/Algebra theory and new physics models. Presented below is no substitute, but may be viewed as an intuition-based introduction through the symmetry group language developed.\\
+
+Overall a theory will have a total Lagrangian $\mathcal{L}$ form that depends on every field, just like the total Lagrangian of the Standard Model. Consider first a generalised CP-transformation (GCP), denoted $\hat{G}_{CP}$, on a theory with scalar fields $\phi_i(\mathbf{x},t)$, $i \in \{1,...,n\}$.
+\begin{align*}
+\phi_i(\mathbf{x},t) \mapsto U_{ij} \phi_j^*(-\mathbf{x},t)
+\end{align*}
+Where $[U_{ij}]=\vcentcolon\mathsf{U} \in \mathrm{U}(n)$, a symmetric unitary matrix. This is related to regular CP as $\hat{C}\hat{P}\phi(x)=\hat{C}\phi(-x) = c\phi^*(-x)$, where $c\in\mathbb{C}$ and $\phi$ is a scalar field. In column vector form we obtain
+\begin{align*}
+\left( \begin{array}{c}
+\phi_1(\mathbf{x},t) \\
+\vdots\\
+\phi_n(\mathbf{x},t) \\
+\end{array} \right) =\vcentcolon \Phi(\mathbf{x},t) \mapsto \hat{G}_{CP}\Phi(\mathbf{x},t)= \mathsf{U}\Phi^*(-\mathbf{x},t)
+\end{align*}
+If the total Lagrangian is invariant under this transformation it is GCP invariant.  Now the interest lies in determining the difference between explicit CPV (XCPV) and spontaneous CPV (SCPV). First it is useful to derive conditions where a model is GCP invariant.
+
+So suppose $\mathcal{L}$ is $\hat{G}_{CP}$ invariant. Consider the $\Phi$ as a n-dimensional complex vector. By changing the basis $\Phi \mapsto \mathsf{C}\Phi$, the coordinate transformation for $\mathsf{U}$ is 
+\begin{align*}
+\mathsf{U} \mapsto \tilde{\mathsf{U}}= \mathsf{CU}\mathsf{C}^\dagger
+\end{align*}
+Consider $\mathsf{U}$ temporarily as the metric for a complex inner product, by Gram-Schmidt orthonormalisation a change of basis $C$ may be found such that $\tilde{\mathsf{U}}=\mathsf{I}$. In the context of group theory. In this new basis, then, $\hat{G}_{CP}$ reduces to
+\begin{align*}
+\Phi(\mathbf{x},t) \mapsto \Phi^*(-\mathbf{x},t)
+\end{align*}
+Merely charge conjugation and reflection of space. Theories are always coordinate invariant, else they are non-physical. Hence the coordinate system $\mathsf{C}\Phi$ may be used. It has thus been shown if a theory is GCP invariant, then coordinates exist where $\mathsf{U}=\mathsf{I}$.\\
+
+\textbf{Explicit CP Violation:}\\
+Suppose that $\mathcal{L}$ is invariant under $\hat{G}_{CP}$. As was just shown, there exists a basis where $\mathsf{U}=\mathsf{I}$. Conversely, if for no $\mathsf{U}\in\mathrm{U}(n)$ is $\mathcal{L}$ invariant under $\Phi(\mathbf{x},t) \mapsto \mathsf{U}\Phi^*(-\mathbf{x},t)$ then the theory is explicitly CP violating. Now, this may seem to cover all cases, but, SCPV is not dependent on the GCPV condition. In fact, it is only possible to have SCPV \textit{without} XCPV, as will be explained soon. This must immediately mean that any CPV already observed and predicted by the Standard Model must be explainable in the context of SCPV also.\\
+
+\textbf{Spontaneous CP Violation:}\\
+Suppose that $\mathcal{L}$ is invariant under $\hat{G}_{CP}$, this means XCPV cannot happen, however consider the following.
+
+Pick a basis such that $\mathsf{U}=\mathsf{I}$. In this basis suppose that the VEVs (of the GCP operator ) are not all real numbers. Depending on the VEV values it may or may not be possible to change basis again such that all the VEVs are real \textit{and} $\mathsf{U}$ remains equal to $\mathsf{I}$. If it is possible to find such a basis transformation, the model is totally CP-conserving. if it is not, the model has SCPV.
+
+For a somewhat contrived but pedagogic example suppose a model has two scalar fields $\phi_1$ and $\phi_2$. Suppose the Lagrangian they obey is invariant under the following transformation
+\begin{align*}
+\left( \begin{array}{c}
+\phi_1(\mathbf{x},t) \\
+\phi_2(\mathbf{x},t)
+\end{array} \right) \mapsto \left( \begin{array}{c c}
+1 & i \\
+-i & 2  
+\end{array} \right) \left( \begin{array}{c}
+\phi_1^*(-\mathbf{x},t) \\
+\phi_2^*(-\mathbf{x},t)
+\end{array} \right)
+\end{align*}
+This has the form of a GCP, as can be verified by checking the matrix is unitary. One can now change basis by
+\begin{align*}
+\left( \begin{array}{c}
+\phi_1(\mathbf{x},t) \\
+\phi_2(\mathbf{x},t)
+\end{array} \right) \mapsto \left( \begin{array}{c c}
+1 & 0 \\
+i & 1  
+\end{array} \right) \left( \begin{array}{c}
+\phi_1(\mathbf{x},t) \\
+\phi_2(\mathbf{x},t)
+\end{array} \right) = \left(
+\begin{array}{c}
+\phi_1(\mathbf{x},t) \\
+\phi_2(\mathbf(x),t) + i \phi_1(\mathbf{x},t)
+\end{array} \right)
+\end{align*}
+This gives the new $U$ by
+\begin{align*}
+\left( \begin{array}{c c}
+1 & i \\
+-i & 2  
+\end{array} \right) \mapsto \left( \begin{array}{c c}
+1 & 0 \\
+i & 1  
+\end{array} \right)\left( \begin{array}{c c}
+1 & i \\
+-i & 2  
+\end{array} \right)\left( \begin{array}{c c}
+1 & 0 \\
+i & 1  
+\end{array} \right)^\dagger 
+= \left( \begin{array}{c c}
+1 & 0 \\
+0 & 1  
+\end{array} \right)
+\end{align*}
+So by changing the basis of the fields there is a simpler representation of GCP, it may make the overall Lagrangian more complicated, but one may simply solve that in the first coordinates for the vacuum state, then write that in the GCP preferred coordinates after.
+
+Assume that $\mathcal{L}$ is invariant under $\hat{G}_{CP}$, that is: The Lagrangian does \textit{not} have XCPV, unlike the Standard Model. Whether SCPV is present or not depends on the VEVs of the $\hat{G}_{CP}$ operator. To obtain these one must explicitly solve $\mathcal{L}$ and find the vacuum state, doing this abstractly one may simply choose example VEVs.\\
+
+\begin{flushleft}\textit{case 1} No SCPV, no XCPV. \end{flushleft} 
+Suppose, using the coordinate system obtained where $\mathsf{U}=\mathsf{I}$, that
+\begin{align*}
+\braket{0|\hat{G}_{CP}|0} = \left( \begin{array}{c} \hbar \omega_1 \\ \hbar \omega_2 \end{array}\right)
+\end{align*}
+In this case, there is no SCPV. A coordinate basis has been founded with real VEVs and $\mathsf{U} = \mathsf{I}$.
+
+\begin{flushleft}\textit{case 2} SCPV. \end{flushleft} 
+Suppose, using the coordinate system obtained where $\mathsf{U}=\mathsf{I}$, that
+\begin{align*}
+\braket{0|\hat{G}_{CP}|0} = \left( \begin{array}{c} i\hbar \omega_1 \\ \hbar \omega_2 \end{array}\right)
+\end{align*}
+Here it is impossible to remove the complex number and keep $\mathsf{U}$ as the identity matrix. So there is SCPV. So what is SCPV exactly beyond the mathematical formulation? It means the vacuum is not invariant under CP, but it is not the same CP one is used to as in the Standard Model, as for SCPV to exist XCPV must not. Returning the to earlier discussion about phase invariance in QM, for SCPV to occour one  needs a \textit{physical} phase to occour in the VEVs (for example $i=e^{i\frac{\pi}{2}}$ in the previous example). Just as the physical phase difference occours when measuring, say, the expected value of position. So these phases do give rise to real physical meaning. Described this way, the phase of the CKM matrix is an easy analogy to understand.
+
+\begin{center}
+In quantum physics one must pay attention to which phases have physical consequence. \\Such as: (1) phase-difference between eigenstates in a quantum mechanical state, (2) the\\ phase of the CKM matrix and (3) the relative phases of VEVs in SCP violating theories.
+\end{center}
+
+
+Through the language of symmetry groups the results just obtained are powerful tools for assessing the behvaiour of CP in various theories. These initial results are summarised below.
+\begin{itemize}
+\item[(A)] Invariance of $\mathcal{L}$ under $\hat{G}_{CP}$.
+\item[(B)] Having coordinates in which: (i) $\hat{G}_{CP}$ reduces to spatial reflection and conjugation and (ii) the VEVs of $\hat{G}_{CP}$ are real valued.
+\end{itemize}
+This leaves three interesting possibilities  (as $\lnot$A$\Rightarrow\lnot B$) 
+\begin{itemize}
+\item[(i)] (Neither A nor B) XCPV. 
+\item[(ii)] (A and B) SCPV.
+\item[(iii)] (A and not B) Total CP invariance.
+\end{itemize}
+What is more interesting is painting this in more of a particle physics light, though it is difficult to do in general as the criterion as so general, it can be done by noting possible force carriers as ``suprions" \cite{SCPV5}. A simplified example will be taken.\\
+
+\subsection{SCPV. The Aspon Model}
+
+The theme of this section has been unravelling abstraction through examples. Continuing this trend the aspon model is explored \cite{SCPV7}. It is an illustrative example because it is so close to the Standard Model. The local gauge symmetry of the aspon model is
+\begin{align*}
+\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1) \times \mathrm{U}(1)
+\end{align*}
+compared to the Standard Model
+\begin{align*}
+\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)
+\end{align*}
+If two differential manifolds $\mathcal{M}$ and $\mathcal{N}$ have dimension $m$ and $n$ respectively, their product manifold $\mathcal{M} \times \mathcal{N}$ has dimension $m+n$. A product manifold is constructed as one would expect with the example $\mathbb{R}^2 = \mathbb{R}\times \mathbb{R}$. This means the only difference between the Standard Model's gauge symmetry group's dimension and the aspon model's is the dimension of $\mathrm{U}(1)$, which is $1^2=1$. As noted before, this corresponds to the number of force carriers in the theory which implies the aspon model has one more force carrier than the Standard Model. This force carrier is called the \textbf{aspon} and denoted $A^0$.
+
+The regular Standard Model particles all have aspon charge 0. This model allows additional possible states, of most important are two complex Higgs scalar particles denoted $\chi^\alpha$ where $\alpha \in \{1,2\}$, these have aspon charge 1. These are the cause of the VEV values with non-removable complex phase. In other words, here lies the SCPV.
+
+Writing the VEVs of each new particle as
+\begin{align*}
+\braket{\chi^\alpha}=r_\alpha e^{i \theta_\alpha}\hspace{10mm}r_\alpha \in \mathbb{R}
+\end{align*}
+SCPV violation occours by symmetry breaking in a manner analogous to the Higgs. These being Higgs particles allows the Higgs symmetry-breaking mechanism to be used, which causes the CP violation. In turn this also gives the aspon mass.
+
+A lot has been said in the previous paragraphs. Despite knowing the mathematical symmetry conditions required for SCPV, explicit intuition about how CP occurs was not given. Now, with the non-removable phases appearing on Higgs particles, by symmetry breaking through the Higgs mechanism this can cause measurable CP violation. Without the possibility of this symmetry breaking in SCPV theories, they would be worthless. At the very least the theories need to explain $K^0-\bar{K}^0$ mixing and as XCPV is incompatible with SCPV, it \textit{must} use the SCPV mechanism.
+
+The Feynman Diagram for the leading order term for $K^0-\bar{K}^0$ mixing is then
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{figs/kill_me.png}
+\end{center}
+\caption{\textit{Feynman Diagram for Kaon mixing in aspon theory }}
+\label{asponkaon}
+\end{figure}
+
+
+Generalisations of the aspon model are easy to construct and are the de-facto presentation in \cite{SCPV5}. It is possible to understand what was meant by SCPV being more ``natural" than XCPV in \cite{SCPV1}, simply by thinking that the symmetry breaking mechanism of the Higgs is more natural than the CKM matrix. 
+
+
+These generalisations simply rely on creating new fields and observing whether or not they have non-removable complex phases in VEVs and their physical effect after symmetry breaking. To be totally general the symmetry breaking need not be Higgs, but for all intents and purposes it usually will be.
+
+In these generalised theories, the particles generated are called ``spurions" of which the $\chi^\alpha$ higgs particles are specific examples of. SCPV is always related to symmetry breaking of the $\mathrm{U}(1)$ lie group, otherwise, despite VEV having complex phase, it will not show physically. Another important point si the requirement for at least two spurions, for even if there were a non-removable vacuum value like
+\begin{align*}
+\braket{0|\hat{G}_{CP}|0} = r e^{i\theta}
+\end{align*}
+As there is only one, this phase will never turn up measurably, one requires a phase difference (just as in quantum mechanics) for it to be physical.
+
+\subsection{SCPV. Conclusion}
+Despite in general having quite an abstract formulation, SCPV is quite an interesting competitor for explaining CPV. Unfortunately, the mathematical details remain beyond the comprehension of the writer's current abilities. Hence, interesting ideas like exactly how new states are predicted have not been attempted. Still, seeing how complex ideas in particle physical physics can be represented by simple symmetry conditions, just as complex ideas can be represented by Feynman diagrams, makes it a far more approachable subject for an undergraduate.
+
+As what has been discussed is such a general condition it is quite robust to how long it may remain experimentally unfalsifiable. One condition for falsification would be if XCPV is found to be necessary, as that would contradict the result of part D. What are perhaps more interesting are explicit SCPV theories which make falsifiable predictions. For example the aspon model makes the prediction that for $K^0$ mixing the CP parameters must $Re(\frac{\epsilon'}{\epsilon}) \leq 10^{-5}$ \cite{SCPV7}. Comparing this to the experimental result given in the Neutral Kaon Mixing section, $Re(\frac{\epsilon'}{\epsilon})=0.00166 \pm 0.00023$ it is seen that the aspon method \textit{has} been falsified. 
+
+Quite a few modern theories are difficult if not impossible to falsify. For example, the weak anthropic principle. It is refreshing to have dealt with an idea that has been proven wrong. That is science. Still, SCPV remains in many other prominent models. Aspon theory is introduced purely as an explanatory example.
+
+
 
 
 
