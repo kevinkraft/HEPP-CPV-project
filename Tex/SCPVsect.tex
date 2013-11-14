@@ -1,7 +1,7 @@
 \section{Spontaneous Charge Parity Violation} 
 A major motivation for creating models with new CPV mechanisms is to explain Baryon asymmetry. This is a huge research area, a simple search on arXiv.org reveals over $500$ papers. The most prevalent theories are based around Super-Symmetry (SUSY) and Spontaneous Charge Parity Violation (SCPV). 
 
-Typically these models are created by looking for gauge symmetries which coincide with Langrangians similar to the Standard Model, but with extra terms that may account for the preference of antimatter to decay into matter.  
+Typically these models are created by looking for gauge symmetries which coincide with Lagrangians similar to the Standard Model, but with extra terms that may account for the preference of antimatter to decay into matter.  
 
 SCPV is praised for its ``naturalness" in comparison to regular CPV\cite{SCPV1}. It supposes the possibility to have spontaneous CPV by the vacuum, as opposed to explicit CPV from the CKM matrices. That is, the vacuum is no longer invariant under CP. In a sense this is nice as it may not introduce as many new particles. Indeed, the Minimal SUSY Standard Model is not compatible with SCPV, and in general it is difficult to incorporate SCPV in SUSY models\cite{SCPV1}, but it has been done. For example in SUSY $\mathrm{SO}(10)$ \cite{SCPV2}.
 
@@ -38,7 +38,7 @@ The purpose of this proof was to give some familiar meaning to the abstraction. 
 
 Similarly, every vector space is a group under vector addition. With this it could be said that all of physics uses groups, however a secondary school student does not use differential geometry with Newton's laws. At this stage groups are still useless to the practical physicist.
 
-A \textbf{Transformation Group} is a more useful idea. Let $X$ be a set, $\mathrm{Transf}(X)$ is the set of all one-to-one functions from $X$ to $X$. This is the set of all ways of rearranging $X$. In the context of a finite group $S=\{1,2,...,n\}$, $\mathrm{Transf}(S)$ is just the set of all permutations. 
+A \textbf{transformation group} is a more useful idea. Let $X$ be a set, $\mathrm{Transf}(X)$ is the set of all one-to-one functions from $X$ to $X$. This is the set of all ways of rearranging $X$. In the context of a finite group $S=\{1,2,...,n\}$, $\mathrm{Transf}(S)$ is just the set of all permutations. 
 
 If $3$-dimensional space was modelled by $\mathbb{R}^3$ the transformation group would not be useful, it would contain unnatural discontinuous functions that do not relate to intuition about space. What would be useful is:
 \begin{center}
@@ -108,12 +108,12 @@ Denote the set of rotations, which preserve length and handedness (reflection ch
 So far this may seem over simplified but now it is already possible to define groups which preserve much more interesting and relevant properties
 \begin{itemize}
 \item Galilean Transformations. Preserve Newton's Laws.
-\item Unitary Operators. Preserve normalisation in quantum mechanics. Propagators should have this.
-\item Lorrentz Transformations. Preserve the light cone. Equivalently the Minkowski metric.
+\item Unitary Operators. Preserve normalisation in quantum mechanics (QM). Propagators should have this.
+\item Lorentz Transformations. Preserve the light cone. Equivalently the Minkowski metric.
 \end{itemize}
 Intuitively, because these preserve something about a space, they form a group. This can greatly simplify some things, they are always invertible, a composition of two transformations still preserves.
 
- There are many other aspects of group theory that can be useful here. Consider similar matrices, in the context of groups these are called conjugate elements. In the context of rotations they rotate by the same angle (but not the same direction), in the context of Lorrentz Boosts they have the same speed (but not the same direction).
+ There are many other aspects of group theory that can be useful here. Consider similar matrices, in the context of groups these are called conjugate elements. In the context of rotations they rotate by the same angle (but not the same direction), in the context of Lorentz Boosts they have the same speed (but not the same direction).
  
  If the reader is interested there is a lot of literature furthering this area, particularly physics-focused is \cite{SCPV3}. In this paper the theory shall not be explained further, aside from the symmetry group theorem proved below. 
 \vspace{2mm} \\
@@ -176,19 +176,19 @@ To have the same form this requires, $\dot{R}=0$ and $\ddot{a}=0$. This is equiv
 \end{align*}
 A Galilean transformation is a symmetry group which preserves Newton's laws. It can be readily extended to also preserve distance and time intervals. \\
 
-The goal is to explain the Quantum Field Theory models, Euclidean distance and Newton's Laws are not applicable. They act as an analogy for the Minkowski metric and Quantum Mechanics.
+The goal is to explain the Quantum Field Theory models, Euclidean distance and Newton's Laws are not applicable. They act as an analogy for the Minkowski metric and QM.
 
-\begin{flushleft}\textit{example 2.0} Lorrentz Transformations. \end{flushleft}
-Suppose one wishes to preserve the Minkowski Metric, or equivalently, the light-cone. The transformations that do so are called Lorrentz transformations, essentially defined by
+\begin{flushleft}\textit{example 2.0} Lorentz Transformations. \end{flushleft}
+Suppose one wishes to preserve the Minkowski Metric, or equivalently, the light-cone. The transformations that do so are called Lorentz transformations, essentially defined by
 \begin{align*}
 \mathsf{L}^T \mathsf{\eta} \mathsf{L} = \mathsf{\eta}
 \end{align*}
-Extending the transformations to allow for a translation $P^\mu_\nu x^\nu = L^\mu_\nu x^\nu + a^\mu$, these are called Poincaré transformations. The essence of Special Relativity is that the laws of physics are invariant under Poincaré transformation.
+Extending the transformations to allow for a translation $P^\mu_\nu x^\nu = L^\mu_\nu x^\nu + a^\mu$, these are called Poincar\'{e} transformations. The essence of Special Relativity is that the laws of physics are invariant under Poincar\'{e} transformation.
 
 \begin{flushleft}\textit{example 2.1} Unitary Transformations. \end{flushleft}
-In quantum mechanics the total probability of a time evolving state must always be $1$, otherwise it is simply not a probability. In the context of Hilbert spaces (complex inner product spaces complete under the induced norm), the norm of a state gives its probability, so the norm must be preserved.
+In QM the total probability of a time evolving state must always be $1$, otherwise it is simply not a probabilistic theory. In the context of Hilbert spaces (complex inner product spaces complete under the induced norm), the norm of a state gives its probability, so the norm must be preserved.
 
-Recall in Euclidean space Orthogonal Transformations preserve the norm of a vector, as it preserves the dot product. The complex result is analogous but in the case of operators extends far more, for example
+Recall in Euclidean space orthogonal transformations preserve the norm of a vector, as it preserves the dot product. The complex result is analogous but in the case of operators extends far more, for example
 \begin{align*}
 \ket{\Psi(t)}=e^{-it\hat{\mathcal{H}} / \hbar}\ket{\Psi(0)}
 \end{align*}
@@ -241,35 +241,35 @@ More generally a gauge transformation is defined as a \textit{local} transformat
 
 The reader may be having a hard time seeing how this relates to particle physics. With the benefit of the language being developed some light may be shed on what the remainder of this section will contain.
 
-Most of the groups discussed have their place in modern particle physics. Lorrentz invariance and unitarity of symmetry operators obviously extend from special relativity and quantum mechanics. That is not all, the gauge-symmetry group of the Standard Model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the Standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
+Most of the groups discussed have their place in modern particle physics. Lorentz invariance and unitarity of symmetry operators obviously extend from special relativity and QM. That is not all, the gauge-symmetry group of the Standard Model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the Standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
 
-It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPVgroups}. Explaining how to use this with the mathematics being developed is the primary goal of the section. Although, the hierarchy of knowledge required for theoretical physics is unfortunately large. Despite that the material has attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
+It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPV5}. Explaining how to use this with the mathematics being developed is the primary goal of the section. Although, the hierarchy of knowledge required for theoretical physics is unfortunately large. Despite that the material has attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
 
-In Quantum Mechanics overall phase is unimportant, that is $\ket{\psi} \sim \ket{\psi}e^{i\xi}$ where $\xi \in [0,2\pi)$. When making any physical measurement the phase cancels out in the complex inner product. It forms a \textit{global} gauge Symmetry. Phase is still important in Quantum mechanics in the form of phase difference. Consider two energy eigenstates with $a,b\in \mathbb{R}$
+In QM overall phase is unimportant, that is $\ket{\psi} \sim \ket{\psi}e^{i\xi}$ where $\xi \in [0,2\pi)$. When making any physical measurement the phase cancels out in the complex inner product. It forms a \textit{global} gauge symmetry. Phase is still important in QM in the form of phase difference. Consider two energy eigenstates with $a,b\in \mathbb{R}$
 \begin{align*}
 \ket{\psi} &= a\ket{E_1}e^{-iE_1/\hbar} +b \ket{E_2}e^{-iE_2/\hbar} \\
 \rightarrow\ket{\psi}e^{iE_1/\hbar} &= a\ket{E_1} +b \ket{E_2}e^{i(E_1-E_2)/\hbar} \\
 \braket{\mathbf{x}} &= a^2 \braket{E_1|\mathbf{x}|E_1} +2ab\braket{E_1 |\mathbf{x}|E_2}\cos \theta + b^2 \braket{E_2|\mathbf{x}|E_2}
 \end{align*}
-So here the phase \textit{difference} $\theta \vcentcolon= (E_1-E_2)/\hbar$ appears explicitly in a measurable quantity. Compare to the phase of the CKM matrix, both phases have physical consequences. It will be shown the case is similar for SCPV. Consider $\mathrm{U}(1)$, a "matrix" that acts on one-dimensional complex vectors, i.e., complex numbers. In this case then, both the "matrix" and "vector" can both be represented as complex numbers 
+So here the phase \textit{difference} $\theta \vcentcolon= (E_1-E_2)/\hbar$ appears explicitly in a measurable quantity. Compare to the phase of the CKM matrix, both phases have physical consequences. It will be shown the case is similar for SCPV. Consider $\mathrm{U}(1)$, a ``matrix" that acts on one-dimensional complex vectors, i.e., complex numbers. In this case then, both the ``matrix" and ``vector" can both be represented as complex numbers 
 \begin{align*}
 |uz|^2=(uz)^* uz = u^*z^* uz = |z^2||u|^2 = |z|^2
 \end{align*}
-This holds for all $z$ if and only if $u$ has length 1, so $u = e^{i\xi}$ where $\xi \in [0,2\pi)$. So it can be said that the global phase symmetry of Quantum Mechanics can be represented as $\mathrm{U}(1)$. Note that $\mathrm{SU}(1)=\mathrm{U}(1)$ in this case, as the norm of a single complex number must be positive. Likewise as $\mathrm{U}(1)$ represents a rotation in the complex plane it must have the same group structure as $\mathrm{SO}(2)$. In mathematical language the groups are isomorphic, written as $\mathrm{U}(1) \cong \mathrm{SO}(2)$.
+This holds for all $z$ if and only if $u$ has length 1, so $u = e^{i\xi}$ where $\xi \in [0,2\pi)$. So it can be said that the global phase symmetry of QM can be represented as $\mathrm{U}(1)$. Note that $\mathrm{SU}(1)=\mathrm{U}(1)$ in this case, as the norm of a single complex number must be positive. Likewise as $\mathrm{U}(1)$ represents a rotation in the complex plane it must have the same group structure as $\mathrm{SO}(2)$. In mathematical language the groups are isomorphic, written as $\mathrm{U}(1) \cong \mathrm{SO}(2)$.
 
-Thus it is clearer to say that the global phase invariance group of quantum mechanics is isomorphic to $\mathrm{U}(1)$. Frequently it is the case that there is a deeper physical meaning behind symmetries. Merely stating a theory is invariant under $\mathrm{U}(1)$ is not sufficient as one must define how $\mathrm{U}(1)$ acts. For example, it can act globally or locally.
+Thus it is clearer to say that the global phase invariance group of QM is isomorphic to $\mathrm{U}(1)$. Frequently it is the case that there is a deeper physical meaning behind symmetries. Merely stating a theory is invariant under $\mathrm{U}(1)$ is not sufficient as one must define how $\mathrm{U}(1)$ acts. For example, it can act globally or locally.
 
 Consider Quantum Electrodynamics (QED) the Lagrangian of the theory is invariant under \textbf{local gauge symmetry} of $\mathrm{U}(1)$.
 \begin{align*}
 \psi(x^0,x^1,x^2,x^3) \mapsto e^{i \xi(x^0,x^1,x^2,x^3)} \psi(x^0,x^1,x^2,x^3)
 \end{align*}
-Where in cartesian coordinates $(x^0,x^1,x^2,x^3)=(ct,x,y,z)$. In shorthand
+Where in Cartesian coordinates $(x^0,x^1,x^2,x^3)=(ct,x,y,z)$. In shorthand
 \begin{align*}
 \psi(x) \mapsto  \tilde{\psi}(x)=e^{i \xi(x)} \psi(x)
 \end{align*}
 Where $x\vcentcolon=(ct,x,y,z)$ This inherently insists that phase is irrelevant at any point. It was noted that more structure than merely a group is being used  concerning physical groups. Fields, vector spaces, and vector calculus to name a few. Primarily calculus, a fundamentally geometric structure, appears everywhere in physics. The real scalar function $\xi(x)$ must be differentiable.
 
-This differentiability calls for the structure of a \textbf{Lie Group} (acting on a set). A Lie group is simply a group where the group operation and taking inverses are differentiable. For a simple example consider the group of addition on $\mathbb{R}$.
+This differentiability calls for the structure of a \textbf{Lie group} (acting on a set). A Lie group is simply a group where the group operation and taking inverses are differentiable. For a simple example consider the group of addition on $\mathbb{R}$.
 \begin{align*}
 &\cdot(x,y) = x+y &\mathrm{inv}(x) = -x
 \end{align*}
@@ -286,13 +286,13 @@ Returning the example of QED's local gauge symmetry and comparing with the globa
 \end{align*}
 Both symmetries are isomorphic to $\mathrm{U}(1)$ but in very different contexts. In QM it may be regarded simply as a group, but in QED the differentiability effects the Lagrangian non-trivially.
 
-The local gauge symmetry of the strong force is $\mathrm{SU}(3)$ and for the weak force it is $\mathrm{SU}(2)$. Like $U(1)$ was represented by one parameter which was a function of space-time position $\xi(x)$, $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ have $2^2-1=3$ and $3^3-1=8$ respectively. Notice peculiarly these these are the amount of force carriers in each theory.
+The local gauge symmetry of the strong force is $\mathrm{SU}(3)$ and for the weak force it is $\mathrm{SU}(2)$. Like $\mathrm{U}(1)$ was represented by one parameter which was a function of space-time position $\xi(x)$, $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ have $2^2-1=3$ and $3^3-1=8$ respectively. Notice peculiarly these these are the amount of force carriers in each theory.
 
 What do these symmetries mean physically? According to \cite{SCPV6}, they are like the the potentials $\mathbf{A}, \phi$ for classical electromagnetism; merely a tool to make the mathematics easier. In the same way as one could use $\mathbf{E}$ and $\mathbf{B}$ without the degeneracy of $\mathbf{A}$ and $\phi$, in principle one could formulate QED completely independent of phase, even without complex numbers.
 However the difference between usability would be extreme.
 
 
-A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie-algebras and differential manifolds related to physics can be found at \cite{SCPV3}. 
+A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie groups and differential manifolds related to physics can be found at \cite{SCPV3}. 
 
 The gauge symmetries of the Standard Model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a project manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the SUSY theory $\mathrm{SU}(5)$ as $5^2-1 = 24$ then tells us the number of force carriers in this theory.
 
@@ -367,7 +367,7 @@ i & 1
 \phi_2(\mathbf(x),t) + i \phi_1(\mathbf{x},t)
 \end{array} \right)
 \end{align*}
-This gives the new $U$ by
+This gives the new $\mathsf{U}$ by
 \begin{align*}
 \left( \begin{array}{c c}
 1 & i \\
@@ -403,14 +403,14 @@ Suppose, using the coordinate system obtained where $\mathsf{U}=\mathsf{I}$, tha
 \begin{align*}
 \braket{0|\hat{G}_{CP}|0} = \left( \begin{array}{c} i\hbar \omega_1 \\ \hbar \omega_2 \end{array}\right)
 \end{align*}
-Here it is impossible to remove the complex number and keep $\mathsf{U}$ as the identity matrix. So there is SCPV. So what is SCPV exactly beyond the mathematical formulation? It means the vacuum is not invariant under CP, but it is not the same CP one is used to as in the Standard Model, as for SCPV to exist XCPV must not. Returning the to earlier discussion about phase invariance in QM, for SCPV to occour one  needs a \textit{physical} phase to occour in the VEVs (for example $i=e^{i\frac{\pi}{2}}$ in the previous example). Just as the physical phase difference occours when measuring, say, the expected value of position. So these phases do give rise to real physical meaning. Described this way, the phase of the CKM matrix is an easy analogy to understand.
+Here it is impossible to remove the complex number and keep $\mathsf{U}$ as the identity matrix. So there is SCPV. So what is SCPV exactly beyond the mathematical formulation? It means the vacuum is not invariant under CP, but it is not the same CP one is used to as in the Standard Model, as for SCPV to exist XCPV must not. Returning the to earlier discussion about phase invariance in QM, for SCPV to occur one  needs a \textit{physical} phase to occur in the VEVs (for example $i=e^{i\frac{\pi}{2}}$ in the previous example). Just as the physical phase difference occurs when measuring, say, the expected value of position. So these phases do give rise to real physical meaning. Described this way, the phase of the CKM matrix is an easy analogy to understand.
 
 \begin{center}
 In quantum physics one must pay attention to which phases have physical consequence. \\Such as: (1) phase-difference between eigenstates in a quantum mechanical state, (2) the\\ phase of the CKM matrix and (3) the relative phases of VEVs in SCP violating theories.
 \end{center}
 
 
-Through the language of symmetry groups the results just obtained are powerful tools for assessing the behvaiour of CP in various theories. These initial results are summarised below.
+Through the language of symmetry groups the results just obtained are powerful tools for assessing the behaviour of CP in various theories. These initial results are summarised below.
 \begin{itemize}
 \item[(A)] Invariance of $\mathcal{L}$ under $\hat{G}_{CP}$.
 \item[(B)] Having coordinates in which: (i) $\hat{G}_{CP}$ reduces to spatial reflection and conjugation and (ii) the VEVs of $\hat{G}_{CP}$ are real valued.
@@ -421,7 +421,7 @@ This leaves three interesting possibilities  (as $\lnot$A$\Rightarrow\lnot B$)
 \item[(ii)] (A and B) SCPV.
 \item[(iii)] (A and not B) Total CP invariance.
 \end{itemize}
-What is more interesting is painting this in more of a particle physics light, though it is difficult to do in general as the criterion as so general, it can be done by noting possible force carriers as ``suprions" \cite{SCPV5}. A simplified example will be taken.\\
+What is more interesting is painting this in more of a particle physics light, though it is difficult to do in general as the criterion as so general, it can be done by noting possible force carriers as ``spurions" \cite{SCPV5}. A simplified example will be taken.\\
 
 \subsection{SCPV. The Aspon Model}
 
@@ -441,7 +441,7 @@ Writing the VEVs of each new particle as
 \begin{align*}
 \braket{\chi^\alpha}=r_\alpha e^{i \theta_\alpha}\hspace{10mm}r_\alpha \in \mathbb{R}
 \end{align*}
-SCPV violation occours by symmetry breaking in a manner analogous to the Higgs. These being Higgs particles allows the Higgs symmetry-breaking mechanism to be used, which causes the CP violation. In turn this also gives the aspon mass.
+SCPV violation occurs by symmetry breaking in a manner analogous to the Higgs. These being Higgs particles allows the Higgs symmetry-breaking mechanism to be used, which causes the CP violation. In turn this also gives the aspon mass.
 
 A lot has been said in the previous paragraphs. Despite knowing the mathematical symmetry conditions required for SCPV, explicit intuition about how CP occurs was not given. Now, with the non-removable phases appearing on Higgs particles, by symmetry breaking through the Higgs mechanism this can cause measurable CP violation. Without the possibility of this symmetry breaking in SCPV theories, they would be worthless. At the very least the theories need to explain $K^0-\bar{K}^0$ mixing and as XCPV is incompatible with SCPV, it \textit{must} use the SCPV mechanism.
 
@@ -460,16 +460,15 @@ Generalisations of the aspon model are easy to construct and are the de-facto pr
 
 These generalisations simply rely on creating new fields and observing whether or not they have non-removable complex phases in VEVs and their physical effect after symmetry breaking. To be totally general the symmetry breaking need not be Higgs, but for all intents and purposes it usually will be.
 
-In these generalised theories, the particles generated are called ``spurions" of which the $\chi^\alpha$ higgs particles are specific examples of. SCPV is always related to symmetry breaking of the $\mathrm{U}(1)$ lie group, otherwise, despite VEV having complex phase, it will not show physically. Another important point si the requirement for at least two spurions, for even if there were a non-removable vacuum value like
+In these generalised theories, the particles generated are called ``spurions" of which the $\chi^\alpha$ Higgs particles are specific examples of. SCPV is always related to symmetry breaking of the $\mathrm{U}(1)$ lie group, otherwise, despite VEV having complex phase, it will not show physically. Another important point is the requirement for at least two spurions, for even if there were a non-removable vacuum value like
 \begin{align*}
 \braket{0|\hat{G}_{CP}|0} = r e^{i\theta}
 \end{align*}
-As there is only one, this phase will never turn up measurably, one requires a phase difference (just as in quantum mechanics) for it to be physical.
+As there is only one, this phase will never turn up measurably, one requires a phase difference (just as in QM) for it to be physical.
 
 \subsection{SCPV. Conclusion}
 Despite in general having quite an abstract formulation, SCPV is quite an interesting competitor for explaining CPV. Unfortunately, the mathematical details remain beyond the comprehension of the writer's current abilities. Hence, interesting ideas like exactly how new states are predicted have not been attempted. Still, seeing how complex ideas in particle physical physics can be represented by simple symmetry conditions, just as complex ideas can be represented by Feynman diagrams, makes it a far more approachable subject for an undergraduate.
 
-As what has been discussed is such a general condition it is quite robust to how long it may remain experimentally unfalsifiable. One condition for falsification would be if XCPV is found to be necessary, as that would contradict the result of part D. What are perhaps more interesting are explicit SCPV theories which make falsifiable predictions. For example the aspon model makes the prediction that for $K^0$ mixing the CP parameters must $Re(\frac{\epsilon'}{\epsilon}) \leq 10^{-5}$ \cite{SCPV7}. Comparing this to the experimental result given in the Neutral Kaon Mixing section, $Re(\frac{\epsilon'}{\epsilon})=0.00166 \pm 0.00023$ it is seen that the aspon method \textit{has} been falsified. 
+As what has been discussed is such a general condition it is quite robust to how long it may remain experimentally unfalsifiable. This is not an attractive quality. One condition for falsification would be if XCPV is found to be necessary, as that would contradict the result of part D. What are perhaps more interesting are explicit SCPV theories which make falsifiable predictions. For example the aspon model makes the prediction that for $K^0$ mixing the CP parameters must $Re(\frac{\epsilon'}{\epsilon}) \leq 10^{-5}$ \cite{SCPV7}. Comparing this to the experimental result given in the Neutral Kaon Mixing section, $Re(\frac{\epsilon'}{\epsilon})=0.00166 \pm 0.00023$ it is seen that the aspon method \textit{has} been falsified. 
 
-Quite a few modern theories are difficult if not impossible to falsify. For example, the weak anthropic principle. It is refreshing to have dealt with an idea that has been proven wrong. That is science. Still, SCPV remains in many other prominent models. Aspon theory is introduced purely as an explanatory example.
-
+Quite a few modern theories are difficult if nigh on impossible to falsify. It is refreshing to have dealt with an idea that has been proven wrong. Still, SCPV remains in many other prominent models. Aspon theory is introduced purely as an explanatory example.

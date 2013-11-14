@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  14 NOV 2013 06:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  14 NOV 2013 21:41
 entering extended mode
 **SCPV.tex
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.tex"
@@ -326,18 +326,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no © in font cmr10!
 [4]
 
 Package natbib Warning: Citation `SCPV4' on page 5 undefined on input line 263.
 
 
 
-Package natbib Warning: Citation `SCPVgroups' on page 5 undefined on input line
- 265.
+Package natbib Warning: Citation `SCPV5' on page 5 undefined on input line 265.
+
 
 [5]
 
@@ -423,12 +419,12 @@ Package natbib Warning: There were undefined citations.
 ) ) 
 Here is how much of TeX's memory you used:
  4317 strings out of 493921
- 56289 string characters out of 3152087
+ 56285 string characters out of 3152087
  135705 words of memory out of 3000000
  7564 multiletter control sequences out of 15000+200000
  9129 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,16n,28p,794b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,16n,28p,791b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Maths/MikTeX/
 fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/Maths/MikTeX/fonts/type1/public/am
 sfonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pf
@@ -446,7 +442,7 @@ blic/amsfonts/cm/cmti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmt
 i9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><E:/Math
 s/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on SCPV.pdf (10 pages, 290024 bytes).
+Output written on SCPV.pdf (10 pages, 289860 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
