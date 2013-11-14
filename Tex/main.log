@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.4)  14 NOV 2013 11:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  14 NOV 2013 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,47 +326,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)) (./CP_Violation.tex
-
-Package natbib Warning: Citation `FirstCPV' on page 1 undefined on input line 3
-.
-
-) (./CPV_in_Kaon_system.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p}]
+)) (./CP_Violation.tex) (./CPV_in_Kaon_system.tex [1{/var/lib/texmf/fonts/map/p
+dftex/updmap/pdftex.map}]
 Missing character: There is no â in font cmr7!
 Missing character: There is no ˆ in font cmr7!
 Missing character: There is no ’ in font cmr7!
 Missing character: There is no â in font cmr7!
 Missing character: There is no ˆ in font cmr7!
 Missing character: There is no ’ in font cmr7!
-
-
-Package natbib Warning: Citation `PDGKaons' on page 2 undefined on input line 5
-1.
-
-
-Package natbib Warning: Citation `Martin+Shaw' on page 2 undefined on input lin
-e 51.
-
-[2]
+ [2]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-
-Package natbib Warning: Citation `FirstCPV' on page 3 undefined on input line 8
-5.
-
-<figs/Christenson_apparatus.png, id=23, 1999.47pt x 1623.06375pt>
+ <figs/Christenson_apparatus.png, id=23, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
 Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 89.
 (pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
-
-
-Package natbib Warning: Citation `Christenson_apparatus_ref' on page 3 undefine
-d on input line 91.
 
 <figs/Christenson_results.png, id=24, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
@@ -376,19 +353,11 @@ Package pdftex.def Info: figs/Christenson_results.png used on input line 97.
 (pdftex.def)             Requested size: 165.62003pt x 169.23355pt.
 
 
-Package natbib Warning: Citation `FirstCPV' on page 3 undefined on input line 9
-9.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: Reference `FirstKaonLinComb' on page 3 undefined on input line 1
 03.
-
-
-Package natbib Warning: Citation `Measurements_Direct_CPV_Kaons_KTev' on page 3
- undefined on input line 112.
 
 [3 <./figs/Christenson_apparatus.png>]
 <figs/Perkins_Interference_Kaons.png, id=30, 746.79pt x 251.94125pt>
@@ -398,44 +367,15 @@ File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
  123.
 (pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
-
-
-Package natbib Warning: Citation `HEPP_intro_Perkins' on page 4 undefined on in
-put line 125.
-
-
-Package natbib Warning: Citation `HEPP_intro_Perkins' on page 4 undefined on in
-put line 125.
-
-
-Package natbib Warning: Citation `PDGKaons' on page 4 undefined on input line 1
-29.
-
-
-Package natbib Warning: Citation `PDGKaons' on page 4 undefined on input line 1
-35.
-
-[4 <./figs/Christenson_results.png> <./figs/Perkins_Interference_Kaons.png>]
-
-Package natbib Warning: Citation `PDGKaons' on page 5 undefined on input line 1
-72.
-
+ [4 <./figs/Christenson_results.png> <./figs/Perkins_Interference_Kaons.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Package natbib Warning: Citation `DAmbrosio' on page 5 undefined on input line 
-223.
-
 [5]
-
-Package natbib Warning: Citation `DAmbrosio' on page 6 undefined on input line 
-229.
-
 Missing character: There is no â in font cmr7!
 Missing character: There is no ˆ in font cmr7!
 Missing character: There is no ’ in font cmr7!
-<figs/Asymmetry_pic.png, id=42, 683.55376pt x 472.76625pt>
+ <figs/Asymmetry_pic.png, id=42, 683.55376pt x 472.76625pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
@@ -443,65 +383,137 @@ Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 246.
 (pdftex.def)             Requested size: 273.41666pt x 189.10315pt.
 
 
-Package natbib Warning: Citation `AsymmetryPic' on page 6 undefined on input li
-ne 248.
-
-
-Package natbib Warning: Citation `AsymmetryPic' on page 6 undefined on input li
-ne 248.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./HEPPCPV-CKM.tex
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [6]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [7 <./figs/Asymmetry_pic.png>]
-! Extra \right.
-l.36 ...gin{array}{c} d' \\ s' \end{array} \right]
-                                                    = \begin{pmatrix} cos\th...
+) (./SCPVsect.tex [6] [7 <./figs/Asymmetry_pic.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
 
-? x
- 
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+[10]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [11]
+
+Package natbib Warning: Citation `SCPVgroups' on page 12 undefined on input lin
+e 246.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+[15] <figs/kill_me.png, id=81, 354.57469pt x 213.04594pt>
+File: figs/kill_me.png Graphic file (type png)
+
+<use figs/kill_me.png>
+Package pdftex.def Info: figs/kill_me.png used on input line 451.
+(pdftex.def)             Requested size: 177.28691pt x 106.5227pt.
+) [16 <./figs/kill_me.png>]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+
+
+Package natbib Warning: There were undefined citations.
+
+[17] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4681 strings out of 495059
- 63002 string characters out of 3182031
- 150333 words of memory out of 3000000
- 7769 multiletter control sequences out of 15000+200000
- 10938 words of font info for 42 fonts, out of 3000000 for 9000
+ 4776 strings out of 495059
+ 64479 string characters out of 3182030
+ 150603 words of memory out of 3000000
+ 7852 multiletter control sequences out of 15000+200000
+ 13455 words of font info for 50 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,12n,26p,2453b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on main.pdf (7 pages, 345389 bytes).
+ 38i,16n,28p,2453b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on main.pdf (17 pages, 481627 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

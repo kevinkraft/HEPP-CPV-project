@@ -88,6 +88,11 @@ Kaon CPV in semi-leptonic
     * A+ = amp(K0 -> pi- l+ nu) 
     * \barA+ = amp(\barK0 -> pi- l+ nu) strongly suppressed relative to A+ (delta S = delta Q rule) 
 
+  *Strangeness oscillations and CPT test (See Strangeness_CPT.pdf)
+    * tagging the initial strangeness with stong decays and tagging final state with semileptonic decays
+    * oscillations calculation in Zeng and M+S to determine Delta_m of L,S
+    * link between Delta_m of L,S and Delta_m of kaons, zero and zero bar???? (See Strangeness_CPT.pdf)
+
 Charged Kaon CPV(Don't do this)
 ------------------
   * No mass mixing (d'ambrosio pg 13)

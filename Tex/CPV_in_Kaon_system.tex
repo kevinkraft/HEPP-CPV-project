@@ -156,7 +156,7 @@ The results of the Christensen et al experiment implies, that the weak eigenstat
 
 \noindent Thus we have a linear combination which shows the non-zero amplitude for a state with definite $CP$ to osciallate and decay into final states with the opposite CP.
 
-\subsection{Semi-leptonic decays}
+\subsection{Semi-leptonic decays}\label{Kevin:Kaon_semileptonic}
 
 Decays of neutral Kaons to products containing leptons can be used to verify Eqn.(\ref{KaonLincomb21}) and (\ref{KaonLincomb22}) as well as finding the asymmetry in the Kaon oscillation $K^{0} \leftrightarrow \bar{K}^{0}$. First we must discuss the selection rules that play an important role in these decays.
 
@@ -236,7 +236,7 @@ A({K}^{0}_{S} \rightarrow \pi^{-} l^{+} \nu_{l}) = A(K^{0}_{L} \rightarrow \pi^{
 \noindent Where terms of order $|\epsilon|^{2}$ have been neglected. The quantities $\delta_L,S$ can now be defined, which show the tendency for the oscillations $K^{0} \leftrightarrow \bar{K}^{0}$ to favour the matter particle state. Thus making a very small contribution to the matter anti-matter assymmetry.
 
 \begin{equation*}
-\delta_L,S = \frac{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) - A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})}{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) + A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})} \vcentcolon= 2 \mathbb{R}(\epsilon)
+\delta_{L,S} = \frac{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) - A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})}{A({K}^{0}_{L,S} \rightarrow \pi^{-} l^{+} \nu_{l}) + A({K}^{0}_{L,S} \rightarrow \pi^{+} l^{-} \bar{\nu}_{l})} \vcentcolon= 2 \mathbb{R}(\epsilon)
 \end{equation*}
 
 \noindent The experimental value for this quantity is $\delta_{L} = (3.27 \pm 0.12) \e{−3}$. Which clearly indicates a small tendency to favour the matter particle in oscillations. This can also be illustrated graphically by measuring the relative number(N) of $K^{0}$ and $\bar{K}^{0}$ particles over time in a beam consisting initially of $K^{0}$. See Fig.(\ref{AsymmetryPicFig})
@@ -252,6 +252,34 @@ A({K}^{0}_{S} \rightarrow \pi^{-} l^{+} \nu_{l}) = A(K^{0}_{L} \rightarrow \pi^{
 
 \subsection{Testing CPT conservation through Strangenss Oscillation}
 
-The CPT theorem links conservation of CPT with Lorentz invarience. Thus to preserve the fundamental Lorentz symmetry we desperately hope CPT is conserved. Here is presented some evidence that this is indeed the case. The theorem requires particles and their anti-particles to have the same masses and lifetimes. It has been stated previously that the $K^{0}_{L}$ and $K^{0}_{S}$ particles have very different lifetimes, but thankfully these are not a particle anti-particle pair. From earlier it is clear that $K^{0}$ and $\bar{K}^{0}$ are such a pair. Thus we aim to test CPT conservation by measuring their mass difference.    
+The CPT theorem links conservation of CPT with Lorentz invariance. Thus to preserve the fundamental Lorentz symmetry we desperately hope CPT is conserved. Here is presented some evidence that this is indeed the case. The theorem requires particles and their anti-particles to have the same masses and lifetimes. It has been stated previously that the $K^{0}_{L}$ and $K^{0}_{S}$ particles have very different lifetimes, but thankfully these are not a particle anti-particle pair. From earlier it is clear that $K^{0}$ and $\bar{K}^{0}$ are such a pair. Thus we aim to test CPT conservation by measuring their mass difference.    
 
- 
+By investigating the time evolution of Kaon oscillations it is possible to measure their mass difference. By inverting the linear combinations in Eqn.(\ref{FirstKaonLinComb1}) and (\ref{FirstKaonLinComb2}) and neglecting the very small contribution of $\epsilon$, the flavour eigenstates are described by:
+
+\begin{align*}
+\ket{K^{0}(t)} = \frac{1}{\sqrt{2}} (\ket{K^{0}_{S}(t)} + \ket{K^{0}_{L}(t)}) \\
+\ket{\bar{K}^{0}(t)}= \frac{1}{\sqrt{2}} (\ket{K^{0}_{S}(t)} - \ket{K^{0}_{L}(t)})
+\end{align*} 
+
+\noindent The time evolution of the states are then written in terms of the mass and the lifetimes of the particles
+
+\begin{align*}
+\ket{K^{0}_{S}(t)} = \ket{K^{0}_{S}(0)} e^{-(im_{S}+\Gamma_{s}/2)t} \\
+\ket{K^{0}_{L}(t)} = \ket{K^{0}_{L}(0)} e^{-(im_{L}+\Gamma_{L}/2)t} 
+\end{align*} 
+
+\noindent Where the exponential factor is as a result of the particle oscillations with time, and the fact that the particle will decay in time. We do the calculation for the $\bar{K}^{0}$ and simply state the result for the $K^{0}$. Using the linear combination we determine the probability amplitude(A) for the oscillations and then the probability of decay:
+
+\begin{align*}
+\ket{\bar{K}^{0}(t)} = \frac{1}{\sqrt{2}} (\ket{K^{0}_{L}(0)} e^{-(im_{L}+\Gamma_{L}/2)t} - \ket{K^{0}_{S}(0)} e^{-(im_{S}+\Gamma_{s}/2)t}) \\
+\bar{A} = \frac{1}{2} (e^{-(im_{L}+\Gamma_{L}/2)t} - e^{-(im_{S}+\Gamma_{s}/2)t}) \\
+P(\bar{K}^{0}) = |\bar{A}|^{2} = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} -2 e^-{(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
+\end{align*}
+
+\noindent Where $\Delta m = |m_{S} - m_{L}$. The extra factor of 1/{\sqrt{2}} comes from the initial condition that the experiment is started with a beam of $K^{0}$ particles which is equal parts $K^{0}_{L}$ and $K^{0}_{L}$. Thus $\ket{K^{0}_{L}(t=0)} = \ket{K^{0}_{S}(t=0)} = 1/{\sqrt{2}}$. The corresponding probability for $K^{0}$ is as follows:
+
+\begin{equation*}
+P({K}^{0}) = |{A}|^{2} = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} + 2 e^-{(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
+\end{equation*}
+
+For this experiment, the initial beam of Kaons is ``flavour tagged''. This is done by producing the $K^{0}$ particles in a strangeness conserving strong decay. The technique of tagging will be discussed further in section [JOHNS SECTION ON B]. The strangeness of the final state particles is then determined by looking for semi-leptonic decays descussed in section \ref{Kevin:Kaon_semileptonic}.    
