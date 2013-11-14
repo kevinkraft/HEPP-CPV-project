@@ -1,0 +1,116 @@
+\documentclass[11pt,onecolumn]{article}
+\usepackage{fixltx2e}
+
+\begin{document}
+\section*{CKM}
+
+Decay between Generations:
+The weak force allows the change of flavour of say an up quark to a down quark. A deeper connection in the standard model can be made when we relate this to the electron and electron neutrinos that may also transition. It was originally noted by Nicola Cabibbo that the strengths of these process were remarkably similar to within 4$\%$ This discrepancy however bore some real consequences. It was the assumption of the charmed and 3rd generation of quarks by Kobayshi and Maskawa’s that noted this 4$\%$ uncertainty had some real significance and this 4$\%$ difference didn't simply disappear with more accurate readings. The ability of the Weak force to decay between the generations explained this reduction in the strength of the decay amplitude. This has some rather interesting features, namely we can make use of Pythagoras’s theorem to determine a unique angle between each decay path, known as the Cabibbo angle. If two generations were the full story we would be left with figure [1.a].
+
+///figure[1.a]//
+
+Only one thousandth of the 4$\%$ deviation here is accountable from the 3rd generation but for the moment lets look a bit more into the first two.When we get to it these subtle effects arising from the 3rd generation is where are theory upon CP violation developed from. From figure [a] we note that the transition within a generation $u\rightarrow d$ is calculated as $cos\theta$ and across the generation as $sin\theta$ which actually corresponds to $u\rightarrow s$. If we were naive enough to presume only two generations of matter existed we would construct an amplitude matrix of the corresponding transitions based on this, as we will demonstrate now. Note that, for the moment, anti-particles have amplitudes that are the same as their matter counterparts.[4]
+
+$\begin{pmatrix} A_ud & A_us \\ A_cd & A_cs \end{pmatrix} = \begin{pmatrix} cos\theta_c & sin\theta_c \\ -sin\theta_c & cos\theta_c \end{pmatrix}$
+
+From our diagram we see that the $\theta_c\sim 12\circ$ experimentally this is measured $\theta_c = 13.1\circ$ [?].The impact of this was that the decay rate of many hadronic particles could be calculated akin to lepton decays with the additional factor of $cos\theta_c$or $sin\theta_c$ in the matrix element. At a quick glance of the Weak Lagrangian [insert fancy lagrangian WL] we see the interaction term is a key element in the vertexes of our Feynman diagram describing the interactions. An element of this the $\gamma$ signifies axial vector coupling with properties which contribute to CPV [ref].
+
+[insert fancy feynman digram and amplitudes]Figure {2.a} and {2.b}
+
+To progress onto a mechanism for mixing 3 generations of quarks we must look further into what sets the Weak interacting quarks apart from the quarks we associate with electromagnetic and strong interactions. To begin let us look at an example of the kaon decay into two muons. 
+
+[more fancy fyneman diagrams]Figure {3.a}{3.b}
+
+So for a decay scheme as the Kaon in [3.a] , we find a virtual up quark transmitted between the down and s. This is what would be know as a second order diagram as the direct decay to a W boson is forbidden.
+
+When the amplitdes are found the branching ratio between that and the $K^+\rightarrow\mu\nu$ is calculated to be,
+ $K^0\rightarrow\mu\mu/K^+\rightarrow\mu\nu=10^-8$. 
+However experimentally this value is found to be too high. What could also be possible is the diagram in [3.b] where our virtual quark is now charm. When we account for these two process we find that in [3.a] the amplitude is proportional to $sin\theta_c cos\theta_c$ and in [3.b] the amplitude is proportional to $-sin\theta_c cos\theta_c$ on account of $A_{cd}$ in our simple matrix above. 
+In 1970, what is called the (Glashow, Iliopoulos and Maiani) GIM mechanism was responsible for a solution,it proposed that throuh the interference with another order diagram there would be a near cancellation. The remaining value come from the difference in mass between the up and charmed quark. Using the experimental Amplitudes this allowed calculation provide a clear prediction for the mass of the charmed quark of about $1.5Gev$ which was discovered in 1974.
+ 
+Cabibbo’s theory of mixing together with the GIM mechanism allows us to look at quarks from a different perspective. Instead of one quark that feels the strong, electromagnetic and weak force, we have a sort of mixed phase of quarks involve in weak interactions. So a weak d and s are given by,
+
+$d' =dcos\theta_c +scsin\theta_c$ and $s'=scos\theta_c -sin\theta_c$
+We can then formulate these in a matrix,
+
+$\begin{array}{c} d' \\ s' \end{array} \right]  = \begin{pmatrix} cos\theta_c & sin\theta_c \\ -sin\theta_c & cos\theta_c \end{pmatrix}\begin{array}{c} d \\ s \end{array} \right]$
+
+Now it the following doublets are found [assumed?] like in leptons using an analogous cabibbo rotated states
+
+$\begin{array}{c} u \\ d' \end{array} \right]  = \begin{array}{c} u \\ dcos\theta_c +ssin\theta_c \end{array} \right]$ and $\begin{array}{c} c \\ s' \end{array} \right]  = \begin{array}{c} c \\ scos\theta_c -dsin\theta_c \end{array}}$
+
+Moving onto a third generation of quarks we repeat the method of finding mixing angles from the Amplitude triangles.
+
+[figure 4]
+
+In figure [4.a] we have now an additional triangle with its base atop the hypotenuse of the 1st to 2nd generation triangle. The transition now facilitates the Amplitude of the up quark transitioning along the bottom quark path. This gives rise to the angle $\theta_3$ a mixing angle between the 1st and 2nd generation on this logic the mixing angle between the 2nd and 3rd is $\theta$_2. Our pictorial representation has another hidden feature of it. The plane the triangle sits in can be thought of as the ‘matter-antimatter mirror’ and our upper right-angle triangle can swing in and out of the page at an angle. It is called the Kobayashi-Maskawa phase, where $\delta=0$ is on the plane of the triangle below. This parameter can set a difference between quarks and antiquarks which we will later see and may be the clue to the source of CP violation in nature, but that remains to be seen since  conditions are in place to allow for CP violation , $\delta\neq0$,$\pi$ or $\theta_i\neq0,\frac{\pi}{2}$ .  [7].
+With a full catalog of mixing between quarks we can scale our prior models to a 3x3 matrix incorporating every type of quark mixing in the original formalism [6]. 
+$V_CKM = \begin{pmatrix} V_ud & V_us & V_ub \\ V_cd & V_cs & V_cb \\ V_td & V_ts & V_tb \end{pmatrix} = \begin{pmatrix} c_1 & s_1 c_3 & s_1 s_3 \\ -s_1 c_2 & c_1 c_2 c_3 -s_2 s_3 e^i\delta & c_1 c_2 s_3 + s_2 c_3 e^i\delta \\ -s_1 s_2 & c_1 s_2 c_3 +c_2 s_3 e^i\delta & c_1 s_2 s_3 - c_2 c_3 e^i\delta \end{pmatrix}$
+In order to take advantage of the CKM matrix to illuminate CP violating decays we must have two weak amplitudes with complex phase components. A quick example of such would be the a 4 quark system [7]. Consider two up quarks i and k and two down quarks j and l. We find that the matrix element is,
+
+$M=(V_ij V_kl) A_1 e^i\delta_1 +(V_il V_kj) A_2 e^i\delta_2$ 
+
+Where $A_1$ and $A_2$ are real value amplitudes where each one represent a unique initial state transitioning to the same final states .The $\delta_1$ and $\delta_2$ are the phases due to higher order processes. The difference between them may be defined as the $\Delta\delta = \delta_1 - \delta_2$ and is known as the CP-even phase [ref]. If we perform the CP operation on this matrix element we obtain,
+$\overline{M}=(V_ij V_kl)^* A_1 e^i\delta_1 +(V_il V_kj)^* A_2 e^i\delta_2$
+
+The two individual amplitudes $A_1$ and $A_2$ in each of the Matrix elements interfere with each other, so to simplify this down for a moment let us absorb the coefficients into $A_1$ and $A_2$ and solve for their decay rates. 
+Let,
+$\[A\]^2 = \[\ A_1 +A_2 \]^2$
+$=\[\ A_1 \]^2$+ \[\ A_2 \]^2$ +2RE\[ A^*_2 A_1 \]$
+$=\[\ A_1 \]^2$+ \[\ A_2 \]^2$ +2\[A_1 A_2 \]cos(\Delta \phi - \Delta\delta),$ and
+$\[\overline{A}\]^2 =\[\ A_1 \]^2$+ \[\ A_2 \]^2$ +2\[A_1 A_2 \]cos(\Delta \phi - \Delta\delta),$
+The $\phi$ in this case is the CP-even phase. We now define CP asymmetry as,
+$\mathbf{A}_CP = frac{\[A\]^2-\[\overline{A}\]^2}{{\[A\]^2-\[\overline{A}\]^2}$
+To find the Asymmetry in our four quark system we solve for the matrix elements. The result is,
+$ \mathbf{M}_CP= frac{2\cal{IM}(V_{ij}V_{kl}V^*{}_{kj}V^*{}_{il})\sin(\Delta\delta)A_1 A_2}{\[V_{ij}V_{kl}\]^2 A^2{}_{1} + \[V_{kj}V_{il}\]^2 A^2{}_{2} +2\cal{R}e(V_{ij}V_{kl}V^*{}_{kj}V^*{}_{il})\cos(\Delta\delta)A_1 A_2} $
+
+CP violation in this respect is proportional to $2\cal{IM}(V_{ij}V_{kl}V^*{}_{kj}V^*{}_{il})$ which is called $\cal{J}$, the Jacobian. The Jacobian is just the gradient of the scalar valued CKM matrix it also is subject to the same CP violating conditions as what $\delta$ boasted.
+
+So now we are stuck with the eternal burden of having a theory with an unknown number of free parameters to test with. To fix this we would like our CKM matrix to be unitary i.e. that itself by it's complex conjugate produces the Identity matrix. A quick glance and a brief frown reveals that the matrix thus far bare no hope unless our off-diagonal elements are relatively small. Hence since CP violation turns out to be very small experimentally and these off diagonal elements are in turn correlated to CPV we construct in close approximation a unitary matrix as such. We adopt the Wolfenstein parametrization [ref] where we expand on a small parameter $\lambda = 0.22$ to a power series,
+
+$V_W = \begin{pmatrix} 1-frac{\lambda^2}{2} & \lambda & A\lambda^3(\rho-i\nu) \\ -\lambda & 1-frac{\lambda^2}{2} & A\lambda^2 \\ A\lambda^3(1-\rho-i\nu) &  -A\lambda^2 & 1 \end{pmatrix} + \cal{O}(\lambda^4)$
+
+Looking back at the original $V_{CKM}$,
+$\lambda =s_{1} $, $\A=frac{s_{2}}{s^2{}_{1}}$, $\rho = frac{s_{3}}{s_{1}s_{2}}\cos\delta$ and $\nu frac{s_3}{s_1}{s_2}\sin\delta$.
+
+Comparing this to experimentally measured values CKM matrix elements we have pretty close agreement.
+$V_{exp} = \begin{pmatrix} 0.9739–0.975 & 0.221–0.227 & 0.0029–0.0045 \\ 0.221–0.227 & 0.9730–0.9744 & 0.039–0.044 \\ 0.0048–0.01 &  0.037–0.043 & .9990–0.9992 \end{pmatrix} + \cal{O}(\lambda^4)$
+[Can give an example of such a decay that provides direct CKM element values][8]
+
+ As you can see there is a dependance on experimental data. An $n\times n$ complex matrix will have $n^2$ real and complex parameters while unitarity mean we have $n^2$ constrains. Since we have 6 quarks $(2n)$ which can all have independent phases we have $2n$ fewer parameters. Fixing one phase we then have $n^2 - (2n - 1)$. In the real unitary matrix we have n dimensions and $frac{n(n-1)}{2}$ free parameters. Thus the total imanginary parameters in the CKM matrix is,
+ $n^2 - (2n - 1)-frac{n(n-1)}{2} = frac{(n-1)(n-2)}{2}$ which for n=3 is 1. Hence we have 4 unknown parameters in total, which is why we depend on experiments. [9]
+
+As found in [9] 9 constraints are needed, 6 of which are the sum of complex terms which are zero by orthogonality. Here are three of these unitary relation equations, 
+$V_{ud}V^*{}_{us}+V_{cd}V^*{}_{cs}+V_{td}V^*{}_{ts}=0,
+V_{us}V^*{}_{ub}+V_{cs}V^*{}_{cb}+V_{ts}V^*{}_{tb}=0,
+V_{ud}V^*{}_{ub}+V_{cd}V^*{}_{cb}+V_{td}V^*{}_{tb}=0,$
+
+We visualize these as Unitary triangles in the complex plane and have an surface area of $frac{\[J\]}{2}$. The area is then non-zero for CP violating weak interactions.
+
+[figure {5}]
+
+We now look a bit more closely at the 3rd unitary equation and construct the appropriate triangle. In figure {5}[10] we form a triangle on the basis (x,y) with corners at (0,0), (1,0) and ($\overline{\rho},\overline{\nu}$) where the reparametrizations are,
+$\\overline{\rho}=\rho(1-frac{\lambda^2}{2})$ and $\\overline{\nu}=\nu(1-frac{\lambda^2}{2})$
+The three angles in this diagram $\alpha , \beta and \gamma$ are defined as,
+
+$\alpha\equiv arg(-\frac{V_{tb}V^*{}_{tb}}{V_{ud}V^*{}_{ub}}) =frac{1}{2}\sin^{-1}(frac{2\overline{\nu}(\overline{\nu}^2+\overline{\rho}^2-\overline{\rho})}{(\overline{\rho}^2+\overline{\nu}^2)((1-\overline{\nu})^2+\overline{\nu}^2)}$
+
+$\beta\equiv arg(-\frac{V_{cd}V^*{}_{cb}}{V_{td}V^*{}_{tb}}) = frac{1}{2}\sin^{-1}(frac{2\overline{\nu}(1-\overline{\rho})}{(1-\overline{\rho})^2+\overline{\rho}^2}$
+
+$\gamma\equiv arg(-\frac{V_{ud}V^*{}_{ub}}{V_{cd}V^*{}_{cb}}) = frac{1}{2}\sin^{-1}(frac{2\overline{\rho}\overline{\nu}}{\overline{\rho}^2+\overline{\nu}^2}$
+
+,and $\alpha + \beta + \gamma = 180\deg$. Direct measurement of these angles is performed by observations of CP violations in B meson decays which shall be covered in the following section.
+
+[4] Frank Close – Onion
+[5] David Grifths – elementary particles my dear Quarkson
+[6] CP. Violation in the Renormalizahle Theory of Weak Interaction; Makoto KOBAYASHI and Toshihide MASKAWA
+.
+[7] Commutator of the quark mass matrices in the standard electroweak model and a measure of maximal cp nonconservation
+
+[8] Quark Mixing, CP Violation and Rare Decays After the Top Quark Discovery Andrzej J. Buras and Robert Fleischer
+
+[9] http://pi.physik.uni-bonn.de/~brock/teaching/vtp_ss03/chapter4_html/node2.html
+
+[10] http://www.nikhef.nl/pub/services/biblio/theses_pdf/thesis_MA_Baak.pdf#cite.NIM
+
+\end{document}
