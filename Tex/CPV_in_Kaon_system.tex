@@ -271,15 +271,42 @@ By investigating the time evolution of Kaon oscillations it is possible to measu
 \noindent Where the exponential factor is as a result of the particle oscillations with time, and the fact that the particle will decay in time. We do the calculation for the $\bar{K}^{0}$ and simply state the result for the $K^{0}$. Using the linear combination we determine the probability amplitude(A) for the oscillations and then the probability of decay:
 
 \begin{align*}
-\ket{\bar{K}^{0}(t)} = \frac{1}{\sqrt{2}} (\ket{K^{0}_{L}(0)} e^{-(im_{L}+\Gamma_{L}/2)t} - \ket{K^{0}_{S}(0)} e^{-(im_{S}+\Gamma_{s}/2)t}) \\
-\bar{A} = \frac{1}{2} (e^{-(im_{L}+\Gamma_{L}/2)t} - e^{-(im_{S}+\Gamma_{s}/2)t}) \\
-P(\bar{K}^{0}) = |\bar{A}|^{2} = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} -2 e^-{(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
+\ket{\bar{K}^{0}(t)} = \frac{1}{\sqrt{2}} & (\ket{K^{0}_{L}(0)} e^{-(im_{L}+\Gamma_{L}/2)t} - \ket{K^{0}_{S}(0)} e^{-(im_{S}+\Gamma_{s}/2)t}) \\
+\bar{A} & = \frac{1}{2} (e^{-(im_{L}+\Gamma_{L}/2)t} - e^{-(im_{S}+\Gamma_{s}/2)t}) \\
+\label{StrangenessOscillations1}
+P(\bar{K}^{0}) = |\bar{A}|^{2} & = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} -2 e^{-(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
 \end{align*}
 
-\noindent Where $\Delta m = |m_{S} - m_{L}$. The extra factor of 1/{\sqrt{2}} comes from the initial condition that the experiment is started with a beam of $K^{0}$ particles which is equal parts $K^{0}_{L}$ and $K^{0}_{L}$. Thus $\ket{K^{0}_{L}(t=0)} = \ket{K^{0}_{S}(t=0)} = 1/{\sqrt{2}}$. The corresponding probability for $K^{0}$ is as follows:
+\noindent Where $\Delta m = |m_{S} - m_{L}$. The extra factor of $1/{\sqrt{2}}$ comes from the initial condition that the experiment is started with a beam of $K^{0}$ particles which is equal parts $K^{0}_{L}$ and $K^{0}_{L}$. Thus $\ket{K^{0}_{L}(t=0)} = \ket{K^{0}_{S}(t=0)} = 1/{\sqrt{2}}$. The corresponding probability for $K^{0}$ is as follows:
 
 \begin{equation*}
-P({K}^{0}) = |{A}|^{2} = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} + 2 e^-{(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
+P({K}^{0}) = |{A}|^{2} = \frac{1}{4} \bigg[ e^{-\Gamma_{S}t} + e^{-\Gamma_{L}t} + 2 e^{-(\Gamma_{S} + \Gamma_{L})t/2} \cos(t \Delta m )\bigg] \\
 \end{equation*}
 
-For this experiment, the initial beam of Kaons is ``flavour tagged''. This is done by producing the $K^{0}$ particles in a strangeness conserving strong decay. The technique of tagging will be discussed further in section [JOHNS SECTION ON B]. The strangeness of the final state particles is then determined by looking for semi-leptonic decays descussed in section \ref{Kevin:Kaon_semileptonic}.    
+For this experiment, the initial beam of Kaons is ``flavour tagged''. This is done by producing the $K^{0}$ particles in a strangeness conserving strong decay. The technique of tagging will be discussed further in section [JOHNS SECTION ON B]. The strangeness of the final state particles is then determined by looking for semi-leptonic decays discussed in section \ref{Kevin:Kaon_semileptonic}. Plotting Eqn.(\ref{StrangenessOscillations1}) to obtain Fig.(\ref{StrangenessOscillationsPic}), we see the oscillations in time. The decay rates for $K^{0}_{S}$ and $K^{0}_{L}$ are known so we can use the results of this experiment to determine $\Delta m$ for the weak eigenstate Kaons. This value is $\Delta m = (3.483 \pm 0.006) \e{-12}$.       
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.4]{figs/Strangeness_oscillations.png}
+\end{center}
+\caption{\textit{Theoretical predictions of the strangeness oscillations of a beam initially consisting of $K^{0}$ particles \cite{StrangenessPic}}}
+\label{StrangenessOscillationsPic}
+\end{figure}
+
+To find ${\Delta m}_{flavour} = |m_{K^{0}} - m_{\bar{K}^{0}}|$ the link between $\Delta m$ above must be determined. The time dependent asymmetry in this system is given by:
+
+\begin{equation*}
+A_{CPT} = \frac{P[\bar{K}^{0} \rightarrow \bar{K}^{0}(t)] - P[{K}^{0} \rightarrow {K}^{0}(t)]}{P[\bar{K}^{0} \rightarrow \bar{K}^{0}(t)] + P[{K}^{0} \rightarrow {K}^{0}(t)]} = 4 \mathbb{R}({\delta})
+\end{equation*}
+
+\noindent Where $\delta$ is a CPT violation parameter which can be written in terms of its projections parallel and perpendicular to the super weak direction $\phi_{SW} = \tan^{-1} (2 \Delta m / \Delta \Gamma)$ \cite{PDGKaons}:
+
+\begin{align*}
+\delta_{\parallel} = \frac{1}{4} \frac{{\Delta \Gamma}_{flavour}}{\sqrt{\Delta m^{2} + \big(\frac{\Delta \Gamma}{2} \big)^{2}}} & & \delta_{\perp} = \frac{1}{2} \frac{{\Delta m}_{flavour}}{\sqrt{\Delta m^{2} + \big(\frac{\Delta \Gamma}{2} \big)^{2}}} \\
+\end{align*}
+
+Thus it is possible to determine $\mathbb{R}({\delta})$ in this experiment. Using other methods and other experiments $\mathbb{I}m{\delta}$ can be measured. 
+  
+  
+  
+  
