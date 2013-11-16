@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  14 NOV 2013 21:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  16 NOV 2013 21:26
 entering extended mode
 **SCPV.tex
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.tex"
@@ -391,11 +391,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 Package natbib Warning: Citation `SCPV7' on page 9 undefined on input line 447.
 
 
-<figs/kill_me.png, id=46, 354.57469pt x 213.04594pt>
-File: figs/kill_me.png Graphic file (type png)
- <use figs/kill_me.png>
-Package pdftex.def Info: figs/kill_me.png used on input line 470.
-(pdftex.def)             Requested size: 177.28691pt x 106.5227pt.
+<figs/aspon_kaon.png, id=46, 650.43pt x 392.21532pt>
+File: figs/aspon_kaon.png Graphic file (type png)
+ <use figs/aspon_kaon.png>
+Package pdftex.def Info: figs/aspon_kaon.png used on input line 470.
+(pdftex.def)             Requested size: 260.16739pt x 156.88335pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package natbib Warning: Citation `SCPV5' on page 9 undefined on input line 477.
@@ -405,8 +408,7 @@ Package natbib Warning: Citation `SCPV5' on page 9 undefined on input line 477.
 Package natbib Warning: Citation `SCPV1' on page 9 undefined on input line 477.
 
 
-[9 <C:/Users/Dud1337/Documents/GitHub/HEPP-CPV-project/Tex/SCPV section/figs/ki
-ll_me.png>]
+[9]
 
 Package natbib Warning: Citation `SCPV7' on page 10 undefined on input line 491
 .
@@ -414,13 +416,14 @@ Package natbib Warning: Citation `SCPV7' on page 10 undefined on input line 491
 
 Package natbib Warning: There were undefined citations.
 
-[10]
+[10 <C:/Users/Dud1337/Documents/GitHub/HEPP-CPV-project/Tex/SCPV section/figs/a
+spon_kaon.png>]
 ("C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\SCPV section\SCPV.aux"
 ) ) 
 Here is how much of TeX's memory you used:
  4317 strings out of 493921
- 56285 string characters out of 3152087
- 135705 words of memory out of 3000000
+ 56300 string characters out of 3152087
+ 135706 words of memory out of 3000000
  7564 multiletter control sequences out of 15000+200000
  9129 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -442,9 +445,9 @@ blic/amsfonts/cm/cmti10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmt
 i9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><E:/Math
 s/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Maths/MikTeX/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on SCPV.pdf (10 pages, 289860 bytes).
+Output written on SCPV.pdf (10 pages, 294992 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

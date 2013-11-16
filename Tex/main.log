@@ -1,14 +1,20 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  15 NOV 2013 21:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.25)  16 NOV 2013 21:25
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\main.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex4\revtex4.cls
+Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
  Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
@@ -33,7 +39,7 @@ ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
 \pagegrid@col=\count82
 Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
 ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -50,7 +56,7 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 \c@figure=\count90
 \c@table=\count91
 
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
@@ -60,59 +66,59 @@ LaTeX Info: Redefining \cite on input line 694.
 \widetext@top=\box32
 \widetext@bot=\box33
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex4\revsymb.sty
+Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
 tion)
 LaTeX Info: Redefining \REV@mathfrak on input line 118.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(E:\Maths\MikTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(E:\Maths\MikTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-LaTeX Info: Redefining \frak on input line 99.
-LaTeX Info: Redefining \Bbb on input line 101.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(E:\Maths\MikTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(E:\Maths\MikTeX\tex\latex\amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(E:\Maths\MikTeX\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen102
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(E:\Maths\MikTeX\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(E:\Maths\MikTeX\tex\latex\amsmath\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count94
 \leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count96
 \DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box34
 \strutbox@=\box35
 \big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count98
 \c@MaxMatrixCols=\count99
 \dotsspace@=\muskip11
@@ -133,45 +139,45 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex4\aps.rtx
+File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
 n)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex4\10pt.rtx
+File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(E:\Maths\MikTeX\tex\latex\graphics\epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(E:\Maths\MikTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(E:\Maths\MikTeX\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(E:\Maths\MikTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(E:\Maths\MikTeX\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(E:\Maths\MikTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(E:\Maths\MikTeX\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(E:\Maths\MikTeX\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(E:\Maths\MikTeX\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
@@ -182,15 +188,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen113
 \epsfysize=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(E:\Maths\MikTeX\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(E:\Maths\MikTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(E:\Maths\MikTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks23
@@ -198,16 +204,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box37
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listing/listing.sty
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\listing\listing.sty
 Package: listing 1999/05/25
 
 Package `listing', V1.2, <1999/05/25>
 \c@listing=\count107
-) (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
-Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+) (C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\braket\braket.sty)
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\mh\mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+(E:\Maths\MikTeX\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count108
 \calc@Bcount=\count109
@@ -220,21 +226,22 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count110
 \calc@Cskip=\skip50
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\latex\mh\mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count111
 \l_MT_multwidth_dim=\dimen117
 \origjot=\skip51
 \l_MT_shortvdotswithinadjustabove_dim=\dimen118
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen119
-\l_MT_above_intertext_dim=\dimen120
-\l_MT_below_intertext_dim=\dimen121
-\l_MT_above_shortintertext_dim=\dimen122
-\l_MT_below_shortintertext_dim=\dimen123
-) (./main.aux)
-\openout1 = `main.aux'.
-
+\l_MT_above_intertext_sep=\dimen120
+\l_MT_below_intertext_sep=\dimen121
+\l_MT_above_shortintertext_sep=\dimen122
+\l_MT_below_shortintertext_sep=\dimen123
+)
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -251,7 +258,7 @@ Class revtex4 Info: Patching LaTeX tabular. on input line 12.
 Class revtex4 Info: cite was not loaded (OK!) on input line 12.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 12.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\Dud1337\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen124
@@ -264,245 +271,66 @@ Class revtex4 Info: multicol was not loaded (OK!) on input line 12.
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 
 Class revtex4 Warning: Assuming \noaffiliation for John Ronayne (10318997), Kev
 in Maguire (10318135), Sinead Hales(10318221), Dudley Grant (10275291).
 
-(./Introduction.tex) (./P_C_CPT.tex
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\Introduction.tex)
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\P_C_CPT.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(E:\Maths\MikTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)) (./CP_Violation.tex) (./CPV_in_Kaon_system.tex <figs/KevFeyn1.png, id=1, 792
-.9625pt x 291.0875pt>
-File: figs/KevFeyn1.png Graphic file (type png)
+(E:\Maths\MikTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\CP_Violation.tex)
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\Deon_CPV.tex
+<figs/BaBar_D0_Mixing_Results.png, id=1, 539.01375pt x 490.83376pt>
+File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
-<use figs/KevFeyn1.png>
-Package pdftex.def Info: figs/KevFeyn1.png used on input line 11.
-(pdftex.def)             Requested size: 317.17938pt x 116.43292pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/KevFeyn1.png>] [
-2]
-<figs/Christenson_apparatus.png, id=21, 1999.47pt x 1623.06375pt>
-File: figs/Christenson_apparatus.png Graphic file (type png)
-
-<use figs/Christenson_apparatus.png>
-Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 96.
-(pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/Christenson_results.png, id=22, 552.0625pt x 564.1075pt>
-File: figs/Christenson_results.png Graphic file (type png)
-
-<use figs/Christenson_results.png>
-Package pdftex.def Info: figs/Christenson_results.png used on input line 104.
-(pdftex.def)             Requested size: 165.62003pt x 169.23355pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] <figs/Perkins_Interference_Kaons.png, id=30, 746.79pt x 251.94125pt>
-File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
-
-<use figs/Perkins_Interference_Kaons.png>
-Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
- 130.
-(pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
- [4 <./figs/Christenson_apparatus.png> <./figs/Christenson_results.png> <./figs
-/Perkins_Interference_Kaons.png>]
-<figs/KevFeyn2.png, id=38, 495.35063pt x 322.95656pt>
-File: figs/KevFeyn2.png Graphic file (type png)
- <use figs/KevFeyn2.png>
-Package pdftex.def Info: figs/KevFeyn2.png used on input line 188.
-(pdftex.def)             Requested size: 198.13673pt x 129.18033pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./figs/KevFeyn2.png>]
-<figs/Asymmetry_pic.png, id=49, 512.66531pt x 354.57469pt>
-File: figs/Asymmetry_pic.png Graphic file (type png)
-
-<use figs/Asymmetry_pic.png>
-Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 270.
-(pdftex.def)             Requested size: 205.06248pt x 141.82736pt.
- [7 <./figs/Asymmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=55, 614.295pt x 415.5525pt>
-File: figs/Strangeness_oscillations.png Graphic file (type png)
-
-<use figs/Strangeness_oscillations.png>
-Package pdftex.def Info: figs/Strangeness_oscillations.png used on input line 3
-14.
-(pdftex.def)             Requested size: 245.71364pt x 166.21805pt.
- [8 <./figs/Strangeness_oscillations.png>]) (./SCPVsect.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-
- []
-
-[12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-<figs/kill_me.png, id=90, 354.57469pt x 213.04594pt>
-File: figs/kill_me.png Graphic file (type png)
- <use figs/kill_me.png>
-Package pdftex.def Info: figs/kill_me.png used on input line 451.
-(pdftex.def)             Requested size: 177.28691pt x 106.5227pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17]) [18 <./figs/kill_me.png>]
+<use figs/BaBar_D0_Mixing_Results.png>
+Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 15
+.
+(pdftex.def)             Requested size: 215.60167pt x 196.33002pt.
+) [1{C:/Users/Dud1337/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Us
+ers/Dud1337/Documents/GitHub/HEPP-CPV-project/Tex/figs/BaBar_D0_Mixing_Results.
+png>]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [19] (./main.aux) ) 
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+ [2]
+(C:\Users\Dud1337\Documents\GitHub\HEPP-CPV-project\Tex\main.aux) ) 
 Here is how much of TeX's memory you used:
- 4804 strings out of 495059
- 65116 string characters out of 3182030
- 150765 words of memory out of 3000000
- 7877 multiletter control sequences out of 15000+200000
- 13455 words of font info for 50 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,16n,28p,2446b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm7.pfb>
-Output written on main.pdf (19 pages, 565603 bytes).
+ 4364 strings out of 493921
+ 57647 string characters out of 3152087
+ 126040 words of memory out of 3000000
+ 7602 multiletter control sequences out of 15000+200000
+ 9699 words of font info for 38 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 34i,7n,28p,709b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Maths/Mi
+kTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Maths/MikTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Maths/MikTe
+X/fonts/type1/public/amsfonts/cm/cmmi9.pfb><E:/Maths/MikTeX/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<E:/Maths/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Maths/MikTeX/fonts
+/type1/public/amsfonts/cm/cmr9.pfb><E:/Maths/MikTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on main.pdf (2 pages, 147675 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
