@@ -101,6 +101,45 @@ Charged Kaon CPV(Don't do this)
 CPV in D mesons
 --------------
 
+* Section Layout
+  * D0 mixing discovery at Belle and BaBar(3.9 sigma), only discuss BaBars method as it seems to be the one used by LHCb. No evidence for CPV at these experiments
+
+-------------------------------------
+*  The parameter yCP is the deviation from unity of the ratio of eﬀective lifetimes measured in D0 decays to the CP eigenstateK+K− with respectto decays to the Cabibbo favoured mode K−π+ (from Measuremnt_Mixing_CPV_Charm_LHCb1.pdf)
+* The parameter A gamma isthe asymmetry of eﬀective lifetimes measured in decays of D0
+and D0 bar mesons to K+K−.
+* DO mixing first discovered at Belle and shortly after at BaBar, two different methods http://cerncourier.com/cws/article/cern/29875
+  * BaBar:(see Babar_D0_Mixing_Discovery.pdf)
+    * measured x and y
+    * tagged D0 or D0 bar using the sign of the slow pion, same as K implies wrong sign(WS), different sign right sign(RS)
+* x' and y'. (These are rotations through a strong phase of the mixing parameters x = ΔM/Γ and y = ΔΓ/2, the actuall mixing parameters x' and y' are lin.combs of x and y
+    *  remove D0 candidates from B-meson decays and to reduce combinatorial backgrounds, we require each D0 to have a momentum in the CM frame greater than 2.5GeV
+2.5 GeV/c
+
+*Papers
+   * Measuremnt_Mixing_CPV_Charm_LHCb1.pdf has ycp and A gamma numbers for LHCb 2010 data
+     * D0 decays to CP eigenstate K+K-with respect to decays of the Cabibbo favoured mode K-pi+ (investigate CP number)
+     * A gamma is asymmetry of effective lifetimes measured in decays of D0 and bar D0 to K+K- (investigate CP number)
+     * y is ratio of two body lifetimes, depends in difference in width
+     * x depends on difference in mass
+     * ycp and A gamma forumulas
+     * Accodring to standard model D0 mixing will be small due to degeneracy of s,d  quark masses and small b couplings
+     * CP D0 = - DO bar, CP D0 bar = - D0
+     * difference between y and yCP indicate CPV
+     * A gamma is indirect CP parameter, but direct CPV can affect it
+     * lifetime biasing effects???
+     * Good delta m -v- m_D0 plot
+   * Babar_D0_Mixing_Discovery.pdf:
+     * good pic for first evidence of mixing, fig 2
+   * LHCb_Measurement_indirect_CPV_Asymmetries.pdf:
+     * measurements of A gamma in CP even final states K-K+, pi-pi+
+     * good references for theoretical SM D0 mixing
+     * if mixing is big, then hints at new physics sources
+     * D1,2 = p( D0) \pm q(\bar{D}0), |p|^2 + |q|^2 = 1
+     * CPV comes from difference from unity of \lamdba_f (see pdf for formula)
+     * DIrect from A_{d}, indirect from (A_{m}) see pdf
+
+
 
 Electroweak
 -----------
