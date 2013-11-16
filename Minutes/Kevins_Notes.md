@@ -127,17 +127,22 @@ and D0 bar mesons to K+K−.
      * CP D0 = - DO bar, CP D0 bar = - D0
      * difference between y and yCP indicate CPV
      * A gamma is indirect CP parameter, but direct CPV can affect it
-     * lifetime biasing effects???
+     * lifetime biasing effects???(dont worry about it)
      * Good delta m -v- m_D0 plot
    * Babar_D0_Mixing_Discovery.pdf:
      * good pic for first evidence of mixing, fig 2
-   * LHCb_Measurement_indirect_CPV_Asymmetries.pdf:
+   * LHCb_Measurement_indirect_CPV_Asymmetries.pdf(2013):
      * measurements of A gamma in CP even final states K-K+, pi-pi+
      * good references for theoretical SM D0 mixing
      * if mixing is big, then hints at new physics sources
      * D1,2 = p( D0) \pm q(\bar{D}0), |p|^2 + |q|^2 = 1
      * CPV comes from difference from unity of \lamdba_f (see pdf for formula)
      * DIrect from A_{d}, indirect from (A_{m}) see pdf
+   * SM_Contribution_D0_Mixign_Bobrowski.pdf
+     * Deon mixing unique as in other systems there are different quarks in the feynmann diagrams, other systems have d quark, D0 has u quarks
+       *Deon:  http://inspirehep.net/record/1089036/files/6b.png
+       *Ex: Kaon: http://upload.wikimedia.org/wikipedia/commons/7/7f/Kaon-box-diagram-alt.svg
+     
 
 
 
