@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  17 NOV 2013 12:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  17 NOV 2013 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,26 +326,99 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)) (./CP_Violation.tex) (./Deon_CPV.tex
+)) (./CP_Violation.tex) (./CPV_in_Kaon_system.tex <figs/KevFeyn1.png, id=1, 792
+.9625pt x 291.0875pt>
+File: figs/KevFeyn1.png Graphic file (type png)
 
-LaTeX Warning: Reference `KevFeyn1.png' on page 1 undefined on input line 3.
+<use figs/KevFeyn1.png>
+Package pdftex.def Info: figs/KevFeyn1.png used on input line 11.
+(pdftex.def)             Requested size: 317.17938pt x 116.43292pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/KevFeyn1.png>] [
+2]
+<figs/Christenson_apparatus.png, id=21, 1999.47pt x 1623.06375pt>
+File: figs/Christenson_apparatus.png Graphic file (type png)
 
-<figs/Deon_mixing_feyn.png, id=1, 191.21437pt x 106.89937pt>
+<use figs/Christenson_apparatus.png>
+Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 96.
+(pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/Christenson_results.png, id=22, 552.0625pt x 564.1075pt>
+File: figs/Christenson_results.png Graphic file (type png)
+
+<use figs/Christenson_results.png>
+Package pdftex.def Info: figs/Christenson_results.png used on input line 104.
+(pdftex.def)             Requested size: 165.62003pt x 169.23355pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] <figs/Perkins_Interference_Kaons.png, id=30, 746.79pt x 251.94125pt>
+File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
+
+<use figs/Perkins_Interference_Kaons.png>
+Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
+ 130.
+(pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
+ [4 <./figs/Christenson_apparatus.png> <./figs/Christenson_results.png> <./figs
+/Perkins_Interference_Kaons.png>]
+<figs/KevFeyn2.png, id=38, 495.35063pt x 322.95656pt>
+File: figs/KevFeyn2.png Graphic file (type png)
+ <use figs/KevFeyn2.png>
+Package pdftex.def Info: figs/KevFeyn2.png used on input line 188.
+(pdftex.def)             Requested size: 198.13673pt x 129.18033pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6 <./figs/KevFeyn2.png>]
+<figs/Asymmetry_pic.png, id=49, 512.66531pt x 354.57469pt>
+File: figs/Asymmetry_pic.png Graphic file (type png)
+
+<use figs/Asymmetry_pic.png>
+Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 270.
+(pdftex.def)             Requested size: 205.06248pt x 141.82736pt.
+ [7 <./figs/Asymmetry_pic.png>]
+<figs/Strangeness_oscillations.png, id=55, 614.295pt x 415.5525pt>
+File: figs/Strangeness_oscillations.png Graphic file (type png)
+
+<use figs/Strangeness_oscillations.png>
+Package pdftex.def Info: figs/Strangeness_oscillations.png used on input line 3
+14.
+(pdftex.def)             Requested size: 245.71364pt x 166.21805pt.
+ [8 <./figs/Strangeness_oscillations.png>]) (./Deon_CPV.tex
+
+LaTeX Warning: Reference `KevFeyn1.png' on page 9 undefined on input line 3.
+
+<figs/Deon_mixing_feyn.png, id=59, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
 Package pdftex.def Info: figs/Deon_mixing_feyn.png used on input line 7.
 (pdftex.def)             Requested size: 152.9717pt x 85.51959pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/Deon_mixing_feyn
-.png>]
-<figs/BaBar_D0_Mixing_Results.png, id=22, 539.01375pt x 490.83376pt>
+ [9 <./figs/Deon_mixing_feyn.png>]
+<figs/BaBar_D0_Mixing_Results.png, id=64, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
-Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 44
+Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 39
 .
 (pdftex.def)             Requested size: 215.60167pt x 196.33002pt.
-)
+
+<figs/LHCb_D0_Mixing_Results.png, id=65, 425.59pt x 384.43625pt>
+File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
+
+<use figs/LHCb_D0_Mixing_Results.png>
+Package pdftex.def Info: figs/LHCb_D0_Mixing_Results.png used on input line 47.
+
+(pdftex.def)             Requested size: 170.23297pt x 153.77177pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./figs/BaBar_D0_Mixing_Results.png>])
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
@@ -355,35 +428,47 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
- [2 <./figs/BaBar_D0_Mixing_Results.png>] [3] (./main.aux)
+ [11 <./figs/LHCb_D0_Mixing_Results.png>]
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr6!
+Missing character: There is no ’ in font cmr6!
+ [12] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4713 strings out of 495059
- 63530 string characters out of 3182030
- 135436 words of memory out of 3000000
- 7807 multiletter control sequences out of 15000+200000
- 10007 words of font info for 39 fonts, out of 3000000 for 9000
+ 4806 strings out of 495059
+ 65562 string characters out of 3182030
+ 150937 words of memory out of 3000000
+ 7886 multiletter control sequences out of 15000+200000
+ 10938 words of font info for 42 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,8n,28p,1025b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,28p,2484b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (3 pages, 179503 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on main.pdf (12 pages, 500593 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
