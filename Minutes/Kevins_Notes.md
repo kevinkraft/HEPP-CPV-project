@@ -115,7 +115,9 @@ and D0 bar mesons to K+K−.
 * x' and y'. (These are rotations through a strong phase of the mixing parameters x = ΔM/Γ and y = ΔΓ/2, the actuall mixing parameters x' and y' are lin.combs of x and y
     *  remove D0 candidates from B-meson decays and to reduce combinatorial backgrounds, we require each D0 to have a momentum in the CM frame greater than 2.5GeV
 2.5 GeV/c
-
+* BaBar experiment:
+  * Assumed lin.comb, assigned CP values D_1 = +, D2 = -
+  * Tagging
 *Papers
    * Measuremnt_Mixing_CPV_Charm_LHCb1.pdf has ycp and A gamma numbers for LHCb 2010 data
      * D0 decays to CP eigenstate K+K-with respect to decays of the Cabibbo favoured mode K-pi+ (investigate CP number)
@@ -142,7 +144,8 @@ and D0 bar mesons to K+K−.
      * Deon mixing unique as in other systems there are different quarks in the feynmann diagrams, other systems have d quark, D0 has u quarks
        *Deon:  http://inspirehep.net/record/1089036/files/6b.png
        *Ex: Kaon: http://upload.wikimedia.org/wikipedia/commons/7/7f/Kaon-box-diagram-alt.svg
-     
+   * Babar_CPV_MIxing_Review
+     * Great pic of X,y not equal zero, dalitx type plot
 
 
 
