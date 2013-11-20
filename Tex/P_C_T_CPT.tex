@@ -62,7 +62,7 @@ This state is not physical for it is non-normalisable. $\mathbf{p}$ has interpre
 \end{align*}
 For $\mathbf{p}=0$ this is an eigenvalue equation. In that case, $P$ is called the \textbf{intrinsic parity} of a particle. $\mathbf{p}=0$ may be interpreted as the particle being at rest, but as this is a non-normalisable mode it does not make sense: By the Heisenberg uncertainty principle, a quantum mechanical particle can not have an exact momentum. 
 
-In order for Dirac equation to be symmetric under $\hat{P}$ it turns out that for an electron-positron system
+In order for the Dirac equation to be symmetric under $\hat{P}$ it turns out that for an electron-positron system
 \begin{align*}
 \hat{P}(\psi_{e^-}(\mathbf{r}_-)\otimes\psi_{e^+}(\mathbf{r}_+))=-1(\psi_{e^-}(-\mathbf{r}_-)\otimes\psi_{e^+}(-\mathbf{r}_+))
 \end{align*}
@@ -112,7 +112,7 @@ In a simplified notation this reads
 Like the parity operator $\hat{C}$ is also conserved under electromagnetic and strong interactions but in general is not under weak interactions.
 
 \subsection{The Time Reversal Operator}
-\textbf{Time reversal} is simply a reflection of the time coordinate. If the laws of physics are preserved under time reversal then looking at a video being played it would be impossible to tell if it were going forward and backward.
+\textbf{Time reversal} is simply a reflection of the time coordinate. If the laws of physics are preserved under time reversal then while watching a video it would be impossible to tell if it were going forward and backward.
 
 Newton's laws for conservative forces are preserved under time reversal as
 \begin{align*}
@@ -141,7 +141,7 @@ In quantum mechanics it must be similar
 &=e^{\frac{i}{\hbar}((-\mathbf{p})\cdot\mathbf{r}-E(-t))} \\
 &=\psi_\mathbf{p}^*(\mathbf{r},t)
 \end{align*}
-So time reversal may be represented by complex conjugate. Normalisation is preserved and so are Hermitian operators
+So time reversal may be represented by complex conjugate. Normalisation is preserved and so are Hermitian observables
 \begin{align*}
 |\psi(\mathbf{r},t)| \mapsto |\psi(\mathbf{r},-t)|&=|\psi^*(\mathbf{r},t)|=|\psi(\mathbf{r},t)| \\
 \braket{\hat{H}}=\braket{\psi(\mathbf{r,t})|\hat{H}\psi(\mathbf{r},t)}&\mapsto \braket{\psi^*(\mathbf{r,t})|\hat{H}\psi^*(\mathbf{r},t)} \\
@@ -151,7 +151,9 @@ So time reversal may be represented by complex conjugate. Normalisation is prese
 &= \braket{\psi(\mathbf{r,t})|\hat{H}\psi(\mathbf{r},t)} \\
 &= \braket{\hat{H}}
 \end{align*}
-Making use of the fact Hermitian operators definition and that they have only real eigenvalues. Time reversal may be a symmetry but it does not give a conservation law. For $\hat{C}$ and $\hat{P}$ it was required that they were Hermitian so their eigenvalues, $\{-1,1\}$, could be measured. One cannot define a Hermitian operator that produces the desired effects of time reversal as
+Making use of the Hermitian operator's definition and that they have only real eigenvalues. 
+
+Time reversal may be a symmetry but it does not give a conservation law. For $\hat{C}$ and $\hat{P}$ it was required that they were Hermitian so their eigenvalues, $\{-1,1\}$, could be measured. One cannot define a Hermitian operator that produces the desired effects of time reversal as
 \begin{align*}
 \hat{T}\left(\ket{\alpha\psi(t)}+\beta \ket{\psi(t)}\right) = \alpha^*\hat{T} \ket{\psi(t)}+\beta^*\hat{T} \ket{ \psi(t)} \neq  \alpha\hat{T} \ket{\psi(t)}+\beta\hat{T} \ket{ \psi(t)}
 \end{align*}
