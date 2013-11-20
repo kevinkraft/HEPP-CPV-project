@@ -1,0 +1,25 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{1}{}
+\contentsline {section}{\numberline {II}$\mathaccentV {hat}05E{P}$, $\mathaccentV {hat}05E{C}$ and $\mathaccentV {hat}05E{C}\mathaccentV {hat}05E{P}\mathaccentV {hat}05E{T}$}{1}{}
+\contentsline {section}{\numberline {III}CP Violation}{1}{}
+\contentsline {section}{\numberline {}The CKM Mechanism}{2}{}
+\contentsline {section}{\numberline {IV}$\mathaccentV {hat}05E{C}\mathaccentV {hat}05E{P}$V in Kaon System}{6}{}
+\contentsline {subsection}{\numberline {A}Neutral Kaon Mixing}{6}{}
+\contentsline {subsection}{\numberline {B}Semi-leptonic decays}{10}{}
+\contentsline {subsection}{\numberline {C}Testing CPT conservation through Strangenss Oscillation}{12}{}
+\contentsline {section}{\numberline {}B mesons and CPV}{14}{}
+\contentsline {subsection}{\numberline {}BaBar}{16}{}
+\contentsline {subsection}{\numberline {}Experimental Evidence of $\it {CPV}$ in B-mesons}{19}{}
+\contentsline {section}{\numberline {V}CPV in D-meson system}{20}{}
+\contentsline {section}{\numberline {VI}Spontaneous Charge Parity Violation}{24}{}
+\contentsline {subsection}{\numberline {A}Group Theory for Physics}{24}{}
+\contentsline {subsection}{\numberline {B}Useful Physical Groups}{27}{}
+\contentsline {subsection}{\numberline {C}Gauge Theory}{28}{}
+\contentsline {subsection}{\numberline {D}Group Theoretic Conditions.}{30}{}
+\contentsline {subsection}{\numberline {E}The Aspon Model}{32}{}
+\contentsline {subsection}{\numberline {F}Conclusion}{33}{}
+\appendix 
+\contentsline {section}{\numberline {A}Appendix}{34}{}
+\contentsline {section}{\numberline {}References}{34}{}
