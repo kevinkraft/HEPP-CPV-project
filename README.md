@@ -1,6 +1,20 @@
 HEPP-CPV-project
 ================
 
+LaTex conventions
+-----------------
+* for tables and figures use \cref{key}
+* for equations use (\ref{key}) or Eqn.(\ref{key})
+* For CPV just use CPV
+* For C, P or T operators use $\hat{C}$
+* For C,P or T numbers use $C$, depends on context
+* For CP use $CP$
+* For CPT use $CPT$ 
+* For CPV just use CPV
+* For references use:
+   Name - "title" - other stuff
+* and use \cite{key}
+
 Group project on CPV for HEPP class
 
 Contributers

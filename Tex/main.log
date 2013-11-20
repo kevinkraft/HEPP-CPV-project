@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 11:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -443,12 +443,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 22
  []
 
 
-Overfull \hbox (5.00003pt too wide) detected at line 24
- \OT1/cmr/m/n/10 34
- []
-
-
-Overfull \hbox (5.00003pt too wide) detected at line 25
+Overfull \hbox (5.00003pt too wide) detected at line 23
  \OT1/cmr/m/n/10 34
  []
 
@@ -774,10 +769,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6447 strings out of 495059
- 100425 string characters out of 3182030
+ 6446 strings out of 495059
+ 100414 string characters out of 3182030
  232295 words of memory out of 3000000
- 9486 multiletter control sequences out of 15000+200000
+ 9485 multiletter control sequences out of 15000+200000
  14502 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,16n,28p,2484b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -808,7 +803,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (34 pages, 1336820 bytes).
+Output written on main.pdf (34 pages, 1338572 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
