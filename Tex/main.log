@@ -1,14 +1,22 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 12:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  20 NOV 2013 17:15
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
+
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\main.tex"
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\revtex4.cls"
+Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
  Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
@@ -33,7 +41,7 @@ ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
 \pagegrid@col=\count82
 Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
 ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -50,7 +58,7 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 \c@figure=\count90
 \c@table=\count91
 
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
@@ -60,15 +68,15 @@ LaTeX Info: Redefining \cite on input line 694.
 \widetext@top=\box32
 \widetext@bot=\box33
 
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\revsymb.sty"
+Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
 tion)
 LaTeX Info: Redefining \REV@mathfrak on input line 118.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -78,24 +86,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 99.
 LaTeX Info: Redefining \Bbb on input line 101.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen102
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
@@ -136,42 +144,42 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\aps.rtx"
+File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
 n)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\10pt.rtx"
+File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
@@ -182,15 +190,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen113
 \epsfysize=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count106
 \float@exts=\toks23
@@ -198,16 +206,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box37
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listing/listing.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listing\listing.sty"
 Package: listing 1999/05/25
 
 Package `listing', V1.2, <1999/05/25>
 \c@listing=\count107
-) (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
-Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\braket\braket.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count108
 \calc@Bcount=\count109
@@ -220,29 +228,31 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count110
 \calc@Cskip=\skip50
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count111
 \l_MT_multwidth_dim=\dimen117
 \origjot=\skip51
 \l_MT_shortvdotswithinadjustabove_dim=\dimen118
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen119
-\l_MT_above_intertext_dim=\dimen120
-\l_MT_below_intertext_dim=\dimen121
-\l_MT_above_shortintertext_dim=\dimen122
-\l_MT_below_shortintertext_dim=\dimen123
+\l_MT_above_intertext_sep=\dimen120
+\l_MT_below_intertext_sep=\dimen121
+\l_MT_above_shortintertext_sep=\dimen122
+\l_MT_below_shortintertext_sep=\dimen123
 )
-(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
-Package: cleveref 2012/03/07{} v0.18.5{} Intelligent cross-referencing
-Package cleveref Info: always capitalise cross-reference names on input line 68
-87.
-Package cleveref Info: loaded `english' language definitions on input line 6907
-.
-Package cleveref Info: no abbreviation of names on input line 6908.
-Package cleveref Info: always capitalise cross-reference names on input line 69
-08.
-) (./main.aux
+("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
+Package cleveref Info: always capitalise cross-reference names on input line 73
+58.
+Package cleveref Info: no abbreviation of names on input line 7386.
+Package cleveref Info: always capitalise cross-reference names on input line 73
+86.
+)
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\main.aux"
 
 LaTeX Warning: Label `tri4' multiply defined.
 
@@ -286,8 +296,6 @@ LaTeX Warning: Label `BBD' multiply defined.
 LaTeX Warning: Label `BBD@cref' multiply defined.
 
 )
-\openout1 = `main.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
@@ -303,7 +311,7 @@ LaTeX Font Info:    ... okay on input line 13.
 Class revtex4 Info: Patching LaTeX tabular. on input line 13.
 Class revtex4 Info: cite was not loaded (OK!) on input line 13.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 13.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen124
@@ -316,75 +324,29 @@ Class revtex4 Info: multicol was not loaded (OK!) on input line 13.
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 
 Class revtex4 Warning: Assuming \noaffiliation for John Ronayne (10318997), Kev
 in Maguire (10318135), Sinead Hales(10318221), Dudley Grant (10275291).
 
-(./main.toc
+
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\main.toc"
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (5.00003pt too wide) detected at line 10
- \OT1/cmr/m/n/10 10
+ \OT1/cmr/m/n/10 11
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 11
- \OT1/cmr/m/n/10 12
+ \OT1/cmr/m/n/10 13
  []
 
 
@@ -404,7 +366,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 14
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 15
- \OT1/cmr/m/n/10 20
+ \OT1/cmr/m/n/10 21
  []
 
 
@@ -424,7 +386,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 18
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 19
- \OT1/cmr/m/n/10 28
+ \OT1/cmr/m/n/10 29
  []
 
 
@@ -439,7 +401,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 21
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 22
- \OT1/cmr/m/n/10 33
+ \OT1/cmr/m/n/10 34
  []
 
 
@@ -449,79 +411,82 @@ Overfull \hbox (5.00003pt too wide) detected at line 23
 
 )
 \tf@toc=\write3
-\openout3 = `main.toc'.
 
- (./Introduction.tex) (./P_C_CPT.tex) (./CP_Violation.tex)
-(./CKM-Mechanism.tex
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\Introduction.tex")
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\P_C_CPT.tex")
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\CP_Violation.tex" [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdfte
+x.map}])
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\CKM-Mechanism.tex"
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
 <figs/ckmfig1.jpg, id=18, 397.485pt x 155.83218pt>
 File: figs/ckmfig1.jpg Graphic file (type jpg)
  <use figs/ckmfig1.jpg>
 Package pdftex.def Info: figs/ckmfig1.jpg used on input line 20.
 (pdftex.def)             Requested size: 203.99689pt x 79.97745pt.
 
-<figs/ckmfig2.jpg, id=19, 462.22687pt x 240.9pt>
+[2 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/ckmfig1.jpg>]
+<figs/ckmfig2.jpg, id=23, 462.22687pt x 240.9pt>
 File: figs/ckmfig2.jpg Graphic file (type jpg)
  <use figs/ckmfig2.jpg>
 Package pdftex.def Info: figs/ckmfig2.jpg used on input line 41.
 (pdftex.def)             Requested size: 255.0pt x 132.89973pt.
 
-<figs/ckmfig3.jpg, id=20, 599.99156pt x 204.765pt>
+<figs/ckmfig3.jpg, id=24, 599.99156pt x 204.765pt>
 File: figs/ckmfig3.jpg Graphic file (type jpg)
  <use figs/ckmfig3.jpg>
 Package pdftex.def Info: figs/ckmfig3.jpg used on input line 51.
 (pdftex.def)             Requested size: 255.0pt x 87.02553pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./figs/ckmfig1.jpg> <./figs/ckmfig2.jpg>]
-<figs/ckmfig4a.jpg, id=28, 481.8pt x 313.17pt>
+[3 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/ckmfig2.jpg> <C:/Users/Kevin/Documents/College/Year 4/High 
+Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig3.jpg>]
+<figs/ckmfig4a.jpg, id=30, 481.8pt x 313.17pt>
 File: figs/ckmfig4a.jpg Graphic file (type jpg)
  <use figs/ckmfig4a.jpg>
 Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 93.
 (pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
 
-<figs/ckmfig4b.jpg, id=29, 410.2828pt x 317.68687pt>
+<figs/ckmfig4b.jpg, id=31, 410.2828pt x 317.68687pt>
 File: figs/ckmfig4b.jpg Graphic file (type jpg)
  <use figs/ckmfig4b.jpg>
 Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 98.
 (pdftex.def)             Requested size: 153.00156pt x 118.46817pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[3 <./figs/ckmfig3.jpg> <./figs/ckmfig4a.jpg>] [4 <./figs/ckmfig4b.jpg>]
-<figs/ckmfig5.jpg, id=37, 438.13687pt x 176.15813pt>
+
+[4 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/ckmfig4a.jpg> <C:/Users/Kevin/Documents/College/Year 4/High
+ Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig4b.jpg>] [5]
+<figs/ckmfig5.jpg, id=39, 438.13687pt x 176.15813pt>
 File: figs/ckmfig5.jpg Graphic file (type jpg)
  <use figs/ckmfig5.jpg>
 Package pdftex.def Info: figs/ckmfig5.jpg used on input line 159.
 (pdftex.def)             Requested size: 255.0pt x 102.52658pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]) (./CPV_in_Kaon_system.tex
-<figs/KevFeyn1.png, id=41, 792.9625pt x 291.0875pt>
+)
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\CPV_in_Kaon_system.tex" [6 <C:/Users/Kevin/Documents/College/Year 
+4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig5.jpg>]
+<figs/KevFeyn1.png, id=43, 792.9625pt x 291.0875pt>
 File: figs/KevFeyn1.png Graphic file (type png)
  <use figs/KevFeyn1.png>
 Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
 (pdftex.def)             Requested size: 317.17938pt x 116.43292pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./figs/ckmfig5.jpg>] [7 <./figs/KevFeyn1.png>]
-<figs/Christenson_apparatus.png, id=50, 1999.47pt x 1623.06375pt>
+[7 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/KevFeyn1.png>] [8]
+<figs/Christenson_apparatus.png, id=54, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
@@ -529,10 +494,7 @@ Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 100.
 
 (pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/Christenson_results.png, id=51, 552.0625pt x 564.1075pt>
+<figs/Christenson_results.png, id=55, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
@@ -542,79 +504,90 @@ Package pdftex.def Info: figs/Christenson_results.png used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] <figs/Perkins_Interference_Kaons.png, id=57, 746.79pt x 251.94125pt>
+[9 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/Christenson_apparatus.png>]
+<figs/Perkins_Interference_Kaons.png, id=60, 746.79pt x 251.94125pt>
 File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
 Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
  134.
 (pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
- [9 <./figs/Christenson_apparatus.png> <./figs/Christenson_results.png>] [10 <.
-/figs/Perkins_Interference_Kaons.png>] <figs/KevFeyn2.png, id=68, 495.35063pt x
- 322.95656pt>
+ [10 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP
+-CPV-project/Tex/figs/Christenson_results.png> <C:/Users/Kevin/Documents/Colleg
+e/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/Perkins_Interfe
+rence_Kaons.png>]
+<figs/KevFeyn2.png, id=67, 495.35063pt x 322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
 Package pdftex.def Info: figs/KevFeyn2.png used on input line 192.
 (pdftex.def)             Requested size: 198.13673pt x 129.18033pt.
 
-[11 <./figs/KevFeyn2.png>]
-<figs/Asymmetry_pic.png, id=74, 512.66531pt x 354.57469pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-
+CPV-project/Tex/figs/KevFeyn2.png>]
+<figs/Asymmetry_pic.png, id=73, 512.66531pt x 354.57469pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
 Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 274.
 (pdftex.def)             Requested size: 205.06248pt x 141.82736pt.
- [12 <./figs/Asymmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=79, 614.295pt x 415.5525pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/
+HEPP-CPV-project/Tex/figs/Asymmetry_pic.png>]
+<figs/Strangeness_oscillations.png, id=82, 614.295pt x 415.5525pt>
 File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
 Package pdftex.def Info: figs/Strangeness_oscillations.png used on input line 3
 18.
 (pdftex.def)             Requested size: 245.71364pt x 166.21805pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13]) (./Bphysics.tex [14 <./figs/Strangeness_oscillations.png>] [15]
-<figs/BBD.jpg, id=90, 618.81187pt x 475.02469pt>
+)
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\Bphysics.tex" [14 <C:/Users/Kevin/Documents/College/Year 4/High En
+ergy Particle Physics/HEPP-CPV-project/Tex/figs/Strangeness_oscillations.png>]
+[15] [16] <figs/BBD.jpg, id=92, 618.81187pt x 475.02469pt>
 File: figs/BBD.jpg Graphic file (type jpg)
  <use figs/BBD.jpg>
 Package pdftex.def Info: figs/BBD.jpg used on input line 121.
 (pdftex.def)             Requested size: 382.5pt x 293.63521pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[16] <figs/dt.JPG, id=94, 620.3175pt x 359.09157pt>
+
+[17 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-
+CPV-project/Tex/figs/BBD.jpg>] <figs/dt.JPG, id=96, 620.3175pt x 359.09157pt>
 File: figs/dt.JPG Graphic file (type jpg)
- <use figs/dt.JPG>
+
+<use figs/dt.JPG>
 Package pdftex.def Info: figs/dt.JPG used on input line 137.
 (pdftex.def)             Requested size: 382.5pt x 221.42354pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
- [17 <./figs/BBD.jpg>]
-[18 <./figs/dt.JPG>]
-<figs/Flavourosscilatons.JPG, id=101, 337.26pt x 341.77687pt>
+
+[18 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-
+CPV-project/Tex/figs/dt.JPG>]
+<figs/Flavourosscilatons.JPG, id=100, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
 Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 188.
 (pdftex.def)             Requested size: 255.0pt x 258.41805pt.
 
-<figs/cpf.JPG, id=102, 307.90031pt x 367.3725pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/cpf.JPG, id=101, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
 Package pdftex.def Info: figs/cpf.JPG used on input line 200.
@@ -623,26 +596,22 @@ Package pdftex.def Info: figs/cpf.JPG used on input line 200.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./figs/Flavourosscilatons.JPG>]
-<figs/kino.JPG, id=107, 593.21625pt x 391.4625pt>
+[19] [20 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/
+HEPP-CPV-project/Tex/figs/Flavourosscilatons.JPG> <C:/Users/Kevin/Documents/Col
+lege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/cpf.JPG>]
+<figs/kino.JPG, id=109, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
 Package pdftex.def Info: figs/kino.JPG used on input line 266.
 (pdftex.def)             Requested size: 306.00311pt x 201.93695pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/gam.JPG, id=108, 507.39563pt x 162.6075pt>
+<figs/gam.JPG, id=110, 507.39563pt x 162.6075pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
 Package pdftex.def Info: figs/gam.JPG used on input line 273.
 (pdftex.def)             Requested size: 408.00156pt x 130.75858pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/trig.JPG, id=109, 711.4078pt x 322.20375pt>
+<figs/trig.JPG, id=111, 711.4078pt x 322.20375pt>
 File: figs/trig.JPG Graphic file (type jpg)
  <use figs/trig.JPG>
 Package pdftex.def Info: figs/trig.JPG used on input line 285.
@@ -651,38 +620,52 @@ Package pdftex.def Info: figs/trig.JPG used on input line 285.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Deon_CPV.tex
+)
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\Deon_CPV.tex" [21 <C:/Users/Kevin/Documents/College/Year 4/High En
+ergy Particle Physics/HEPP-CPV-project/Tex/figs/kino.JPG> <C:/Users/Kevin/Docum
+ents/College/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/gam.
+JPG>]
 
-LaTeX Warning: Reference `KevFeyn1.png' on page 20 undefined on input line 7.
+LaTeX Warning: Reference `KevFeyn1.png' on page 22 undefined on input line 7.
 
-<figs/Deon_mixing_feyn.png, id=110, 191.21437pt x 106.89937pt>
+<figs/Deon_mixing_feyn.png, id=115, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
 Package pdftex.def Info: figs/Deon_mixing_feyn.png used on input line 11.
 (pdftex.def)             Requested size: 152.9717pt x 85.51959pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20 <./figs/cpf.JPG>] [21 <./figs/kino.JPG> <./figs/gam.JPG>]
-<figs/BaBar_D0_Mixing_Results.png, id=117, 539.01375pt x 490.83376pt>
+ [22 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP
+-CPV-project/Tex/figs/trig.JPG> <C:/Users/Kevin/Documents/College/Year 4/High E
+nergy Particle Physics/HEPP-CPV-project/Tex/figs/Deon_mixing_feyn.png>]
+<figs/BaBar_D0_Mixing_Results.png, id=120, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
 Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 43
 .
 (pdftex.def)             Requested size: 215.60167pt x 196.33002pt.
- [22 <./figs/trig.JPG> <./figs/Deon_mixing_feyn.png>] <figs/LHCb_D0_Mixing_Resu
-lts.png, id=122, 425.59pt x 384.43625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/LHCb_D0_Mixing_Results.png, id=121, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
 Package pdftex.def Info: figs/LHCb_D0_Mixing_Results.png used on input line 51.
 
 (pdftex.def)             Requested size: 170.23297pt x 153.77177pt.
- [23 <./figs/BaBar_D0_Mixing_Results.png> <./figs/LHCb_D0_Mixing_Results.png>])
- (./SCPVsect.tex [24] [25]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\SCPVsect.tex" [23] [24 <C:/Users/Kevin/Documents/College/Year 4/Hi
+gh Energy Particle Physics/HEPP-CPV-project/Tex/figs/BaBar_D0_Mixing_Results.pn
+g> <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
+PV-project/Tex/figs/LHCb_D0_Mixing_Results.png>] [25] [26]
 Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
@@ -702,12 +685,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-[26]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[27] [28] [29]
+[28] [29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
@@ -722,32 +705,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
 
-[30]
+
 Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
-
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-[31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-<figs/aspon_kaon.png, id=157, 650.43pt x 392.21532pt>
+[32] <figs/aspon_kaon.png, id=159, 650.43pt x 392.21532pt>
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
 Package pdftex.def Info: figs/aspon_kaon.png used on input line 456.
 (pdftex.def)             Requested size: 260.16739pt x 156.88335pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[32]) [33 <./figs/aspon_kaon.png>]
+ [33 <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP
+-CPV-project/Tex/figs/aspon_kaon.png>])
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
@@ -760,7 +740,9 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
- [34] (./main.aux)
+ [34] [35]
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\main.aux")
 
 LaTeX Warning: There were undefined references.
 
@@ -769,44 +751,43 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6446 strings out of 495059
- 100414 string characters out of 3182030
- 232295 words of memory out of 3000000
- 9485 multiletter control sequences out of 15000+200000
+ 6101 strings out of 494045
+ 96274 string characters out of 3148387
+ 195933 words of memory out of 3000000
+ 9281 multiletter control sequences out of 15000+200000
  14502 words of font info for 53 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,16n,28p,2484b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (34 pages, 1338572 bytes).
+ 715 hyphenation exceptions out of 8191
+ 34i,16n,28p,2484b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.p
+fb>
+Output written on main.pdf (35 pages, 1376145 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
