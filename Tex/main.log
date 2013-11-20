@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 10:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -462,38 +462,38 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figs/ckmfig1.jpg, id=17, 397.485pt x 155.83218pt>
+<figs/ckmfig1.jpg, id=18, 397.485pt x 155.83218pt>
 File: figs/ckmfig1.jpg Graphic file (type jpg)
  <use figs/ckmfig1.jpg>
-Package pdftex.def Info: figs/ckmfig1.jpg used on input line 15.
+Package pdftex.def Info: figs/ckmfig1.jpg used on input line 20.
 (pdftex.def)             Requested size: 203.99689pt x 79.97745pt.
 
-<figs/ckmfig2.jpg, id=18, 462.22687pt x 240.9pt>
+<figs/ckmfig2.jpg, id=19, 462.22687pt x 240.9pt>
 File: figs/ckmfig2.jpg Graphic file (type jpg)
  <use figs/ckmfig2.jpg>
-Package pdftex.def Info: figs/ckmfig2.jpg used on input line 36.
+Package pdftex.def Info: figs/ckmfig2.jpg used on input line 41.
 (pdftex.def)             Requested size: 255.0pt x 132.89973pt.
 
-<figs/ckmfig3.jpg, id=19, 599.99156pt x 204.765pt>
+<figs/ckmfig3.jpg, id=20, 599.99156pt x 204.765pt>
 File: figs/ckmfig3.jpg Graphic file (type jpg)
  <use figs/ckmfig3.jpg>
-Package pdftex.def Info: figs/ckmfig3.jpg used on input line 46.
+Package pdftex.def Info: figs/ckmfig3.jpg used on input line 51.
 (pdftex.def)             Requested size: 255.0pt x 87.02553pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./figs/ckmfig1.jpg> <./figs/ckmfig2.jpg>]
-<figs/ckmfig4a.jpg, id=27, 481.8pt x 313.17pt>
+<figs/ckmfig4a.jpg, id=28, 481.8pt x 313.17pt>
 File: figs/ckmfig4a.jpg Graphic file (type jpg)
  <use figs/ckmfig4a.jpg>
-Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 88.
+Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 93.
 (pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
 
-<figs/ckmfig4b.jpg, id=28, 410.2828pt x 317.68687pt>
+<figs/ckmfig4b.jpg, id=29, 410.2828pt x 317.68687pt>
 File: figs/ckmfig4b.jpg Graphic file (type jpg)
  <use figs/ckmfig4b.jpg>
-Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 93.
+Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 98.
 (pdftex.def)             Requested size: 153.00156pt x 118.46817pt.
 
 
@@ -509,7 +509,7 @@ Missing character: There is no ™ in font cmr10!
 <figs/ckmfig5.jpg, id=37, 438.13687pt x 176.15813pt>
 File: figs/ckmfig5.jpg Graphic file (type jpg)
  <use figs/ckmfig5.jpg>
-Package pdftex.def Info: figs/ckmfig5.jpg used on input line 154.
+Package pdftex.def Info: figs/ckmfig5.jpg used on input line 159.
 (pdftex.def)             Requested size: 255.0pt x 102.52658pt.
 
 
@@ -519,7 +519,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/KevFeyn1.png, id=41, 792.9625pt x 291.0875pt>
 File: figs/KevFeyn1.png Graphic file (type png)
  <use figs/KevFeyn1.png>
-Package pdftex.def Info: figs/KevFeyn1.png used on input line 11.
+Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
 (pdftex.def)             Requested size: 317.17938pt x 116.43292pt.
 
 
@@ -530,7 +530,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
-Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 96.
+Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 100.
+
 (pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
 
 
@@ -540,7 +541,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
-Package pdftex.def Info: figs/Christenson_results.png used on input line 104.
+Package pdftex.def Info: figs/Christenson_results.png used on input line 108.
 (pdftex.def)             Requested size: 165.62003pt x 169.23355pt.
 
 
@@ -551,14 +552,14 @@ File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
 Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
- 130.
+ 134.
 (pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
  [9 <./figs/Christenson_apparatus.png> <./figs/Christenson_results.png>] [10 <.
 /figs/Perkins_Interference_Kaons.png>] <figs/KevFeyn2.png, id=68, 495.35063pt x
  322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
-Package pdftex.def Info: figs/KevFeyn2.png used on input line 188.
+Package pdftex.def Info: figs/KevFeyn2.png used on input line 192.
 (pdftex.def)             Requested size: 198.13673pt x 129.18033pt.
 
 [11 <./figs/KevFeyn2.png>]
@@ -566,7 +567,7 @@ Package pdftex.def Info: figs/KevFeyn2.png used on input line 188.
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
-Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 270.
+Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 274.
 (pdftex.def)             Requested size: 205.06248pt x 141.82736pt.
  [12 <./figs/Asymmetry_pic.png>]
 <figs/Strangeness_oscillations.png, id=79, 614.295pt x 415.5525pt>
@@ -574,7 +575,7 @@ File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
 Package pdftex.def Info: figs/Strangeness_oscillations.png used on input line 3
-14.
+18.
 (pdftex.def)             Requested size: 245.71364pt x 166.21805pt.
 
 
@@ -584,7 +585,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figs/BBD.jpg, id=90, 618.81187pt x 475.02469pt>
 File: figs/BBD.jpg Graphic file (type jpg)
  <use figs/BBD.jpg>
-Package pdftex.def Info: figs/BBD.jpg used on input line 116.
+Package pdftex.def Info: figs/BBD.jpg used on input line 121.
 (pdftex.def)             Requested size: 382.5pt x 293.63521pt.
 
 
@@ -596,32 +597,32 @@ Missing character: There is no ™ in font cmr10!
 [16] <figs/dt.JPG, id=94, 620.3175pt x 359.09157pt>
 File: figs/dt.JPG Graphic file (type jpg)
  <use figs/dt.JPG>
-Package pdftex.def Info: figs/dt.JPG used on input line 132.
+Package pdftex.def Info: figs/dt.JPG used on input line 137.
 (pdftex.def)             Requested size: 382.5pt x 221.42354pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
  [17 <./figs/BBD.jpg>]
 [18 <./figs/dt.JPG>]
 <figs/Flavourosscilatons.JPG, id=101, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
-Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 183.
+Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 188.
 (pdftex.def)             Requested size: 255.0pt x 258.41805pt.
 
 <figs/cpf.JPG, id=102, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
-Package pdftex.def Info: figs/cpf.JPG used on input line 195.
+Package pdftex.def Info: figs/cpf.JPG used on input line 200.
 (pdftex.def)             Requested size: 183.60031pt x 219.06862pt.
 
 
@@ -631,7 +632,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/kino.JPG, id=107, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
-Package pdftex.def Info: figs/kino.JPG used on input line 261.
+Package pdftex.def Info: figs/kino.JPG used on input line 266.
 (pdftex.def)             Requested size: 306.00311pt x 201.93695pt.
 
 
@@ -640,7 +641,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/gam.JPG, id=108, 507.39563pt x 162.6075pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
-Package pdftex.def Info: figs/gam.JPG used on input line 268.
+Package pdftex.def Info: figs/gam.JPG used on input line 273.
 (pdftex.def)             Requested size: 408.00156pt x 130.75858pt.
 
 
@@ -649,7 +650,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/trig.JPG, id=109, 711.4078pt x 322.20375pt>
 File: figs/trig.JPG Graphic file (type jpg)
  <use figs/trig.JPG>
-Package pdftex.def Info: figs/trig.JPG used on input line 280.
+Package pdftex.def Info: figs/trig.JPG used on input line 285.
 (pdftex.def)             Requested size: 408.00156pt x 184.79373pt.
 
 
@@ -657,13 +658,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./Deon_CPV.tex
 
-LaTeX Warning: Reference `KevFeyn1.png' on page 20 undefined on input line 3.
+LaTeX Warning: Reference `KevFeyn1.png' on page 20 undefined on input line 7.
 
 <figs/Deon_mixing_feyn.png, id=110, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
-Package pdftex.def Info: figs/Deon_mixing_feyn.png used on input line 7.
+Package pdftex.def Info: figs/Deon_mixing_feyn.png used on input line 11.
 (pdftex.def)             Requested size: 152.9717pt x 85.51959pt.
 
 
@@ -674,7 +675,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
-Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 39
+Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 43
 .
 (pdftex.def)             Requested size: 215.60167pt x 196.33002pt.
  [22 <./figs/trig.JPG> <./figs/Deon_mixing_feyn.png>] <figs/LHCb_D0_Mixing_Resu
@@ -682,62 +683,62 @@ lts.png, id=122, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
-Package pdftex.def Info: figs/LHCb_D0_Mixing_Results.png used on input line 47.
+Package pdftex.def Info: figs/LHCb_D0_Mixing_Results.png used on input line 51.
 
 (pdftex.def)             Requested size: 170.23297pt x 153.77177pt.
  [23 <./figs/BaBar_D0_Mixing_Results.png> <./figs/LHCb_D0_Mixing_Results.png>])
  (./SCPVsect.tex [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
 [27] [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
@@ -745,7 +746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 424--425
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
-Package pdftex.def Info: figs/aspon_kaon.png used on input line 451.
+Package pdftex.def Info: figs/aspon_kaon.png used on input line 456.
 (pdftex.def)             Requested size: 260.16739pt x 156.88335pt.
 
 
@@ -773,10 +774,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6449 strings out of 495059
- 100461 string characters out of 3182030
+ 6447 strings out of 495059
+ 100425 string characters out of 3182030
  232295 words of memory out of 3000000
- 9488 multiletter control sequences out of 15000+200000
+ 9486 multiletter control sequences out of 15000+200000
  14502 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,16n,28p,2484b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -807,7 +808,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (34 pages, 1333478 bytes).
+Output written on main.pdf (34 pages, 1336820 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams

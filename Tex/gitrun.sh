@@ -11,6 +11,7 @@ ENDCOMMENT
 git add main.aux
 git add main.log
 git add main.pdf
+git add main.toc
 
 
 
