@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  17 NOV 2013 21:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.10.4)  20 NOV 2013 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,26 +232,42 @@ Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 \l_MT_below_intertext_dim=\dimen121
 \l_MT_above_shortintertext_dim=\dimen122
 \l_MT_below_shortintertext_dim=\dimen123
-) (./main.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2012/03/07{} v0.18.5{} Intelligent cross-referencing
+Package cleveref Info: always capitalise cross-reference names on input line 68
+87.
+Package cleveref Info: loaded `english' language definitions on input line 6907
+.
+Package cleveref Info: no abbreviation of names on input line 6908.
+Package cleveref Info: always capitalise cross-reference names on input line 69
+08.
+) (./main.aux
+
+LaTeX Warning: Label `tri4' multiply defined.
+
+
+LaTeX Warning: Label `tri4@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-Class revtex4 Info: Patching LaTeX tabular. on input line 12.
-Class revtex4 Info: cite was not loaded (OK!) on input line 12.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 12.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Class revtex4 Info: Patching LaTeX tabular. on input line 13.
+Class revtex4 Info: cite was not loaded (OK!) on input line 13.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen124
@@ -326,16 +342,86 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)) (./CP_Violation.tex) (./CPV_in_Kaon_system.tex <figs/KevFeyn1.png, id=1, 792
-.9625pt x 291.0875pt>
-File: figs/KevFeyn1.png Graphic file (type png)
+)) (./CP_Violation.tex
 
-<use figs/KevFeyn1.png>
+Package natbib Warning: Citation `FirstCPV' on page 1 undefined on input line 3
+.
+
+) (./CKM-Mechanism.tex
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ <figs/ckmfig1.jpg, id=1, 397.485pt x 155.83218pt>
+File: figs/ckmfig1.jpg Graphic file (type jpg)
+
+<use figs/ckmfig1.jpg>
+Package pdftex.def Info: figs/ckmfig1.jpg used on input line 15.
+(pdftex.def)             Requested size: 203.99689pt x 79.97745pt.
+ <figs/ckmfig2.jpg, id=2, 462.22687pt x 240.9pt>
+File: figs/ckmfig2.jpg Graphic file (type jpg)
+
+<use figs/ckmfig2.jpg>
+Package pdftex.def Info: figs/ckmfig2.jpg used on input line 36.
+(pdftex.def)             Requested size: 255.0pt x 132.89973pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/ckmfig1.jpg>] <f
+igs/ckmfig3.jpg, id=21, 599.99156pt x 204.765pt>
+File: figs/ckmfig3.jpg Graphic file (type jpg)
+
+<use figs/ckmfig3.jpg>
+Package pdftex.def Info: figs/ckmfig3.jpg used on input line 46.
+(pdftex.def)             Requested size: 255.0pt x 87.02553pt.
+ [2 <./figs/ckmfig2.jpg> <./figs/ckmfig3.jpg>]
+<figs/ckmfig4a.jpg, id=26, 481.8pt x 313.17pt>
+File: figs/ckmfig4a.jpg Graphic file (type jpg)
+ <use figs/ckmfig4a.jpg>
+Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 88.
+(pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
+
+<figs/ckmfig4b.jpg, id=27, 410.2828pt x 317.68687pt>
+File: figs/ckmfig4b.jpg Graphic file (type jpg)
+ <use figs/ckmfig4b.jpg>
+Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 93.
+(pdftex.def)             Requested size: 153.00156pt x 118.46817pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+[3 <./figs/ckmfig4a.jpg> <./figs/ckmfig4b.jpg>] [4]
+<figs/ckmfig5.jpg, id=37, 438.13687pt x 176.15813pt>
+File: figs/ckmfig5.jpg Graphic file (type jpg)
+ <use figs/ckmfig5.jpg>
+Package pdftex.def Info: figs/ckmfig5.jpg used on input line 154.
+(pdftex.def)             Requested size: 255.0pt x 102.52658pt.
+)
+(./CPV_in_Kaon_system.tex [5 <./figs/ckmfig5.jpg>]
+<figs/KevFeyn1.png, id=41, 792.9625pt x 291.0875pt>
+File: figs/KevFeyn1.png Graphic file (type png)
+ <use figs/KevFeyn1.png>
 Package pdftex.def Info: figs/KevFeyn1.png used on input line 11.
 (pdftex.def)             Requested size: 317.17938pt x 116.43292pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/KevFeyn1.png>] [
-2]
-<figs/Christenson_apparatus.png, id=21, 1999.47pt x 1623.06375pt>
+
+[6 <./figs/KevFeyn1.png>]
+
+Package natbib Warning: Citation `PDGKaons' on page 7 undefined on input line 5
+8.
+
+
+Package natbib Warning: Citation `Martin+Shaw' on page 7 undefined on input lin
+e 58.
+
+
+Package natbib Warning: Citation `Nakada' on page 7 undefined on input line 90.
+
+
+[7]
+
+Package natbib Warning: Citation `FirstCPV' on page 8 undefined on input line 9
+2.
+
+<figs/Christenson_apparatus.png, id=52, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
@@ -343,9 +429,10 @@ Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 96.
 (pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `Christenson_apparatus_ref' on page 8 undefine
+d on input line 98.
 
-<figs/Christenson_results.png, id=22, 552.0625pt x 564.1075pt>
+<figs/Christenson_results.png, id=53, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
@@ -353,53 +440,236 @@ Package pdftex.def Info: figs/Christenson_results.png used on input line 104.
 (pdftex.def)             Requested size: 165.62003pt x 169.23355pt.
 
 
+Package natbib Warning: Citation `FirstCPV' on page 8 undefined on input line 1
+06.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <figs/Perkins_Interference_Kaons.png, id=30, 746.79pt x 251.94125pt>
+
+Package natbib Warning: Citation `Measurements_Direct_CPV_Kaons_KTev' on page 8
+ undefined on input line 119.
+
+[8 <./figs/Christenson_apparatus.png>]
+<figs/Perkins_Interference_Kaons.png, id=58, 746.79pt x 251.94125pt>
 File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
 Package pdftex.def Info: figs/Perkins_Interference_Kaons.png used on input line
  130.
 (pdftex.def)             Requested size: 224.03873pt x 75.58295pt.
- [4 <./figs/Christenson_apparatus.png> <./figs/Christenson_results.png> <./figs
-/Perkins_Interference_Kaons.png>]
-<figs/KevFeyn2.png, id=38, 495.35063pt x 322.95656pt>
+
+
+Package natbib Warning: Citation `HEPP_intro_Perkins' on page 9 undefined on in
+put line 132.
+
+
+Package natbib Warning: Citation `HEPP_intro_Perkins' on page 9 undefined on in
+put line 132.
+
+
+Package natbib Warning: Citation `PDGKaons' on page 9 undefined on input line 1
+36.
+
+
+Package natbib Warning: Citation `PDGKaons' on page 9 undefined on input line 1
+42.
+
+[9 <./figs/Christenson_results.png> <./figs/Perkins_Interference_Kaons.png>]
+
+Package natbib Warning: Citation `PDGKaons' on page 10 undefined on input line 
+184.
+
+<figs/KevFeyn2.png, id=65, 495.35063pt x 322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
 Package pdftex.def Info: figs/KevFeyn2.png used on input line 188.
 (pdftex.def)             Requested size: 198.13673pt x 129.18033pt.
 
+[10 <./figs/KevFeyn2.png>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `DAmbrosio' on page 11 undefined on input line
+ 247.
 
-[5] [6 <./figs/KevFeyn2.png>]
-<figs/Asymmetry_pic.png, id=49, 512.66531pt x 354.57469pt>
+
+Package natbib Warning: Citation `DAmbrosio' on page 11 undefined on input line
+ 253.
+
+<figs/Asymmetry_pic.png, id=71, 512.66531pt x 354.57469pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
 Package pdftex.def Info: figs/Asymmetry_pic.png used on input line 270.
 (pdftex.def)             Requested size: 205.06248pt x 141.82736pt.
- [7 <./figs/Asymmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=55, 614.295pt x 415.5525pt>
+
+
+Package natbib Warning: Citation `AsymmetryPic' on page 11 undefined on input l
+ine 272.
+
+
+Package natbib Warning: Citation `AsymmetryPic' on page 11 undefined on input l
+ine 272.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] <figs/Strangeness_oscillations.png, id=75, 614.295pt x 415.5525pt>
 File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
 Package pdftex.def Info: figs/Strangeness_oscillations.png used on input line 3
 14.
 (pdftex.def)             Requested size: 245.71364pt x 166.21805pt.
- [8 <./figs/Strangeness_oscillations.png>]) (./Deon_CPV.tex
 
-LaTeX Warning: Reference `KevFeyn1.png' on page 9 undefined on input line 3.
 
-<figs/Deon_mixing_feyn.png, id=59, 191.21437pt x 106.89937pt>
+Package natbib Warning: Citation `StrangenessPic' on page 12 undefined on input
+ line 316.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./figs/Asymmetry_pic.png>]
+
+Package natbib Warning: Citation `PDGKaons' on page 13 undefined on input line 
+328.
+
+
+Package natbib Warning: Citation `PDGKaons' on page 13 undefined on input line 
+337.
+
+) (./Bphysics.tex [13 <./figs/Strangeness_oscillations.png>] [14] [15]
+<figs/BBD.jpg, id=90, 618.81187pt x 475.02469pt>
+File: figs/BBD.jpg Graphic file (type jpg)
+ <use figs/BBD.jpg>
+Package pdftex.def Info: figs/BBD.jpg used on input line 116.
+(pdftex.def)             Requested size: 382.5pt x 293.63521pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+<figs/dt.JPG, id=91, 620.3175pt x 359.09157pt>
+File: figs/dt.JPG Graphic file (type jpg)
+ <use figs/dt.JPG>
+Package pdftex.def Info: figs/dt.JPG used on input line 132.
+(pdftex.def)             Requested size: 382.5pt x 221.42354pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+ [16 <./figs/BBD.jpg>]
+[17 <./figs/dt.JPG>]
+<figs/Flavourosscilatons.JPG, id=98, 337.26pt x 341.77687pt>
+File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
+
+<use figs/Flavourosscilatons.JPG>
+Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 183.
+(pdftex.def)             Requested size: 255.0pt x 258.41805pt.
+ [18 <./figs/Flavourosscilatons.JPG>]
+<figs/cpf.JPG, id=102, 307.90031pt x 367.3725pt>
+File: figs/cpf.JPG Graphic file (type jpg)
+ <use figs/cpf.JPG>
+Package pdftex.def Info: figs/cpf.JPG used on input line 195.
+(pdftex.def)             Requested size: 183.60031pt x 219.06862pt.
+
+<figs/kino.JPG, id=103, 593.21625pt x 391.4625pt>
+File: figs/kino.JPG Graphic file (type jpg)
+ <use figs/kino.JPG>
+Package pdftex.def Info: figs/kino.JPG used on input line 261.
+(pdftex.def)             Requested size: 306.00311pt x 201.93695pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/gam.JPG, id=104, 507.39563pt x 162.6075pt>
+File: figs/gam.JPG Graphic file (type jpg)
+ <use figs/gam.JPG>
+Package pdftex.def Info: figs/gam.JPG used on input line 268.
+(pdftex.def)             Requested size: 408.00156pt x 130.75858pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/trig.JPG, id=105, 711.4078pt x 322.20375pt>
+File: figs/trig.JPG Graphic file (type jpg)
+ <use figs/trig.JPG>
+Package pdftex.def Info: figs/trig.JPG used on input line 280.
+(pdftex.def)             Requested size: 408.00156pt x 184.79373pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Deon_CPV.tex
+
+LaTeX Warning: Reference `KevFeyn1.png' on page 19 undefined on input line 3.
+
+
+LaTeX Warning: Reference `Deon_Mixing_Feyn' on page 19 undefined on input line 
+3.
+
+
+Package natbib Warning: Citation `Babar_D0_Review' on page 19 undefined on inpu
+t line 3.
+
+[19 <./figs/cpf.JPG>]
+<figs/Deon_mixing_feyn.png, id=110, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
 Package pdftex.def Info: figs/Deon_mixing_feyn.png used on input line 7.
 (pdftex.def)             Requested size: 152.9717pt x 85.51959pt.
- [9 <./figs/Deon_mixing_feyn.png>]
-<figs/BaBar_D0_Mixing_Results.png, id=64, 539.01375pt x 490.83376pt>
+
+
+Package natbib Warning: Citation `Deon_Mixing_Feyn' on page 20 undefined on inp
+ut line 9.
+
+
+Package natbib Warning: Citation `Deon_Mixing_Feyn' on page 20 undefined on inp
+ut line 9.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `BabarD0mixing' on page 20 undefined on input 
+line 19.
+
+
+Package natbib Warning: Citation `BelleD0mixing' on page 20 undefined on input 
+line 19.
+
+
+LaTeX Warning: Reference `xyDeonMixing' on page 20 undefined on input line 19.
+
+
+Package natbib Warning: Citation `Babar_D0_Review' on page 20 undefined on inpu
+t line 19.
+
+[20 <./figs/kino.JPG> <./figs/gam.JPG>]
+
+Package natbib Warning: Citation `BabarD0mixing' on page 21 undefined on input 
+line 27.
+
+
+LaTeX Warning: Reference `BaBar_D0_Mixing_Results.png' on page 21 undefined on 
+input line 35.
+
+
+LaTeX Warning: Reference `LHCb_D0_Mixing_Results.png' on page 21 undefined on i
+nput line 35.
+
+
+Package natbib Warning: Citation `Kevin' on page 21 undefined on input line 35.
+
+
+[21 <./figs/trig.JPG> <./figs/Deon_mixing_feyn.png>]
+<figs/BaBar_D0_Mixing_Results.png, id=118, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
@@ -407,18 +677,150 @@ Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 39
 .
 (pdftex.def)             Requested size: 215.60167pt x 196.33002pt.
 
-<figs/LHCb_D0_Mixing_Results.png, id=65, 425.59pt x 384.43625pt>
+<figs/LHCb_D0_Mixing_Results.png, id=119, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
 Package pdftex.def Info: figs/LHCb_D0_Mixing_Results.png used on input line 47.
 
 (pdftex.def)             Requested size: 170.23297pt x 153.77177pt.
+ [22 <./figs/BaBar_D0_Mixing_Results.png> <./figs/LHCb_D0_Mixing_Results.png>]
+
+LaTeX Warning: Reference `DeonLinComb' on page 23 undefined on input line 59.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `LHCbAsymmetry' on page 23 undefined on input 
+line 65.
 
-[10 <./figs/BaBar_D0_Mixing_Results.png>])
+) (./SCPVsect.tex
+
+Package natbib Warning: Citation `SCPV1' on page 23 undefined on input line 6.
+
+
+Package natbib Warning: Citation `SCPV1' on page 23 undefined on input line 6.
+
+
+Package natbib Warning: Citation `SCPV2' on page 23 undefined on input line 6.
+
+[23] [24]
+
+Package natbib Warning: Citation `SCPV3' on page 25 undefined on input line 118
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+[26] [27]
+
+Package natbib Warning: Citation `SCPV4' on page 28 undefined on input line 244
+.
+
+
+Package natbib Warning: Citation `SCPV5' on page 28 undefined on input line 246
+.
+
+[28]
+
+Package natbib Warning: Citation `SCPV6' on page 29 undefined on input line 291
+.
+
+
+Package natbib Warning: Citation `SCPV6' on page 29 undefined on input line 295
+.
+
+
+Package natbib Warning: Citation `SCPV3' on page 29 undefined on input line 295
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Package natbib Warning: Citation `SCPV5' on page 29 undefined on input line 306
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+
+ []
+
+[30]
+
+Package natbib Warning: Citation `SCPV5' on page 31 undefined on input line 424
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Package natbib Warning: Citation `SCPV7' on page 31 undefined on input line 428
+.
+
+[31] <figs/aspon_kaon.png, id=157, 650.43pt x 392.21532pt>
+File: figs/aspon_kaon.png Graphic file (type png)
+
+<use figs/aspon_kaon.png>
+Package pdftex.def Info: figs/aspon_kaon.png used on input line 451.
+(pdftex.def)             Requested size: 260.16739pt x 156.88335pt.
+
+
+Package natbib Warning: Citation `SCPV5' on page 32 undefined on input line 458
+.
+
+
+Package natbib Warning: Citation `SCPV1' on page 32 undefined on input line 458
+.
+
+[32 <./figs/aspon_kaon.png>]
+
+Package natbib Warning: Citation `SCPV7' on page 33 undefined on input line 472
+.
+
+)
+
+LaTeX Warning: Reference `LastBibItem' on page 33 undefined on input line 46.
+
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
@@ -428,47 +830,67 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
- [11 <./figs/LHCb_D0_Mixing_Results.png>]
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
- [12] (./main.aux)
+
+Class revtex4 Warning: Endnote numbers changed: rerun LaTeX.
+
+
+Package natbib Warning: There were undefined citations.
+
+[33] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4806 strings out of 495059
- 65562 string characters out of 3182030
- 150937 words of memory out of 3000000
- 7886 multiletter control sequences out of 15000+200000
- 10938 words of font info for 42 fonts, out of 3000000 for 9000
+ 6433 strings out of 495059
+ 100232 string characters out of 3182030
+ 234295 words of memory out of 3000000
+ 9475 multiletter control sequences out of 15000+200000
+ 14502 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,14n,28p,2484b,345s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,16n,26p,2484b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 500593 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on main.pdf (33 pages, 1331073 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 256 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

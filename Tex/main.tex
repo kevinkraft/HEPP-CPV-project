@@ -7,6 +7,7 @@
 \usepackage{listing} %listings
 \usepackage{braket}
 \usepackage{mathtools}
+\usepackage[noabbrev,capitalise]{cleveref} %for \cref in CKM-Mechanism.tex 
 \providecommand{\e}[1]{\ensuremath{\times 10^{#1}}} %because my scientific notation wouldn't work: Kevin
 
 \begin{document}
@@ -27,13 +28,15 @@
 
 \input{CP_Violation}
 
-%\input{HEPPCPV-CKM}
+\input{CKM-Mechanism}
 
 \input{CPV_in_Kaon_system}
 
+\input{Bphysics}
+
 \input{Deon_CPV}
 
-%\input{SCPVsect} %Commented out to avoid clutter.
+\input{SCPVsect} %Commented out to avoid clutter.
 
 \begin{appendix}
 \section{Appendix}
