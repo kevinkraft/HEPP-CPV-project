@@ -1,5 +1,6 @@
 \documentclass[floatfix,aps,prd,amsmath,amssymb]{revtex4}
 
+\usepackage{hyperref} %:D it works here, but not down there 
 \usepackage{epsfig}
 \usepackage{color}
 \usepackage{graphicx}
@@ -9,6 +10,7 @@
 \usepackage{mathtools}
 \usepackage[noabbrev,capitalise]{cleveref} %for \cref in CKM-Mechanism.tex 
 \providecommand{\e}[1]{\ensuremath{\times 10^{#1}}} %because my scientific notation wouldn't work: Kevin
+%\usepackage{hyperref}
 
 \begin{document}
 \title{CP Violation, Group Formalism and the Universe}
@@ -20,10 +22,14 @@
 \end{abstract}
 
 \maketitle
+\pagenumbering{roman}
+
+\newpage
+
 \tableofcontents
 \pagenumbering{arabic}
 
-
+\newpage
  
 \input{Introduction}
 
@@ -41,7 +47,7 @@
 
 \input{SCPVsect}
 
-
+\input{Conclusion}
  
 \begin{thebibliography}{10}
 %Kaon CPV section
