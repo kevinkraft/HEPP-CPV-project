@@ -47,7 +47,7 @@ A \textbf{transformation group} is a more useful idea. Let $X$ be a set, $\mathr
 
 If $3$-dimensional space was modelled by $\mathbb{R}^3$ the transformation group would not be useful, it would contain unnatural discontinuous functions that do not relate to intuition about space. What would be useful is:
 \begin{center}
-The transformations that preserve a property of a space form a group. It is known as the \textbf{invariance group} or the \textbf{symmetry group}.
+The set of transformations that preserve a property of a space form a group. It is known as the \textbf{invariance group} or the \textbf{symmetry group}.
 \end{center}
  This is an extremely general and potent idea. It is also not difficult to prove, so it shall be after the following motivation.
  
@@ -248,7 +248,7 @@ The reader may be having a hard time seeing how this relates to particle physics
 
 Most of the groups discussed have their place in modern particle physics. Lorentz invariance and unitarity of symmetry operators obviously extend from special relativity and QM. That is not all, the gauge-symmetry group of the Standard Model is $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. Many of the popular extensions to the Standard Model are also defined by gauge symmetries such as $\mathrm{SU}(5)$, $\mathrm{SO}(10)$ and $\mathrm{O}(16)$ \cite{SCPV4}.
 
-It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPV5}. Explaining how to use this with the mathematics being developed is the primary goal of the section. Although, the hierarchy of knowledge required for theoretical physics is unfortunately large. Despite that the material has attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
+It is possible to state group conditions used for either (a) deducing that a theory can allow SCPV or (b) creating theories which allow for it\cite{SCPV5}. Explaining how to use this with the mathematics being developed is the primary goal of the section. Although, the hierarchy of knowledge required for theoretical physics is unfortunately large. Despite that the material was attempted to have been presented in a condensed and tangible manner, inevitably some details will be avoided.
 
 In QM overall phase is unimportant, that is $\ket{\psi} \sim \ket{\psi}e^{i\xi}$ where $\xi \in [0,2\pi)$. When making any physical measurement the phase cancels out in the complex inner product. It forms a \textit{global} gauge symmetry. Phase is still important in QM in the form of phase difference. Consider two energy eigenstates with $a,b\in \mathbb{R}$
 \begin{align*}
@@ -278,9 +278,9 @@ This differentiability calls for the structure of a \textbf{Lie group} (acting o
 \begin{align*}
 &\cdot(x,y) = x+y &\mathrm{inv}(x) = -x
 \end{align*}
-Both of these functions are differentiable in their arguments so $(\mathbb{R},+)$ forms a Lie Group. Likewise other familiar groups $\mathrm{SU}(n)$, $\mathrm{O}(n)$ and $\mathrm{GL}(n,\mathrm)$ all form Lie groups.
+Both of these functions are differentiable in their arguments so $(\mathbb{R},+)$ forms a Lie Group. Likewise other familiar groups $\mathrm{SU}(n)$, $\mathrm{O}(n)$ and $\mathrm{GL}(n,\mathbb{R})$ all form Lie groups.
 
-To define calculus on non-Euclidean spaces the structure of differential manifolds is required. The details of which will have to be omitted but some intuitive and useful properties are worth discussing. The dimension of a differential manifold is related to the intuitive understanding of spatial dimension. The surface of a sphere is a two-dimensional space and as expected forms a two-dimensional manifold. This means, for the most part, the sphere can be parametrised by two numbers $(\theta,\phi)$.
+To define calculus on non-Euclidean spaces the structure of differential manifolds is required. The details of which will have to be omitted but some useful properties are worth discussing. The dimension of a differential manifold is related to the intuitive understanding of spatial dimension. The surface of a sphere is a two-dimensional space and as expected forms a two-dimensional manifold. This means, for the most part, the sphere can be parametrised by two numbers $(\theta,\phi)$.
 
 $\mathrm{O}(n)$, $\mathrm{U}(n)$ and $\mathrm{SU}(n)$ have manifold dimension $\frac{1}{2}n(n-1)$, $n^2$ and $n^2-1$ respectively. So these objects are no longer purely to be considered as groups but also as abstract smooth geometric spaces.
 
@@ -294,12 +294,12 @@ Both symmetries are isomorphic to $\mathrm{U}(1)$ but in very different contexts
 The local gauge symmetry of the strong force is $\mathrm{SU}(3)$ and for the weak force it is $\mathrm{SU}(2)$. Like $\mathrm{U}(1)$ was represented by one parameter which was a function of space-time position $\xi(x)$, $\mathrm{SU}(2)$ and $\mathrm{SU}(3)$ have $2^2-1=3$ and $3^3-1=8$ respectively. Notice peculiarly these these are the amount of force carriers in each theory.
 
 What do these symmetries mean physically? According to \cite{SCPV6}, they are like the the potentials $\mathbf{A}, \phi$ for classical electromagnetism; merely a tool to make the mathematics easier. In the same way as one could use $\mathbf{E}$ and $\mathbf{B}$ without the degeneracy of $\mathbf{A}$ and $\phi$, in principle one could formulate QED completely independent of phase, even without complex numbers.
-However the difference between usability would be extreme.
+However the difference in usability would be extreme.
 
 
-A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie groups and differential manifolds related to physics can be found at \cite{SCPV3}. 
+A full treatment of local gauge theory for physics can be found here \cite{SCPV6} and more on Lie groups and differential manifolds related to physics can be found in \cite{SCPV3}. 
 
-The gauge symmetries of the Standard Model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a project manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the SUSY theory $\mathrm{SU}(5)$ as $5^2-1 = 24$ then tells us the number of force carriers in this theory.
+The gauge symmetries of the Standard Model are written as the product group $\mathrm{SU}(3)\times \mathrm{SU}(2)\times \mathrm{U}(1)$. A product group is formed in the same way $\mathbb{R}^2$ with vector addition is a product group of $\mathbb{R}\times\mathbb{R}$. This can also be considered a product manifold and indeed it tells us the number of force carriers there are in each theory. Knowing the dimension of the famous SUSY theory $\mathrm{SU}(5)$ is $5^2-1 = 24$ then tells us the number of force carriers in this theory.
 
 One must call it at a day at some point, actually dealing with Lagrangians is a much more time consuming and worth-while task, but the language developed shall suffice to investigate SCPV models.
 
@@ -426,7 +426,7 @@ This leaves three interesting possibilities  (as $\lnot$A$\Rightarrow\lnot B$)
 \item[(ii)] (A and B) SCPV.
 \item[(iii)] (A and not B) Total CP invariance.
 \end{itemize}
-What is more interesting is painting this in more of a particle physics light, though it is difficult to do in general as the criterion as so general, it can be done by noting possible force carriers as ``spurions" \cite{SCPV5}. A simplified example will be taken.\\
+What is more interesting is painting this in more of a particle physics light. Though it is difficult to do in general as the criterion as so general it can be done by introducing new fields and therefore new particles \cite{SCPV5}. A simplified example will be taken.\\
 
 \subsection{The Aspon Model}
 
@@ -440,7 +440,7 @@ compared to the Standard Model
 \end{align*}
 If two differential manifolds $\mathcal{M}$ and $\mathcal{N}$ have dimension $m$ and $n$ respectively, their product manifold $\mathcal{M} \times \mathcal{N}$ has dimension $m+n$. A product manifold is constructed as one would expect with the example $\mathbb{R}^2 = \mathbb{R}\times \mathbb{R}$. This means the only difference between the Standard Model's gauge symmetry group's dimension and the aspon model's is the dimension of $\mathrm{U}(1)$, which is $1^2=1$. As noted before, this corresponds to the number of force carriers in the theory which implies the aspon model has one more force carrier than the Standard Model. This force carrier is called the \textbf{aspon} and denoted $A^0$.
 
-The regular Standard Model particles all have aspon charge 0. This model allows additional possible states, of most important are two complex Higgs scalar particles denoted $\chi^\alpha$ where $\alpha \in \{1,2\}$, these have aspon charge 1. These are the cause of the VEV values with non-removable complex phase. In other words, here lies the SCPV.
+The regular Standard Model particles all have aspon charge 0. This model allows additional possible states, of most importance are two complex Higgs scalar particles denoted $\chi^\alpha$ where $\alpha \in \{1,2\}$, these have aspon charge 1. These are the cause of the VEV values with non-removable complex phase. In other words, here lies the SCPV.
 
 Writing the VEVs of each new particle as
 \begin{align*}
@@ -450,7 +450,6 @@ SCPV violation occurs by symmetry breaking in a manner analogous to the Higgs. T
 
 A lot has been said in the previous paragraphs. Despite knowing the mathematical symmetry conditions required for SCPV, explicit intuition about how CPV occurs was not given. Now, with the non-removable phases appearing on Higgs particles, by symmetry breaking through the Higgs mechanism this can cause measurable CPV. Without the possibility of this symmetry breaking in SCPV theories, they would be worthless. At the very least the theories need to explain $K^0-\bar{K}^0$ mixing and as XCPV is incompatible with SCPV, it \textit{must} use the SCPV mechanism.
 
-The Feynman Diagram for the leading order term for $K^0-\bar{K}^0$ mixing is then
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.4]{figs/aspon_kaon.png}
