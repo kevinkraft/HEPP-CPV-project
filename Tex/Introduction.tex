@@ -1,3 +1,208 @@
 \section{Introduction}
 
-Short intro here
+%\subsection{$P$, $C$, $T$ and the $\hat{C}\hat{P}\hat{T}$ Theorem}
+%\vspace{-1.0em}
+%\begin{center}
+%\tiny{\textit{Dudley Grant}}
+%\end{center}
+
+\subsection{The Parity Operator}
+\vspace{-1.0em}
+\begin{center}
+\tiny{\textit{Dudley Grant}}
+\end{center}
+
+The \textbf{parity operator}, $\hat{P}$, refers to a specific spatial reflection defined for a single particle by
+\begin{align*}
+\hat{P}\psi(\mathbf{r},t) = P\psi(-\mathbf{r},t) 
+\end{align*}
+Where $\psi(\mathbf{r},t)$ is the spatial representation of the time-evolving state $\ket{\psi(t)}$. The spatial reflection in Cartesian coordinates has matrix representation
+\begin{align*}
+\mathsf{M_{Ref}}\mathsf{x}=\left( \begin{array}{c c c} -1 & 0 &0 \\
+0& -1&0 \\
+0&0&-1 \end{array}\right)\left( \begin{array}{c} x\\y\\z \end{array} \right) = \left( \begin{array}{c} -x\\-y\\-z \end{array} \right)
+\end{align*}
+This corresponds to reflection along the plane orthogonal to the vector $\mathbf{r}=(x,y,z)$ and centred at the origin. It shall be shown $\mathsf{M_{Ref}}  \in \mathrm{O}(3)$, and it forms finite a symmetry subgroup $\{\mathsf{I},\mathsf{M_{ref}} \}$, where $\mathsf{I}$ is the identity matrix. This natural mathematical framework gives initial meaning to the parity operator forming a symmetry group, although really it shall be a symmetry of a Lagrangian. In this group $\mathsf{M_{Ref}}$ must be self-inverse as can easily be understood by $\mathsf{M_{Ref}}^2=\mathsf{I}$. Using this
+\begin{align*}
+\hat{P}^2\phi(\mathbf{r},t)&=P\hat{P}\phi(\mathsf{M_{Ref}}\mathbf{r},t)\\
+&= P^2\phi(\mathsf{M_{Ref}}^2\mathbf{r},t)\\
+&= P^2\phi(\mathsf{I}\mathbf{r},t)\\
+&= P^2\phi(\mathbf{r},t)
+\end{align*}
+$P^2=1$ since normalisation is desired and $\phi(\mathbf{r},t)$ is normalised. Since $\hat{P}$ is chosen to be a Hermitian operator because we want to be able to observe its eigenvalues, its eigenvalues are real. So for an eigenstate, $\hat{P}\ket{\phi}=P\ket{\phi}$, $P=\pm 1$. For a system of n particles each in state $\ket{\psi_i}$ this definition can be extended naturally by
+\begin{align*}
+\hat{P}\left(\ket{\psi_1}\otimes\ket{\psi_2}\otimes...\otimes\ket{\psi_n}\right) \vcentcolon= (\hat{P}\ket{\psi_1})\otimes(\hat{P}\ket{\psi_2})\otimes...\otimes(\hat{P}\ket{\psi_n})
+\end{align*}
+In position representation this reads more intuitively as
+\begin{align*}
+\hat{P}\psi(\mathbf{r}_1,\mathbf{r}_2,...,\mathbf{r}_n,t)=P_1P_2...P_n\psi(-\mathbf{r}_1,-\mathbf{r}_2,...,-\mathbf{r}_n,t)
+\end{align*}
+Where $\mathbf{r}_i$ correspond to the spatial positions of each particle. If a Lagrangian is invariant under $\hat{P}$, that is $\mathcal{L}(\psi,\nabla \psi,x^i)$ returns the same solution as $\mathcal{L}(\hat{P}\psi,\nabla \hat{P}\psi,x^i)$, then parity is said to be conserved. This is not the case for the Standard Model. Parity may not be conserved in weak interactions.
+
+Looking at energy eigenstates in spherical coordinates spherical harmonics, $Y^m_l(\theta,\phi)$, may be used. This gives $\phi_{nlm}(\mathbf{r})=R_{nl}(|\mathbf{r}|)Y^m_l(\theta,\phi)$. These are essentially the fourier modes in spherical coordinates. The parity transformation in spherical coordinates does not effect the radial distance, only the two angles. Some geometric reasoning shows that
+\begin{align*}
+\left( \begin{array}{c} x \\ y \\ z \end{array} \right) \mapsto \left( \begin{array}{c} -x \\ -y \\ -z \end{array} \right) \hspace{7mm} \Leftrightarrow \hspace{7mm} \left( \begin{array}{c} r \\ \theta \\ \phi \end{array} \right) \mapsto \left( \begin{array}{c} r \\ \pi-\theta \\ \pi+\phi \end{array} \right)
+\end{align*}
+From a standard textbook on special functions it can be shown
+\begin{align*}
+Y^l_m(\theta,\phi)\mapsto Y^l_m(\pi-\theta,\pi+\phi) = (-1)^l Y^l_m(\theta,\phi)
+\end{align*}
+For a free particle this representation is of no use. For bound systems, such as the hydrogen atom or mesons, it greatly simplifies calculation. Consider a system composed of two particles and write the effect of the parity operator on its spherical Fourier modes.
+\begin{align*}
+\hat{P}(\ket{\phi_1}\otimes\ket{\phi_2}) &= (\hat{P}\ket{\phi_1})\otimes(\hat{P}\ket{\phi_2}) \\
+&=(\hat{P}R_{n_1 l_1}(r_1)Y^{l_1}_{m_1}(\theta_1,\phi_1))\otimes(\hat{P}R_{n_2 l_2}(r_2)Y^{l_2}_{m_2}(\theta_2,\phi_2)) \\
+&=((-1)^{l_1}R_{n_1 l_1}(r_1)Y^{l_1}_{m_1}(\theta_1,\phi_1))\otimes((-1)^{l_2}R_{n_2 l_2}(r_2)Y^{l_2}_{m_2}(\theta_2,\phi_2)) \\
+&=(-1)^{l_1+l_2}\ket{\phi_1}\otimes\ket{\phi_2}
+\end{align*}
+So the parity of a spherical harmonic mode may be deduced by the total angular momentum of the system. What is left is to relate this to particle physics. This may be done by defining instrinsic parity.
+
+A Fourier mode in Cartesian coordinates may be written in position representation as follows
+\begin{align*}
+\psi_\mathbf{p}(\mathbf{r},t) = e^{\frac{i}{\hbar}\left(\mathbf{p}\cdot\mathbf{r}-iE t\right)}
+\end{align*}
+This state is not physical for it is non-normalisable. $\mathbf{p}$ has interpretation as momentum of the particle. This can be checked by applying the momentum operator. Consider the parity operator's effect
+\begin{align*}
+\hat{P}\psi_\mathbf{p}(\mathbf{r},t) &= P e^{\frac{i}{\hbar}\left(\mathbf{p}\cdot(-\mathbf{r})-iE t\right)} \\
+&= P e^{\frac{i}{\hbar}\left((-\mathbf{p})\cdot\mathbf{r}-iE t\right)} \\
+&= P\psi_\mathbf{-p}(\mathbf{r},t)
+\end{align*}
+For $\mathbf{p}=0$ this is an eigenvalue equation. In that case, $P$ is called the \textbf{intrinsic parity} of a particle. $\mathbf{p}=0$ may be interpreted as the particle being at rest, but as this is a non-normalisable mode it does not make sense: By the Heisenberg uncertainty principle, a quantum mechanical particle can not have an exact momentum. 
+
+In order for the Dirac equation to be symmetric under $\hat{P}$ it turns out that for an electron-positron system
+\begin{align*}
+\hat{P}(\psi_{e^-}(\mathbf{r}_-)\otimes\psi_{e^+}(\mathbf{r}_+))=-1(\psi_{e^-}(-\mathbf{r}_-)\otimes\psi_{e^+}(-\mathbf{r}_+))
+\end{align*}
+Now as 
+\begin{align*}
+\hat{P}(\psi_{e^-}(\mathbf{r}_-)\otimes\psi_{e^+}(\mathbf{r}_+)) &= (\hat{P}\psi_{e^-}(\mathbf{r}_-))\otimes (\hat{P}\psi_{e^+}(\mathbf{r}_+)) \\
+&= (P_{e^-}\psi_{e^-}(-\mathbf{r}_-))\otimes (P_{e^+}\psi_{e^+}(-\mathbf{r}_+)) \\
+&= P_{e^-}P_{e^+}(\psi_{e^-}(-\mathbf{r}_-)\otimes\psi_{e^+}(-\mathbf{r}_+))
+\end{align*}
+This implies $P_{e^-}P_{e^+}=-1$, so depending on convention $P_{e^-}=\pm 1$ and $P_{e^+}=\mp 1$. The standard convention is to denote matter parity by $1$ and antimatter parity by $-1$, so $P_{e^-}= +1$ and $P_{e^+}=- 1$. It turns out this holds for any spin-$\frac{1}{2}$ particles. Using this and the spherical harmonics defined above an equation for a bound system of particles may be deduced.
+
+First define a function $\mathsf{P}:\mathcal{H}\rightarrow \{-1,+1\}$. This function takes a state from the overall Hilbert-space of the system considered and returns the parity. For example in the electron-positron system $\mathsf{P}(\ket{e^-}\otimes\ket{e^+})=-1$. Often this is written with the same $P$ as the parity operator as an accepted abuse of notation. In general for a bound system of n states $\ket{\psi_i}$
+\begin{align*}
+\mathsf{P}\left(\bigotimes_{i=1}^n\ket{\psi_i}\right)=(-1)^{\sum_i l_i} \prod_{i=1}^n\mathsf{P}(\ket{\psi_i})
+\end{align*}
+where $\bigotimes_i\ket{\psi_i}$ is shorthand for $\ket{\psi_1}\otimes\ket{\psi_2}\otimes...\otimes\ket{\psi_n}$. Now, denoting the total angular momentum $\sum_{i=1}^n l_i$ by $l$ and omitting the tensor product of states of particles this reduces to
+\begin{align*}
+\mathsf{P}\left(\ket{p_1p_2...p_n}\right)=(-1)^{l} \prod_{i=1}^n\mathsf{P}(\ket{p_i})
+\end{align*}
+Where $p_i$ is short for the state of the $i^{th}$ particle. Note that this is only true of bound states, just as free states of the hydrogen atom exist with non-discrete possible orbital angular momentum.
+
+\subsection{The Charge Operator}
+\vspace{-1.0em}
+\begin{center}
+\tiny{\textit{Dudley Grant}}
+\end{center}
+
+The \textbf{charge operator}, $\hat{C}$, changes a particle to its antiparticle. Intuitively, picture a particle in a certain state in the Hilbert space of states. Classically this is analogous to phase space which is the geometric space of all possible positions and velocities the particle can take, $(q^i,\dot{q}^i)$. When changed to a positron, an electron moving in phase space keeps the same position and momentum, but simply changes its sign. In other words classically all $\hat{C}$ changes the charge of a particle, but the particle keeps its direction of motion.
+
+Consider a free electron orbiting a central positive charge, freeze this at one instant and replace with a positron. What happens? The positron accelerates away from the centre but it still keeps the tangent velocity it had originally. In Hilbert space it is quite similar except with the addition of probabilities. If the particle is very likely to move in the $\mathbf{e_x}$ direction and $\hat{C}$ is applied, then at that instant the antiparticle is very likely to move in the $\mathbf{e_x}$ direction.
+
+Let $p$ represent a particle that is its own antiparticle, like the photon. Let $q$ represent a particle that is not its own antiparticle, like a positron. The effect of $\hat{C}$ can then be described quite easily
+\begin{align*}
+&\hat{C}\ket{p} = C_p \ket{p}   &\hat{C}\ket{q} = \ket{\bar{q}}
+\end{align*}
+the effect of $\hat{C}^2$ should be $\hat{I}$ as changing from antiparticle and back should be invariant. This gives $C_p= \pm 1$. The reason that there is no $C_q$ factor is: If it were introduced it does not correspond to any eigenvalue of $\hat{C}$, for antiparticles are different eigenstates. This means it cannot be measured since the definition of a quantum mechanical observable states that the observed values are eigenvalues of a hermitian operator. The arbitrary nature of $C_q$ leads to the freedom to choose $C_q=1$.
+
+Generalising to a system of particles
+\begin{align*}
+\hat{C}(\ket{p_1}\otimes...\otimes\ket{p_n}\otimes\ket{q_1}\otimes...\otimes\ket{q_m}) &\vcentcolon= (\hat{C}\ket{p_1})\otimes...\otimes(\hat{C}\ket{p_n})\otimes(\hat{C}\ket{q_1})\otimes...\otimes(\hat{C}\ket{q_m}) \\
+&= (C_{p_1}\ket{p_1})\otimes...\otimes(C_{p_n}\ket{p_n})\otimes\ket{\bar{q}_1}\otimes...\otimes\ket{\bar{q}_m}  \\
+&= C_{p_1}...C_{p_n}\ket{p_1}\otimes...\otimes\ket{p_n}\otimes\ket{\bar{q}_1}\otimes...\otimes\ket{\bar{q}_m}  
+\end{align*}
+In other words
+\begin{align*}
+\hat{C}\left(\bigotimes_{i=1}^n\ket{p_i} \otimes \bigotimes_{j=1}^m \ket{q_j} \right) = \prod_{i=1}^n C_{p_i} \left(\bigotimes_{i=1}^n\ket{p_i} \otimes \bigotimes_{j=1}^m \ket{\bar{q}_j} \right)
+\end{align*}
+In a simplified notation this reads
+\begin{align*}
+\hat{C}\ket{p_1...p_nq_1...q_m}=C_{p_1}...C_{p_n}\ket{p_1...p_n\bar{q}_1...\bar{q}_m}
+\end{align*}
+Like the parity operator $\hat{C}$ is also conserved under electromagnetic and strong interactions but in general is not under weak interactions.
+
+\subsection{The Time Reversal Operator}
+\vspace{-1.0em}
+\begin{center}
+\tiny{\textit{Dudley Grant}}
+\end{center}
+
+\textbf{Time reversal} is simply a reflection of the time coordinate. If the laws of physics are preserved under time reversal then while watching a video it would be impossible to tell if it were going forward and backward.
+
+Newton's laws for conservative forces are preserved under time reversal as
+\begin{align*}
+m \mathbf{x}''(t)&=F(\mathbf{x}) \\
+m \partial_{t}\partial_{t}\mathbf{x}(t)&=F(\mathbf{x})
+\end{align*}
+Change time coordinate by reflection $t \mapsto \tilde{t}\vcentcolon=-t$, this implies $\partial_{t}=\frac{\partial \tilde{t}}{\partial t} \partial_{\tilde{t}}=-\partial_{\tilde{t}}$. Note $\mathbf{x}(t)$ is written in one coordinate system for time, it can also be written as $\mathbf{\tilde{x}}(\tilde{t})$ where $\mathbf{\tilde{x}}(\tilde{t}(t))=\mathbf{\tilde{x}}(-t)=\mathbf{x}(t)$ so,
+\begin{align*}
+m (-\partial_{\tilde{t}})(-\partial_{\tilde{t}})\mathbf{x}(-\tilde{t})&=F(\mathbf{x}) \\
+m (-1)^2\partial_{\tilde{t}}\partial_{\tilde{t}}\mathbf{\tilde{x}}(\tilde{t})&=F(\mathbf{x}) \\
+m \mathbf{\tilde{x}}''(\tilde{t})&=F(\mathbf{x})
+\end{align*}
+As the equation of motion is the same for going backward in time the symmetry has been shown.  
+
+Now in quantum mechanics consider a Fourier mode
+\begin{align*}
+\psi_\mathbf{p}(\mathbf{r},t) = e^{\frac{i}{\hbar}(\mathbf{p}\cdot\mathbf{r}-Et)}
+\end{align*}
+In classical mechanics the direction of momentum changes under time reversal as
+\begin{align*}
+\mathbf{p} = m\partial_t \mathbf{x}(t) \mapsto m (-\partial_{\tilde{t}})\mathbf{x}(-t) = -m\mathbf{\tilde{x}}(\tilde{t}) = -\mathbf{\tilde{p}}
+\end{align*}
+In quantum mechanics it must be similar
+\begin{align*}
+\psi_\mathbf{p}(\mathbf{r},t)&\mapsto \psi_{-\mathbf{p}}(\mathbf{r},-t) \\
+&=e^{\frac{i}{\hbar}((-\mathbf{p})\cdot\mathbf{r}-E(-t))} \\
+&=\psi_\mathbf{p}^*(\mathbf{r},t)
+\end{align*}
+So time reversal may be represented by complex conjugate. Normalisation is preserved and so are Hermitian observables
+\begin{align*}
+|\psi(\mathbf{r},t)| \mapsto |\psi(\mathbf{r},-t)|&=|\psi^*(\mathbf{r},t)|=|\psi(\mathbf{r},t)| \\
+\braket{\hat{H}}=\braket{\psi(\mathbf{r,t})|\hat{H}\psi(\mathbf{r},t)}&\mapsto \braket{\psi^*(\mathbf{r,t})|\hat{H}\psi^*(\mathbf{r},t)} \\
+&= \braket{\hat{H}^*\psi^*(\mathbf{r,t})|\psi^*(\mathbf{r},t)} \\
+&= \braket{\hat{H}\psi(\mathbf{r,t})|\psi(\mathbf{r},t)}^* \\
+&= \braket{\psi(\mathbf{r,t})|\hat{H}\psi(\mathbf{r},t)}^* \\
+&= \braket{\psi(\mathbf{r,t})|\hat{H}\psi(\mathbf{r},t)} \\
+&= \braket{\hat{H}}
+\end{align*}
+Making use of the Hermitian operator's definition and that they have only real eigenvalues. 
+
+Time reversal may be a symmetry but it does not give a conservation law. For $\hat{C}$ and $\hat{P}$ it was required that they were Hermitian so their eigenvalues, $\{-1,1\}$, could be measured. One cannot define a Hermitian operator that produces the desired effects of time reversal as
+\begin{align*}
+\hat{T}\left(\ket{\alpha\psi(t)}+\beta \ket{\psi(t)}\right) = \alpha^*\hat{T} \ket{\psi(t)}+\beta^*\hat{T} \ket{ \psi(t)} \neq  \alpha\hat{T} \ket{\psi(t)}+\beta\hat{T} \ket{ \psi(t)}
+\end{align*}
+That is, $\hat{T}$ is not linear. Not only is it not hermitian it is also not an operator. Where operator is defined as a linear functional of the Hilbert space $\mathcal{H}$. As an abuse of notation it is commonly still written as $\hat{T}$.
+
+\subsection{CPT Theorem}
+\vspace{-1.0em}
+\begin{center}
+\tiny{\textit{Dudley Grant}}
+\end{center}
+
+The \textbf{CPT} Theorem says that any relativistic theory is symmetric under the generalised operator $\hat{C}\hat{P}\hat{T}$. In quantum theories the topic of anti-unitary operators must be introduced and explored. Essentially introducing anti-unitary operators allows to speak of ``eigenvalues" of $\hat{T}$ which are $\{-1,1\}$. The details of the proof are beyond the writer's current ability and can be found here \cite{CPT}.
+
+Although CPV occurs, CPT is always conserved for any physical phenomena, for a very general relativistic theory. This is the use of the theorem.\\
+
+For a more detailed treatment of $\hat{C}$, $\hat{P}$ and $\hat{T}$ see \cite{Martin+Shaw}.
+
+\subsection{$CP$ and Conservation}
+\vspace{-1.0em}
+\begin{center}
+\tiny{\textit{Kevin Maguire}}
+\end{center}
+
+It has been shown that the violation of $C$ and $P$ are large effects. In fact, they are both maximally violated by the weak force. CP symmetry was proposed to reconcile these two quantities. This new symmtery was of course conserved by the strong and EM forces and seemed to be conserved in the weak force. There is good evidence to suggest that $CP$ is conserved in weak decays of leptons and the helicity of neutrinos.
+
+In considering decays of polarized muons to electron final states:
+
+\begin{align*}
+\mu^{-} \rightarrow e^{-} \bar{\nu}_{e} \nu_{\mu} & & \mu^{+} \rightarrow e^{+} \nu_{e} \bar{\nu}_{\mu} \\ 
+\end{align*}
+
+\noindent It is found that the electrons are emitted more frequently in certain directions. Thus there is an asymmetry, $\xi_{\pm}$ in the emission, with the two decays having different asymmetries. Under the transformation $\hat{C}$ it is expected that these two decays would have the same asymmetry. Similarly, by the $\hat{P}$ transformation it is expected that the distributions should be completely uniform and favour no direction. It was clear that $C$ and $P$ were being violated, but it was also noted that $\mu^{+}$ and $\mu^{-}$ have the exact same lifetimes. For this system $CP$ conservation implies that the probability of an electron in one direction should be equal to the probability of a positron being emitted in the opposite direction. Using the experimentally determined formula for muon decay assymetries it is found that $CP$ conservation implies the $\xi_{+} = - \xi_{-}$. Experimentally these values are measured as $\xi_{+} = - \xi_{-} =  - 1.00 \pm 0.04$ \cite{Martin+Shaw}. Thus it is found that $CP$ is conserved in this leptonic system. In fact, there is no experimental evidence for the the violation of $CP$ in weak leptonic decays.
+
+\noindent The action of $\hat{C}$ and $\hat{P}$ on neutrinoes with definite handedness is discussed here. Handedness, also known as helicity is defined as right if the projection of a partilces spin, $m_{l}$, is in the same direction as the particles motion. This corresponds to $m_{l}$ having the same sign as the particles momentum. Similarly a left handed particle has the projection of its spin in the opposite direction to its momentum. The $\hat{C}$ operator changes a particle into its anti-particle and thus a left handed neutrino transforms to a left handed anti-neutrino. The $\hat{P}$ operator reverses a particles momentum and thus changes its handedness, so a left handed neutrino goes to a right handed neutrino. However, in nautre it is found that only left handed neutrinos and right handed anti-neutrinos are observed. $C$ and $P$ predict that decays involving lefthanded neutrinos and right handed anti-neutrinos should behave the same as decays involving right handed neutrinos and left handed anti-neutrinoes. Thus if none of the latter are observed it is clear that these particles are not treated the same by nature, showing that $C$ and $P$ are violated. The solution here is that the combined operation of $\hat{C}\hat{P}$ converts a left handed neutrino to a right handed anti-neutrino, thus we see that $CP$ conservation requires that only these two definite handed neutrinos are observed in nature.               
+
+This review is, of course, not on $CP$ conservation. As stated, $CP$ is conserved in weak leptonic decays, but this is certainly not the case in hadroic or even semi-leptonic decays. $CP$ violation (CPV) was first observed in the mixing of neutral K-mesons by Christenson, Cronin, Fitch and Turlay in 1964 \cite{FirstCPV}. They observed the $CP = -1$ state $K^{0}_L$ decaying to $2$ pions, a state with $CP = 1$. Although the fraction of $K^{0}_L$ decays violating $CP$ in this way is tiny, the discovery was significant.      
