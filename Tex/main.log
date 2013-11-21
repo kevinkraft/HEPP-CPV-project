@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  21 NOV 2013 14:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  21 NOV 2013 15:36
 entering extended mode
 **main.tex
 
@@ -474,7 +474,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Class revtex4 Warning: Assuming \noaffiliation for John Ronayne (10318997), Kev
 in Maguire (10318135), Sinead Hales(10318221), Dudley Grant (10275291).
 
-<figs/Cover.jpg, id=103, 459.21562pt x 428.35031pt>
+<figs/Cover.jpg, id=107, 459.21562pt x 428.35031pt>
 File: figs/Cover.jpg Graphic file (type jpg)
  <use figs/Cover.jpg>
 Package pdftex.def Info: figs/Cover.jpg used on input line 29.
@@ -569,6 +569,11 @@ Overfull \hbox (5.00003pt too wide) detected at line 27
  \OT1/cmr/m/n/10 38
  []
 
+
+Overfull \hbox (5.00003pt too wide) detected at line 28
+ \OT1/cmr/m/n/10 38
+ []
+
 )
 \tf@toc=\write4
  [1]
@@ -593,7 +598,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-<figs/ckmfig1.jpg, id=183, 397.485pt x 155.83218pt>
+<figs/ckmfig1.jpg, id=188, 397.485pt x 155.83218pt>
 File: figs/ckmfig1.jpg Graphic file (type jpg)
  <use figs/ckmfig1.jpg>
 Package pdftex.def Info: figs/ckmfig1.jpg used on input line 20.
@@ -607,13 +612,13 @@ has been already used, duplicate ignored
 l.35 ...{c} & cos\theta_{c} \end{array} \right) \]
                                                    <C:/Users/Kevin/Documents/Co
 llege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig1.jpg
->] <figs/ckmfig2.jpg, id=192, 462.22687pt x 240.9pt>
+>] <figs/ckmfig2.jpg, id=197, 462.22687pt x 240.9pt>
 File: figs/ckmfig2.jpg Graphic file (type jpg)
  <use figs/ckmfig2.jpg>
 Package pdftex.def Info: figs/ckmfig2.jpg used on input line 41.
 (pdftex.def)             Requested size: 255.0pt x 132.89973pt.
 
-<figs/ckmfig3.jpg, id=193, 599.99156pt x 204.765pt>
+<figs/ckmfig3.jpg, id=198, 599.99156pt x 204.765pt>
 File: figs/ckmfig3.jpg Graphic file (type jpg)
  <use figs/ckmfig3.jpg>
 Package pdftex.def Info: figs/ckmfig3.jpg used on input line 51.
@@ -634,13 +639,13 @@ l.66 \[s'=scos\theta_c -sin\theta_c.\]
                                        <C:/Users/Kevin/Documents/College/Year 4
 /High Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig2.jpg> <C:/Users/
 Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV-project/Te
-x/figs/ckmfig3.jpg>] <figs/ckmfig4a.jpg, id=201, 481.8pt x 313.17pt>
+x/figs/ckmfig3.jpg>] <figs/ckmfig4a.jpg, id=206, 481.8pt x 313.17pt>
 File: figs/ckmfig4a.jpg Graphic file (type jpg)
 
 <use figs/ckmfig4a.jpg>
 Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 93.
 (pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
- <figs/ckmfig4b.jpg, id=202, 410.2828pt x 317.68687pt>
+ <figs/ckmfig4b.jpg, id=207, 410.2828pt x 317.68687pt>
 File: figs/ckmfig4b.jpg Graphic file (type jpg)
 
 <use figs/ckmfig4b.jpg>
@@ -669,7 +674,7 @@ l.110 ...}} +(V_{il} V_{kj}) A_2 e^{i\delta_{2}}\]
 llege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig4a.jp
 g> <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-C
 PV-project/Tex/figs/ckmfig4b.jpg>] [9]
-<figs/ckmfig5.jpg, id=214, 438.13687pt x 176.15813pt>
+<figs/ckmfig5.jpg, id=219, 438.13687pt x 176.15813pt>
 File: figs/ckmfig5.jpg Graphic file (type jpg)
  <use figs/ckmfig5.jpg>
 Package pdftex.def Info: figs/ckmfig5.jpg used on input line 159.
@@ -685,7 +690,7 @@ l.175
 PP-CPV-project/Tex/figs/ckmfig5.jpg>])
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\CPV_in_Kaon_system.tex"
-<figs/KevFeyn1.png, id=221, 792.9625pt x 291.0875pt>
+<figs/KevFeyn1.png, id=226, 792.9625pt x 291.0875pt>
 File: figs/KevFeyn1.png Graphic file (type png)
  <use figs/KevFeyn1.png>
 Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
@@ -699,7 +704,7 @@ Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
 l.38 
       <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEP
 P-CPV-project/Tex/figs/KevFeyn1.png>] [12]
-<figs/Christenson_apparatus.png, id=246, 1999.47pt x 1623.06375pt>
+<figs/Christenson_apparatus.png, id=251, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
@@ -707,7 +712,7 @@ Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 100.
 
 (pdftex.def)             Requested size: 199.95871pt x 162.31587pt.
 
-<figs/Christenson_results.png, id=248, 552.0625pt x 564.1075pt>
+<figs/Christenson_results.png, id=253, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
@@ -725,7 +730,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 l.128 \end{align*}
                    <C:/Users/Kevin/Documents/College/Year 4/High Energy Particl
 e Physics/HEPP-CPV-project/Tex/figs/Christenson_apparatus.png>]
-<figs/Perkins_Interference_Kaons.png, id=266, 746.79pt x 251.94125pt>
+<figs/Perkins_Interference_Kaons.png, id=271, 746.79pt x 251.94125pt>
 File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
@@ -748,7 +753,7 @@ l.164 \begin{align}
 le Physics/HEPP-CPV-project/Tex/figs/Christenson_results.png> <C:/Users/Kevin/D
 ocuments/College/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/
 Perkins_Interference_Kaons.png>]
-<figs/KevFeyn2.png, id=290, 495.35063pt x 322.95656pt>
+<figs/KevFeyn2.png, id=295, 495.35063pt x 322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
 Package pdftex.def Info: figs/KevFeyn2.png used on input line 192.
@@ -765,7 +770,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 l.228 \end{align}
                   <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle
  Physics/HEPP-CPV-project/Tex/figs/KevFeyn2.png>]
-<figs/Asymmetry_pic.png, id=322, 512.66531pt x 354.57469pt>
+<figs/Asymmetry_pic.png, id=327, 512.66531pt x 354.57469pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
@@ -803,7 +808,7 @@ gure.12}) has been already used, duplicate ignored
 l.312 \end{equation}
                      <C:/Users/Kevin/Documents/College/Year 4/High Energy Parti
 cle Physics/HEPP-CPV-project/Tex/figs/Asymmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=352, 614.295pt x 415.5525pt>
+<figs/Strangeness_oscillations.png, id=357, 614.295pt x 415.5525pt>
 File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
@@ -821,7 +826,7 @@ l.18 \[
        \ket{B^{0}_{1}}=\frac{1}{\sqrt{2}}(\ket{B^{0}(d\bar{b})}+\ket{\bar{B}...
  <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV
 -project/Tex/figs/Strangeness_oscillations.png>] [19] [20]
-<figs/BBD.jpg, id=375, 618.81187pt x 475.02469pt>
+<figs/BBD.jpg, id=380, 618.81187pt x 475.02469pt>
 File: figs/BBD.jpg Graphic file (type jpg)
  <use figs/BBD.jpg>
 Package pdftex.def Info: figs/BBD.jpg used on input line 121.
@@ -837,7 +842,7 @@ Missing character: There is no ™ in font cmr10!
 l.134 
        <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HE
 PP-CPV-project/Tex/figs/BBD.jpg>]
-<figs/dt.JPG, id=381, 620.3175pt x 359.09157pt>
+<figs/dt.JPG, id=386, 620.3175pt x 359.09157pt>
 File: figs/dt.JPG Graphic file (type jpg)
  <use figs/dt.JPG>
 Package pdftex.def Info: figs/dt.JPG used on input line 137.
@@ -858,7 +863,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 l.158 
        <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HE
 PP-CPV-project/Tex/figs/dt.JPG>]
-<figs/Flavourosscilatons.JPG, id=387, 337.26pt x 341.77687pt>
+<figs/Flavourosscilatons.JPG, id=392, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
@@ -868,7 +873,7 @@ Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 188.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/cpf.JPG, id=388, 307.90031pt x 367.3725pt>
+<figs/cpf.JPG, id=393, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
 Package pdftex.def Info: figs/cpf.JPG used on input line 200.
@@ -894,19 +899,19 @@ l.259 ...)cos(\delta^j)\sin(\Delta m_d \Delta t)\]
 llege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/Flavourossc
 ilatons.JPG> <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Phys
 ics/HEPP-CPV-project/Tex/figs/cpf.JPG>]
-<figs/kino.JPG, id=401, 593.21625pt x 391.4625pt>
+<figs/kino.JPG, id=406, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
 Package pdftex.def Info: figs/kino.JPG used on input line 266.
 (pdftex.def)             Requested size: 306.00311pt x 201.93695pt.
 
-<figs/gam.JPG, id=402, 507.39563pt x 162.6075pt>
+<figs/gam.JPG, id=407, 507.39563pt x 162.6075pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
 Package pdftex.def Info: figs/gam.JPG used on input line 273.
 (pdftex.def)             Requested size: 408.00156pt x 130.75858pt.
 
-<figs/trig.JPG, id=403, 711.4078pt x 322.20375pt>
+<figs/trig.JPG, id=408, 711.4078pt x 322.20375pt>
 File: figs/trig.JPG Graphic file (type jpg)
  <use figs/trig.JPG>
 Package pdftex.def Info: figs/trig.JPG used on input line 285.
@@ -935,7 +940,7 @@ ear 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/gam.JPG>]
 
 LaTeX Warning: Reference `KevFeyn1.png' on page 1 undefined on input line 7.
 
-<figs/Deon_mixing_feyn.png, id=412, 191.21437pt x 106.89937pt>
+<figs/Deon_mixing_feyn.png, id=417, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
@@ -957,7 +962,7 @@ l.27 \begin{align}
 /High Energy Particle Physics/HEPP-CPV-project/Tex/figs/trig.JPG> <C:/Users/Kev
 in/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/f
 igs/Deon_mixing_feyn.png>]
-<figs/BaBar_D0_Mixing_Results.png, id=436, 539.01375pt x 490.83376pt>
+<figs/BaBar_D0_Mixing_Results.png, id=441, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
@@ -968,7 +973,7 @@ Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 43
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/LHCb_D0_Mixing_Results.png, id=437, 425.59pt x 384.43625pt>
+<figs/LHCb_D0_Mixing_Results.png, id=442, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
@@ -1053,7 +1058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-[36] <figs/aspon_kaon.png, id=507, 650.43pt x 392.21532pt>
+[36] <figs/aspon_kaon.png, id=512, 650.43pt x 392.21532pt>
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
@@ -1072,6 +1077,7 @@ e Physics/HEPP-CPV-project/Tex/figs/aspon_kaon.png>])
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
+ [38]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
@@ -1081,17 +1087,16 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
- [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
  [39]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D9674782832BF89264EF79DC29641CEB;1594.
+(rerunfilecheck)             Checksum: 8670EE1B7BED98AC8DE1C43782924717;1649.
 
 
 LaTeX Warning: There were undefined references.
@@ -1101,13 +1106,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9803 strings out of 494045
- 152757 string characters out of 3148387
+ 9805 strings out of 494045
+ 152781 string characters out of 3148387
  289616 words of memory out of 3000000
- 12811 multiletter control sequences out of 15000+200000
+ 12812 multiletter control sequences out of 15000+200000
  14861 words of font info for 54 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 33i,16n,31p,2479b,547s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2479b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -1137,9 +1142,9 @@ mti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (40 pages, 1578582 bytes).
+Output written on main.pdf (40 pages, 1581601 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
