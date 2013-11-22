@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:47
 entering extended mode
 **main.tex
 
@@ -507,7 +507,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 19
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 20
- \OT1/cmr/m/n/10 28
+ \OT1/cmr/m/n/10 29
  []
 
 
@@ -547,12 +547,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 27
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 28
- \OT1/cmr/m/n/10 39
+ \OT1/cmr/m/n/10 38
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 29
- \OT1/cmr/m/n/10 39
+ \OT1/cmr/m/n/10 40
  []
 
 
@@ -567,7 +567,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 31
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 32
- \OT1/cmr/m/n/10 42
+ \OT1/cmr/m/n/10 41
  []
 
 
@@ -577,12 +577,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 33
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 34
- \OT1/cmr/m/n/10 43
+ \OT1/cmr/m/n/10 42
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 35
- \OT1/cmr/m/n/10 43
+ \OT1/cmr/m/n/10 42
  []
 
 
@@ -592,7 +592,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 36
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 37
- \OT1/cmr/m/n/10 44
+ \OT1/cmr/m/n/10 43
  []
 
 
@@ -607,7 +607,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 39
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 40
- \OT1/cmr/m/n/10 45
+ \OT1/cmr/m/n/10 44
  []
 
 
@@ -627,12 +627,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 43
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 44
- \OT1/cmr/m/n/10 48
+ \OT1/cmr/m/n/10 47
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 45
- \OT1/cmr/m/n/10 48
+ \OT1/cmr/m/n/10 47
  []
 
 )
@@ -1076,68 +1076,68 @@ identifier (name{figure.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.8 
+l.2 
     pdfTeX warning (ext4): destination with the same identifier (name{figure.23
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.8 
+l.2 
      <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP
 -CPV-project/Tex/figs/BaBar_D0_Mixing_Results.png> <C:/Users/Kevin/Documents/Co
 llege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/LHCb_D0_Mix
 ing_Results.png>] [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
 [32] [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--339
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--341
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
@@ -1145,7 +1145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
-Package pdftex.def Info: figs/aspon_kaon.png used on input line 455.
+Package pdftex.def Info: figs/aspon_kaon.png used on input line 457.
 (pdftex.def)             Requested size: 260.16739pt x 156.88335pt.
 
 
@@ -1153,10 +1153,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [37])
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
--project\Tex\Conclusion.tex")
-("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\Cosmo_cp.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
@@ -1165,17 +1168,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 \par
-          The hot big bang model is one of the most widely accepted theory f...
+l.37 \item T
+            he cosmic microwave background. \\ The CMB was discovered in 196...
  <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV
--project/Tex/figs/aspon_kaon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-[39] <figs/p.png, id=786, 200.75pt x 200.75pt>
+-project/Tex/figs/aspon_kaon.png>] <figs/p.png, id=781, 200.75pt x 200.75pt>
 File: figs/p.png Graphic file (type png)
- <use figs/p.png>
+
+<use figs/p.png>
 Package pdftex.def Info: figs/p.png used on input line 49.
 (pdftex.def)             Requested size: 230.01205pt x 230.0275pt.
 
@@ -1183,17 +1182,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--55
 
  []
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
-) has been already used, duplicate ignored
+[39] [40pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.73 \end{equation}
-                    <C:/Users/Kevin/Documents/College/Year 4/High Energy Partic
-le Physics/HEPP-CPV-project/Tex/figs/p.png>]
-<figs/bl.png, id=820, 545.03625pt x 327.2225pt>
+l.84 
+      <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEP
+P-CPV-project/Tex/figs/p.png>] <figs/bl.png, id=822, 545.03625pt x 327.2225pt>
 File: figs/bl.png Graphic file (type png)
- <use figs/bl.png>
+
+<use figs/bl.png>
 Package pdftex.def Info: figs/bl.png used on input line 104.
 (pdftex.def)             Requested size: 230.01205pt x 138.09158pt.
  [41] [42pdfTeX warning (ext4): destination with the same identifier (name{figu
@@ -1201,16 +1200,16 @@ re.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.126 \end{equation}
+l.130 \end{equation}
                      <C:/Users/Kevin/Documents/College/Year 4/High Energy Parti
 cle Physics/HEPP-CPV-project/Tex/figs/bl.png>] [43] [44]
-<figs/lat.png, id=902, 361.35pt x 230.8625pt>
+<figs/lat.png, id=903, 361.35pt x 230.8625pt>
 File: figs/lat.png Graphic file (type png)
  <use figs/lat.png>
 Package pdftex.def Info: figs/lat.png used on input line 196.
 (pdftex.def)             Requested size: 230.01205pt x 146.95183pt.
 
-<figs/b.png, id=907, 473.77pt x 211.79124pt>
+<figs/b.png, id=908, 473.77pt x 211.79124pt>
 File: figs/b.png Graphic file (type png)
  <use figs/b.png>
 Package pdftex.def Info: figs/b.png used on input line 216.
@@ -1220,10 +1219,10 @@ Package pdftex.def Info: figs/b.png used on input line 216.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.223 \end{equation}
+l.232 \end{equation}
                      <C:/Users/Kevin/Documents/College/Year 4/High Energy Parti
 cle Physics/HEPP-CPV-project/Tex/figs/lat.png (PNG copy)>]
-<figs/s.png, id=923, 693.59125pt x 351.3125pt>
+<figs/s.png, id=924, 693.59125pt x 351.3125pt>
 File: figs/s.png Graphic file (type png)
  <use figs/s.png>
 Package pdftex.def Info: figs/s.png used on input line 237.
@@ -1243,14 +1242,15 @@ l.256 \begin{equation}
                        <C:/Users/Kevin/Documents/College/Year 4/High Energy Par
 ticle Physics/HEPP-CPV-project/Tex/figs/b.png> <C:/Users/Kevin/Documents/Colleg
 e/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/s.png>])
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\Conclusion.tex")
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
+ [47]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
-
-[47]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
@@ -1270,7 +1270,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A2F77DCA502EDD2C42DECC5F34F30B57;3114.
+(rerunfilecheck)             Checksum: BB179E2120ECB12F3F5C341A12822A48;3114.
 
 
 LaTeX Warning: There were undefined references.
@@ -1281,12 +1281,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  10274 strings out of 494045
- 157857 string characters out of 3148387
+ 157859 string characters out of 3148387
  291616 words of memory out of 3000000
  13125 multiletter control sequences out of 15000+200000
  15028 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 33i,16n,31p,2477b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2477b,690s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -1317,7 +1317,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (50 pages, 1893623 bytes).
+Output written on main.pdf (50 pages, 1893597 bytes).
 PDF statistics:
  1147 PDF objects out of 1200 (max. 8388607)
  290 named destinations out of 1000 (max. 500000)
