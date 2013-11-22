@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:39
 entering extended mode
 **main.tex
 
@@ -547,7 +547,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 27
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 28
- \OT1/cmr/m/n/10 38
+ \OT1/cmr/m/n/10 39
  []
 
 
@@ -557,7 +557,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 29
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 30
- \OT1/cmr/m/n/10 40
+ \OT1/cmr/m/n/10 41
  []
 
 
@@ -567,7 +567,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 31
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 32
- \OT1/cmr/m/n/10 41
+ \OT1/cmr/m/n/10 42
  []
 
 
@@ -577,12 +577,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 33
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 34
- \OT1/cmr/m/n/10 42
+ \OT1/cmr/m/n/10 43
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 35
- \OT1/cmr/m/n/10 42
+ \OT1/cmr/m/n/10 43
  []
 
 
@@ -592,12 +592,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 36
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 37
- \OT1/cmr/m/n/10 43
+ \OT1/cmr/m/n/10 44
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 38
- \OT1/cmr/m/n/10 43
+ \OT1/cmr/m/n/10 44
  []
 
 
@@ -607,7 +607,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 39
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 40
- \OT1/cmr/m/n/10 44
+ \OT1/cmr/m/n/10 45
  []
 
 
@@ -617,7 +617,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 41
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 42
- \OT1/cmr/m/n/10 45
+ \OT1/cmr/m/n/10 46
  []
 
 
@@ -627,12 +627,12 @@ Overfull \hbox (5.00003pt too wide) detected at line 43
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 44
- \OT1/cmr/m/n/10 47
+ \OT1/cmr/m/n/10 48
  []
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 45
- \OT1/cmr/m/n/10 47
+ \OT1/cmr/m/n/10 48
  []
 
 )
@@ -1317,7 +1317,7 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (50 pages, 1893523 bytes).
+Output written on main.pdf (50 pages, 1893623 bytes).
 PDF statistics:
  1147 PDF objects out of 1200 (max. 8388607)
  290 named destinations out of 1000 (max. 500000)
