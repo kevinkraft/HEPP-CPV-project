@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {III}CPV in Kaon System}{11}{section*.9}
 \contentsline {subsection}{\numberline {A}Neutral Kaon Mixing}{11}{section*.10}
 \contentsline {subsection}{\numberline {B}Semileptonic decays}{15}{section*.11}
-\contentsline {subsection}{\numberline {C}Testing $CPT$ conservation through Strangenss Oscillations}{17}{section*.12}
+\contentsline {subsection}{\numberline {C}Testing $CPT$ conservation through Strangeness Oscillations}{17}{section*.12}
 \contentsline {section}{\numberline {IV}B mesons and CPV}{19}{section*.13}
 \contentsline {subsection}{\numberline {A}Asymmetric decay rates in B meson}{19}{section*.14}
 \contentsline {subsection}{\numberline {B}BaBar}{21}{section*.15}
