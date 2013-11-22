@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:28
 entering extended mode
 **main.tex
 
@@ -547,7 +547,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 27
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 28
- \OT1/cmr/m/n/10 39
+ \OT1/cmr/m/n/10 38
  []
 
 
@@ -1156,7 +1156,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 -project\Tex\Conclusion.tex")
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\Cosmo_cp.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
@@ -1165,21 +1165,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.28 \par
+l.33 \par
           The hot big bang model is one of the most widely accepted theory f...
  <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV
 -project/Tex/figs/aspon_kaon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 [39] <figs/p.png, id=786, 200.75pt x 200.75pt>
 File: figs/p.png Graphic file (type png)
  <use figs/p.png>
-Package pdftex.def Info: figs/p.png used on input line 44.
+Package pdftex.def Info: figs/p.png used on input line 49.
 (pdftex.def)             Requested size: 230.01205pt x 230.0275pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 45--55
 
  []
 
@@ -1188,72 +1188,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--50
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.63 \item $
-            s$ is the entropy density. <C:/Users/Kevin/Documents/College/Year 4
-/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/p.png>]
+l.73 \end{equation}
+                    <C:/Users/Kevin/Documents/College/Year 4/High Energy Partic
+le Physics/HEPP-CPV-project/Tex/figs/p.png>]
 <figs/bl.png, id=820, 545.03625pt x 327.2225pt>
 File: figs/bl.png Graphic file (type png)
  <use figs/bl.png>
-Package pdftex.def Info: figs/bl.png used on input line 99.
+Package pdftex.def Info: figs/bl.png used on input line 104.
 (pdftex.def)             Requested size: 230.01205pt x 138.09158pt.
- [41]
-
-LaTeX Warning: Reference `eta' on page 42 undefined on input line 113.
-
-[42pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
-) has been already used, duplicate ignored
+ [41] [42pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.117 \subsection
-                 {C- and CP-Violations.} <C:/Users/Kevin/Documents/College/Year
- 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/bl.png>] [43]
-[44] <figs/lat.png, id=901, 361.35pt x 230.8625pt>
+l.126 \end{equation}
+                     <C:/Users/Kevin/Documents/College/Year 4/High Energy Parti
+cle Physics/HEPP-CPV-project/Tex/figs/bl.png>] [43] [44]
+<figs/lat.png, id=902, 361.35pt x 230.8625pt>
 File: figs/lat.png Graphic file (type png)
  <use figs/lat.png>
-Package pdftex.def Info: figs/lat.png used on input line 191.
+Package pdftex.def Info: figs/lat.png used on input line 196.
 (pdftex.def)             Requested size: 230.01205pt x 146.95183pt.
+
+<figs/b.png, id=907, 473.77pt x 211.79124pt>
+File: figs/b.png Graphic file (type png)
+ <use figs/b.png>
+Package pdftex.def Info: figs/b.png used on input line 216.
+(pdftex.def)             Requested size: 230.01205pt x 102.82204pt.
  [45pdfTeX warning (ext4): destination with the same identifier (name{figure.27
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.202 \end{equation}
+l.223 \end{equation}
                      <C:/Users/Kevin/Documents/College/Year 4/High Energy Parti
 cle Physics/HEPP-CPV-project/Tex/figs/lat.png (PNG copy)>]
-<figs/b.png, id=913, 473.77pt x 211.79124pt>
-File: figs/b.png Graphic file (type png)
- <use figs/b.png>
-Package pdftex.def Info: figs/b.png used on input line 211.
-(pdftex.def)             Requested size: 230.01205pt x 102.82204pt.
-
-<figs/s.png, id=921, 693.59125pt x 351.3125pt>
+<figs/s.png, id=923, 693.59125pt x 351.3125pt>
 File: figs/s.png Graphic file (type png)
  <use figs/s.png>
-Package pdftex.def Info: figs/s.png used on input line 232.
+Package pdftex.def Info: figs/s.png used on input line 237.
 (pdftex.def)             Requested size: 230.01205pt x 116.5017pt.
  [46pdfTeX warning (ext4): destination with the same identifier (name{figure.28
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 \begin{equation}
-                       <C:/Users/Kevin/Documents/College/Year 4/High Energy Par
-ticle Physics/HEPP-CPV-project/Tex/figs/b.png>])
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
+l.256 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.94 \bibitem{PDGKaons}
-                        <C:/Users/Kevin/Documents/College/Year 4/High Energy Pa
-rticle Physics/HEPP-CPV-project/Tex/figs/s.png>]
+l.256 \begin{equation}
+                       <C:/Users/Kevin/Documents/College/Year 4/High Energy Par
+ticle Physics/HEPP-CPV-project/Tex/figs/b.png> <C:/Users/Kevin/Documents/Colleg
+e/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/s.png>])
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
+
+[47]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
@@ -1283,13 +1280,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10276 strings out of 494045
- 157878 string characters out of 3148387
+ 10274 strings out of 494045
+ 157857 string characters out of 3148387
  291616 words of memory out of 3000000
- 13127 multiletter control sequences out of 15000+200000
+ 13125 multiletter control sequences out of 15000+200000
  15028 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 33i,16n,31p,2477b,690s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2477b,753s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -1320,9 +1317,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (50 pages, 1892566 bytes).
+Output written on main.pdf (50 pages, 1893523 bytes).
 PDF statistics:
- 1146 PDF objects out of 1200 (max. 8388607)
+ 1147 PDF objects out of 1200 (max. 8388607)
  290 named destinations out of 1000 (max. 500000)
  495 words of extra memory for PDF output out of 10000 (max. 10000000)
 
