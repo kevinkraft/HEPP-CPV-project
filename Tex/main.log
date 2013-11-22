@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 09:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 10:07
 entering extended mode
 **main.tex
 
@@ -1087,19 +1087,13 @@ me identifier (name{figure.24}) has been already used, duplicate ignored
 l.59 
       <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEP
 P-CPV-project/Tex/figs/aspon_kaon.png>]
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 79.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 79.
-
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
-[39]
+ [39]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
@@ -1128,13 +1122,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10083 strings out of 494045
- 155652 string characters out of 3148387
+ 10084 strings out of 494045
+ 155653 string characters out of 3148387
  290616 words of memory out of 3000000
  13009 multiletter control sequences out of 15000+200000
- 14861 words of font info for 54 fonts, out of 3000000 for 9000
+ 15028 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 33i,16n,31p,2479b,623s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2479b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -1160,13 +1154,14 @@ type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (41 pages, 1627561 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on main.pdf (41 pages, 1646493 bytes).
 PDF statistics:
- 841 PDF objects out of 1000 (max. 8388607)
+ 860 PDF objects out of 1000 (max. 8388607)
  224 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
