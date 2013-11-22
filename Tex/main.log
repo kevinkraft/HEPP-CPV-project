@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 10:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.11)  22 NOV 2013 11:01
 entering extended mode
 **main.tex
 
@@ -450,7 +450,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Class revtex4 Warning: Assuming \noaffiliation for John Ronayne (10318997), Kev
 in Maguire (10318135), Sinead Hales(10318221), Dudley Grant (10275291).
 
-<figs/Cover.jpg, id=111, 459.21562pt x 428.35031pt>
+<figs/Cover.jpg, id=175, 459.21562pt x 428.35031pt>
 File: figs/Cover.jpg Graphic file (type jpg)
  <use figs/Cover.jpg>
 Package pdftex.def Info: figs/Cover.jpg used on input line 29.
@@ -555,6 +555,86 @@ Overfull \hbox (5.00003pt too wide) detected at line 29
  \OT1/cmr/m/n/10 39
  []
 
+
+Overfull \hbox (5.00003pt too wide) detected at line 30
+ \OT1/cmr/m/n/10 40
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 31
+ \OT1/cmr/m/n/10 41
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 32
+ \OT1/cmr/m/n/10 41
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 33
+ \OT1/cmr/m/n/10 42
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 34
+ \OT1/cmr/m/n/10 42
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 35
+ \OT1/cmr/m/n/10 43
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 36
+ \OT1/cmr/m/n/10 43
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 37
+ \OT1/cmr/m/n/10 43
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 38
+ \OT1/cmr/m/n/10 43
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 39
+ \OT1/cmr/m/n/10 44
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 40
+ \OT1/cmr/m/n/10 44
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 41
+ \OT1/cmr/m/n/10 45
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 42
+ \OT1/cmr/m/n/10 45
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 43
+ \OT1/cmr/m/n/10 47
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 44
+ \OT1/cmr/m/n/10 48
+ []
+
+
+Overfull \hbox (5.00003pt too wide) detected at line 45
+ \OT1/cmr/m/n/10 48
+ []
+
 )
 \tf@toc=\write4
  [1]
@@ -575,7 +655,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [5])
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\CKM-Mechanism.tex"
-<figs/ckmfig1.jpg, id=194, 397.485pt x 155.83218pt>
+<figs/ckmfig1.jpg, id=275, 397.485pt x 155.83218pt>
 File: figs/ckmfig1.jpg Graphic file (type jpg)
  <use figs/ckmfig1.jpg>
 Package pdftex.def Info: figs/ckmfig1.jpg used on input line 20.
@@ -589,13 +669,13 @@ has been already used, duplicate ignored
 l.35 ...heta_{1} \end{array} \right)\end{equation}
                                                    <C:/Users/Kevin/Documents/Co
 llege/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig1.jpg
->] <figs/ckmfig2.jpg, id=214, 462.22687pt x 240.9pt>
+>] <figs/ckmfig2.jpg, id=295, 462.22687pt x 240.9pt>
 File: figs/ckmfig2.jpg Graphic file (type jpg)
  <use figs/ckmfig2.jpg>
 Package pdftex.def Info: figs/ckmfig2.jpg used on input line 45.
 (pdftex.def)             Requested size: 255.0pt x 132.89973pt.
 
-<figs/ckmfig3.jpg, id=215, 599.99156pt x 204.765pt>
+<figs/ckmfig3.jpg, id=296, 599.99156pt x 204.765pt>
 File: figs/ckmfig3.jpg Graphic file (type jpg)
  <use figs/ckmfig3.jpg>
 Package pdftex.def Info: figs/ckmfig3.jpg used on input line 55.
@@ -620,13 +700,13 @@ l.70
       <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEP
 P-CPV-project/Tex/figs/ckmfig2.jpg> <C:/Users/Kevin/Documents/College/Year 4/Hi
 gh Energy Particle Physics/HEPP-CPV-project/Tex/figs/ckmfig3.jpg>]
-<figs/ckmfig4a.jpg, id=236, 481.8pt x 313.17pt>
+<figs/ckmfig4a.jpg, id=317, 481.8pt x 313.17pt>
 File: figs/ckmfig4a.jpg Graphic file (type jpg)
  <use figs/ckmfig4a.jpg>
 Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 102.
 (pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
 
-<figs/ckmfig4b.jpg, id=237, 410.2828pt x 317.68687pt>
+<figs/ckmfig4b.jpg, id=318, 410.2828pt x 317.68687pt>
 File: figs/ckmfig4b.jpg Graphic file (type jpg)
  <use figs/ckmfig4b.jpg>
 Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 108.
@@ -651,7 +731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
-<figs/ckmfig5.jpg, id=278, 438.13687pt x 176.15813pt>
+<figs/ckmfig5.jpg, id=359, 438.13687pt x 176.15813pt>
 File: figs/ckmfig5.jpg Graphic file (type jpg)
  <use figs/ckmfig5.jpg>
 Package pdftex.def Info: figs/ckmfig5.jpg used on input line 195.
@@ -667,7 +747,7 @@ l.208 \end{equation}
 cle Physics/HEPP-CPV-project/Tex/figs/ckmfig5.jpg>])
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\CPV_in_Kaon_system.tex"
-<figs/KevFeyn1.png, id=296, 792.9625pt x 291.0875pt>
+<figs/KevFeyn1.png, id=377, 792.9625pt x 291.0875pt>
 File: figs/KevFeyn1.png Graphic file (type png)
  <use figs/KevFeyn1.png>
 Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
@@ -681,7 +761,7 @@ Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
 l.26 \end{align*}
                   <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle
  Physics/HEPP-CPV-project/Tex/figs/KevFeyn1.png>] [12]
-<figs/Christenson_apparatus.png, id=325, 1999.47pt x 1623.06375pt>
+<figs/Christenson_apparatus.png, id=406, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
@@ -692,7 +772,7 @@ Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 100.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Christenson_results.png, id=327, 552.0625pt x 564.1075pt>
+<figs/Christenson_results.png, id=408, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
@@ -702,7 +782,7 @@ Package pdftex.def Info: figs/Christenson_results.png used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] <figs/Perkins_Interference_Kaons.png, id=343, 746.79pt x 251.94125pt>
+[13] <figs/Perkins_Interference_Kaons.png, id=424, 746.79pt x 251.94125pt>
 File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
@@ -732,7 +812,7 @@ e Physics/HEPP-CPV-project/Tex/figs/Christenson_apparatus.png> <C:/Users/Kevin/
 Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs
 /Christenson_results.png> <C:/Users/Kevin/Documents/College/Year 4/High Energy 
 Particle Physics/HEPP-CPV-project/Tex/figs/Perkins_Interference_Kaons.png>]
-<figs/KevFeyn2.png, id=367, 495.35063pt x 322.95656pt>
+<figs/KevFeyn2.png, id=448, 495.35063pt x 322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
 Package pdftex.def Info: figs/KevFeyn2.png used on input line 192.
@@ -762,7 +842,7 @@ r (name{table.2}) has been already used, duplicate ignored
 l.268 \end{equation*}
                       <C:/Users/Kevin/Documents/College/Year 4/High Energy Part
 icle Physics/HEPP-CPV-project/Tex/figs/KevFeyn2.png>]
-<figs/Asymmetry_pic.png, id=410, 512.66531pt x 354.57469pt>
+<figs/Asymmetry_pic.png, id=491, 512.66531pt x 354.57469pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
@@ -785,7 +865,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 l.306 \end{align}
                   <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle
  Physics/HEPP-CPV-project/Tex/figs/Asymmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=426, 614.295pt x 415.5525pt>
+<figs/Strangeness_oscillations.png, id=507, 614.295pt x 415.5525pt>
 File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
@@ -816,7 +896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
-[20] <figs/BBD.jpg, id=480, 618.81187pt x 475.02469pt>
+[20] <figs/BBD.jpg, id=561, 618.81187pt x 475.02469pt>
 File: figs/BBD.jpg Graphic file (type jpg)
  <use figs/BBD.jpg>
 Package pdftex.def Info: figs/BBD.jpg used on input line 138.
@@ -825,7 +905,7 @@ Package pdftex.def Info: figs/BBD.jpg used on input line 138.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/dt.JPG, id=484, 620.3175pt x 359.09157pt>
+<figs/dt.JPG, id=565, 620.3175pt x 359.09157pt>
 File: figs/dt.JPG Graphic file (type jpg)
  <use figs/dt.JPG>
 Package pdftex.def Info: figs/dt.JPG used on input line 153.
@@ -856,7 +936,7 @@ l.161
        <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HE
 PP-CPV-project/Tex/figs/BBD.jpg> <C:/Users/Kevin/Documents/College/Year 4/High 
 Energy Particle Physics/HEPP-CPV-project/Tex/figs/dt.JPG>]
-<figs/Flavourosscilatons.JPG, id=511, 337.26pt x 341.77687pt>
+<figs/Flavourosscilatons.JPG, id=592, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
@@ -866,7 +946,7 @@ Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 189.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] <figs/cpf.JPG, id=531, 307.90031pt x 367.3725pt>
+[23] <figs/cpf.JPG, id=612, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
 Package pdftex.def Info: figs/cpf.JPG used on input line 205.
@@ -878,7 +958,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `pBGD' on page 1 undefined on input line 216.
 
-<figs/kino.JPG, id=539, 593.21625pt x 391.4625pt>
+<figs/kino.JPG, id=620, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
 Package pdftex.def Info: figs/kino.JPG used on input line 226.
@@ -887,7 +967,7 @@ Package pdftex.def Info: figs/kino.JPG used on input line 226.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/gam.JPG, id=540, 507.39563pt x 124.96687pt>
+<figs/gam.JPG, id=621, 507.39563pt x 124.96687pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
 Package pdftex.def Info: figs/gam.JPG used on input line 233.
@@ -909,7 +989,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--241
 l.241 
        <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HE
 PP-CPV-project/Tex/figs/Flavourosscilatons.JPG>]
-<figs/trig.JPG, id=560, 711.4078pt x 322.20375pt>
+<figs/trig.JPG, id=641, 711.4078pt x 322.20375pt>
 File: figs/trig.JPG Graphic file (type jpg)
  <use figs/trig.JPG>
 Package pdftex.def Info: figs/trig.JPG used on input line 245.
@@ -938,7 +1018,10 @@ ar 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/kino.JPG>]
 
 LaTeX Warning: Reference `KevFeyn1.png' on page 1 undefined on input line 7.
 
-<figs/Deon_mixing_feyn.png, id=571, 191.21437pt x 106.89937pt>
+
+LaTeX Warning: Reference `JohntoKevRef' on page 26 undefined on input line 7.
+
+<figs/Deon_mixing_feyn.png, id=652, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
@@ -967,7 +1050,7 @@ le Physics/HEPP-CPV-project/Tex/figs/gam.JPG> <C:/Users/Kevin/Documents/College
 /Year 4/High Energy Particle Physics/HEPP-CPV-project/Tex/figs/trig.JPG> <C:/Us
 ers/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV-projec
 t/Tex/figs/Deon_mixing_feyn.png>]
-<figs/BaBar_D0_Mixing_Results.png, id=590, 539.01375pt x 490.83376pt>
+<figs/BaBar_D0_Mixing_Results.png, id=671, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
@@ -978,7 +1061,7 @@ Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 43
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/LHCb_D0_Mixing_Results.png, id=591, 425.59pt x 384.43625pt>
+<figs/LHCb_D0_Mixing_Results.png, id=672, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
@@ -1061,7 +1144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-[36] <figs/aspon_kaon.png, id=665, 650.43pt x 392.21532pt>
+[36] <figs/aspon_kaon.png, id=746, 650.43pt x 392.21532pt>
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
@@ -1073,21 +1156,166 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [37])
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
--project\Tex\Conclusion.tex") [38pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.24}) has been already used, duplicate ignored
+-project\Tex\Conclusion.tex")
+("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
+-project\Tex\Cosmo_cp.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.59 
-      <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEP
-P-CPV-project/Tex/figs/aspon_kaon.png>]
+l.28 \par
+          The hot big bang model is one of the most widely accepted theory f...
+ <C:/Users/Kevin/Documents/College/Year 4/High Energy Particle Physics/HEPP-CPV
+-project/Tex/figs/aspon_kaon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+[39]
+
+LaTeX Warning: File `figs/p.png' not found on input line 44.
+
+
+! Package pdftex.def Error: File `figs/p.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...raphics[width=0.451\textwidth]{figs/p.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--50
+
+ []
+
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.63 \item $
+            s$ is the entropy density.]
+! Undefined control sequence.
+l.75 \begin{equation} \labe
+                           {eta}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `figs/bl.png' not found on input line 99.
+
+
+! Package pdftex.def Error: File `figs/bl.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...aphics[width=0.451\textwidth]{figs/bl.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[41]
+
+LaTeX Warning: Reference `eta' on page 42 undefined on input line 113.
+
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 \subsubsection
+                     {Leptogenesis}] [43] [44]
+
+LaTeX Warning: File `figs/lat.png' not found on input line 191.
+
+
+! Package pdftex.def Error: File `figs/lat.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...hics[width=0.451\textwidth]{figs/lat.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `figs/b.png' not found on input line 211.
+
+
+! Package pdftex.def Error: File `figs/b.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...aphics[width=0.451\textwidth]{figs/b.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[45] [46pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 \end{equation}
+                    ]
+
+LaTeX Warning: File `figs/s.png' not found on input line 232.
+
+
+! Package pdftex.def Error: File `figs/s.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ...aphics[width=0.451\textwidth]{figs/s.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.255 
+      ])
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [39]
+ [48]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no “ in font cmr9!
@@ -1097,14 +1325,14 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
- [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+ [49]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 
 ("C:\Users\Kevin\Documents\College\Year 4\High Energy Particle Physics\HEPP-CPV
 -project\Tex\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -1112,8 +1340,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 84E79086C89F0BC320BD560E2487F46D;1745
-(rerunfilecheck)             After:  520052E875E08227032F4C4A60FD85E6;1746.
+(rerunfilecheck)             Before: F464DD549735E889198F44BE4C9BDD1B;3114
+(rerunfilecheck)             After:  A2F77DCA502EDD2C42DECC5F34F30B57;3114.
 
 LaTeX Warning: There were undefined references.
 
@@ -1122,13 +1350,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10084 strings out of 494045
- 155653 string characters out of 3148387
+ 10250 strings out of 494045
+ 157476 string characters out of 3148387
  290616 words of memory out of 3000000
- 13009 multiletter control sequences out of 15000+200000
+ 13101 multiletter control sequences out of 15000+200000
  15028 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 33i,16n,31p,2479b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2477b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -1159,9 +1387,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm5.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (41 pages, 1646517 bytes).
+Output written on main.pdf (50 pages, 1722902 bytes).
 PDF statistics:
- 860 PDF objects out of 1000 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1135 PDF objects out of 1200 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 

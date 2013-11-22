@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {A}Asymmetric decay rates in B meson}{19}{section*.14}
 \contentsline {subsection}{\numberline {B}BaBar}{21}{section*.15}
 \contentsline {subsection}{\numberline {C}Experimental Evidence of \textit {CPV} in B mesons}{23}{section*.16}
-\contentsline {section}{\numberline {V}CPV in D-meson system}{26}{section*.17}
+\contentsline {section}{\numberline {V}CPV in D meson system}{26}{section*.17}
 \contentsline {section}{\numberline {VI}Spontaneous CPV}{28}{section*.18}
 \contentsline {subsection}{\numberline {A}Group Theory for Physics}{29}{section*.19}
 \contentsline {subsection}{\numberline {B}Useful Physical Groups}{32}{section*.20}
@@ -25,5 +25,21 @@
 \contentsline {subsection}{\numberline {E}The Aspon Model}{37}{section*.23}
 \contentsline {subsection}{\numberline {F}Summary and Application}{38}{section*.24}
 \contentsline {section}{\numberline {VII}Conclusion}{38}{section*.25}
-\contentsline {section}{\numberline {VIII}Acknowledgements}{39}{section*.26}
-\contentsline {section}{\numberline {}References}{39}{section*.27}
+\contentsline {section}{\numberline {VIII}Evidence for CP-Violation in relation to cosmological models and detection via natural particle accelerators}{39}{section*.26}
+\contentsline {subsection}{\numberline {A}Justification of the hot big bang model}{39}{section*.27}
+\contentsline {subsection}{\numberline {B}Baryogenesis and Leptogenesis}{40}{section*.28}
+\contentsline {subsection}{\numberline {C}Conditions for baryogenesis}{41}{section*.29}
+\contentsline {subsection}{\numberline {D}B-number violation}{41}{section*.30}
+\contentsline {subsection}{\numberline {E}Interactions outside of thermal equilibrium}{42}{section*.31}
+\contentsline {subsubsection}{\numberline {1}Electroweak phase transition}{42}{section*.32}
+\contentsline {subsubsection}{\numberline {2}Leptogenesis}{43}{section*.33}
+\contentsline {subsection}{\numberline {F}C- and CP-Violations.}{43}{section*.34}
+\contentsline {section}{\numberline {IX}Searching for evidence of CP in the diffuse gamma ray sky.}{43}{section*.35}
+\contentsline {subsection}{\numberline {A}Introduction}{43}{section*.36}
+\contentsline {subsection}{\numberline {B}Indirect and direct method's for measuring helical magnetic fields}{44}{section*.37}
+\contentsline {subsection}{\numberline {C}Direct Measurements}{44}{section*.38}
+\contentsline {subsection}{\numberline {D}Fermi LAT's method of gamma ray detection}{45}{section*.39}
+\contentsline {subsection}{\numberline {E}Gamma ray spirals in a helical magnetic field}{45}{section*.40}
+\contentsline {subsection}{\numberline {F}Evaluation of the theory}{47}{section*.41}
+\contentsline {section}{\numberline {X}Acknowledgements}{48}{section*.42}
+\contentsline {section}{\numberline {}References}{48}{section*.43}
