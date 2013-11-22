@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.14)  22 NOV 2013 08:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.14)  22 NOV 2013 09:25
 entering extended mode
 **C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/main.tex
 (C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/main.tex
@@ -850,7 +850,7 @@ l.161
 l.161 
        <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/BBD.jpg> <C:/U
 sers/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/dt.JPG>]
-<figs/Flavourosscilatons.JPG, id=512, 337.26pt x 341.77687pt>
+<figs/Flavourosscilatons.JPG, id=511, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
@@ -860,7 +860,7 @@ Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 189.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] <figs/cpf.JPG, id=532, 307.90031pt x 367.3725pt>
+[23] <figs/cpf.JPG, id=531, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
 Package pdftex.def Info: figs/cpf.JPG used on input line 205.
@@ -869,7 +869,10 @@ Package pdftex.def Info: figs/cpf.JPG used on input line 205.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/kino.JPG, id=540, 593.21625pt x 391.4625pt>
+
+LaTeX Warning: Reference `pBGD' on page 1 undefined on input line 216.
+
+<figs/kino.JPG, id=539, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
 Package pdftex.def Info: figs/kino.JPG used on input line 226.
@@ -878,7 +881,7 @@ Package pdftex.def Info: figs/kino.JPG used on input line 226.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/gam.JPG, id=541, 507.39563pt x 124.96687pt>
+<figs/gam.JPG, id=540, 507.39563pt x 124.96687pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
 Package pdftex.def Info: figs/gam.JPG used on input line 233.
@@ -1104,10 +1107,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10195 strings out of 493921
- 157289 string characters out of 3144878
+ 10196 strings out of 493921
+ 157302 string characters out of 3144878
  281861 words of memory out of 3000000
- 13119 multiletter control sequences out of 15000+200000
+ 13120 multiletter control sequences out of 15000+200000
  14861 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  33i,16n,31p,2531b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1143,7 +1146,7 @@ s/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msbm5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/symbols/msbm7.pfb>
-Output written on main.pdf (41 pages, 1627401 bytes).
+Output written on main.pdf (41 pages, 1627022 bytes).
 PDF statistics:
  841 PDF objects out of 1000 (max. 8388607)
  224 named destinations out of 1000 (max. 500000)
