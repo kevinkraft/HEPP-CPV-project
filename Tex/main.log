@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.14)  22 NOV 2013 02:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.14)  22 NOV 2013 08:58
 entering extended mode
 **C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/main.tex
 (C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/main.tex
@@ -544,7 +544,7 @@ Overfull \hbox (5.00003pt too wide) detected at line 27
 
 
 Overfull \hbox (5.00003pt too wide) detected at line 28
- \OT1/cmr/m/n/10 38
+ \OT1/cmr/m/n/10 39
  []
 
 
@@ -583,21 +583,17 @@ has been already used, duplicate ignored
 l.35 ...heta_{1} \end{array} \right)\end{equation}
                                                    <C:/Users/John/Documents/Git
 Hub/HEPP-CPV-project/Tex/figs/ckmfig1.jpg>]
-<figs/ckmfig2.jpg, id=213, 462.22687pt x 240.9pt>
+<figs/ckmfig2.jpg, id=214, 462.22687pt x 240.9pt>
 File: figs/ckmfig2.jpg Graphic file (type jpg)
  <use figs/ckmfig2.jpg>
 Package pdftex.def Info: figs/ckmfig2.jpg used on input line 45.
 (pdftex.def)             Requested size: 255.0pt x 132.89973pt.
 
-<figs/ckmfig3.jpg, id=214, 599.99156pt x 204.765pt>
+<figs/ckmfig3.jpg, id=215, 599.99156pt x 204.765pt>
 File: figs/ckmfig3.jpg Graphic file (type jpg)
  <use figs/ckmfig3.jpg>
 Package pdftex.def Info: figs/ckmfig3.jpg used on input line 55.
 (pdftex.def)             Requested size: 255.0pt x 87.02553pt.
-
-
-Package natbib Warning: Citation `2' on page 7 undefined on input line 66.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--70
 
@@ -617,13 +613,13 @@ l.70
 l.70 
       <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/ckmfig2.jpg> <C
 :/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/ckmfig3.jpg>]
-<figs/ckmfig4a.jpg, id=234, 481.8pt x 313.17pt>
+<figs/ckmfig4a.jpg, id=236, 481.8pt x 313.17pt>
 File: figs/ckmfig4a.jpg Graphic file (type jpg)
  <use figs/ckmfig4a.jpg>
 Package pdftex.def Info: figs/ckmfig4a.jpg used on input line 102.
 (pdftex.def)             Requested size: 153.00156pt x 99.44708pt.
 
-<figs/ckmfig4b.jpg, id=235, 410.2828pt x 317.68687pt>
+<figs/ckmfig4b.jpg, id=237, 410.2828pt x 317.68687pt>
 File: figs/ckmfig4b.jpg Graphic file (type jpg)
  <use figs/ckmfig4b.jpg>
 Package pdftex.def Info: figs/ckmfig4b.jpg used on input line 108.
@@ -654,7 +650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
-<figs/ckmfig5.jpg, id=276, 438.13687pt x 176.15813pt>
+<figs/ckmfig5.jpg, id=278, 438.13687pt x 176.15813pt>
 File: figs/ckmfig5.jpg Graphic file (type jpg)
  <use figs/ckmfig5.jpg>
 Package pdftex.def Info: figs/ckmfig5.jpg used on input line 195.
@@ -669,7 +665,7 @@ l.208 \end{equation}
                      <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/
 ckmfig5.jpg>])
 (C:\Users\John\Documents\GitHub\HEPP-CPV-project\Tex\CPV_in_Kaon_system.tex
-<figs/KevFeyn1.png, id=294, 792.9625pt x 291.0875pt>
+<figs/KevFeyn1.png, id=296, 792.9625pt x 291.0875pt>
 File: figs/KevFeyn1.png Graphic file (type png)
  <use figs/KevFeyn1.png>
 Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
@@ -683,7 +679,7 @@ Package pdftex.def Info: figs/KevFeyn1.png used on input line 15.
 l.26 \end{align*}
                   <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/Kev
 Feyn1.png>] [12]
-<figs/Christenson_apparatus.png, id=323, 1999.47pt x 1623.06375pt>
+<figs/Christenson_apparatus.png, id=325, 1999.47pt x 1623.06375pt>
 File: figs/Christenson_apparatus.png Graphic file (type png)
 
 <use figs/Christenson_apparatus.png>
@@ -694,7 +690,7 @@ Package pdftex.def Info: figs/Christenson_apparatus.png used on input line 100.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/Christenson_results.png, id=325, 552.0625pt x 564.1075pt>
+<figs/Christenson_results.png, id=327, 552.0625pt x 564.1075pt>
 File: figs/Christenson_results.png Graphic file (type png)
 
 <use figs/Christenson_results.png>
@@ -704,7 +700,7 @@ Package pdftex.def Info: figs/Christenson_results.png used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] <figs/Perkins_Interference_Kaons.png, id=341, 746.79pt x 251.94125pt>
+[13] <figs/Perkins_Interference_Kaons.png, id=343, 746.79pt x 251.94125pt>
 File: figs/Perkins_Interference_Kaons.png Graphic file (type png)
 
 <use figs/Perkins_Interference_Kaons.png>
@@ -733,7 +729,7 @@ l.144 \end{align*}
 ristenson_apparatus.png> <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/f
 igs/Christenson_results.png> <C:/Users/John/Documents/GitHub/HEPP-CPV-project/T
 ex/figs/Perkins_Interference_Kaons.png>]
-<figs/KevFeyn2.png, id=365, 495.35063pt x 322.95656pt>
+<figs/KevFeyn2.png, id=367, 495.35063pt x 322.95656pt>
 File: figs/KevFeyn2.png Graphic file (type png)
  <use figs/KevFeyn2.png>
 Package pdftex.def Info: figs/KevFeyn2.png used on input line 192.
@@ -762,7 +758,7 @@ r (name{table.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.268 \end{equation*}
                       <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs
-/KevFeyn2.png>] <figs/Asymmetry_pic.png, id=408, 512.66531pt x 354.57469pt>
+/KevFeyn2.png>] <figs/Asymmetry_pic.png, id=410, 512.66531pt x 354.57469pt>
 File: figs/Asymmetry_pic.png Graphic file (type png)
 
 <use figs/Asymmetry_pic.png>
@@ -785,7 +781,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 l.306 \end{align}
                   <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/Asy
 mmetry_pic.png>]
-<figs/Strangeness_oscillations.png, id=424, 614.295pt x 415.5525pt>
+<figs/Strangeness_oscillations.png, id=426, 614.295pt x 415.5525pt>
 File: figs/Strangeness_oscillations.png Graphic file (type png)
 
 <use figs/Strangeness_oscillations.png>
@@ -815,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
-[20] <figs/BBD.jpg, id=478, 618.81187pt x 475.02469pt>
+[20] <figs/BBD.jpg, id=480, 618.81187pt x 475.02469pt>
 File: figs/BBD.jpg Graphic file (type jpg)
  <use figs/BBD.jpg>
 Package pdftex.def Info: figs/BBD.jpg used on input line 138.
@@ -824,7 +820,7 @@ Package pdftex.def Info: figs/BBD.jpg used on input line 138.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/dt.JPG, id=482, 620.3175pt x 359.09157pt>
+<figs/dt.JPG, id=484, 620.3175pt x 359.09157pt>
 File: figs/dt.JPG Graphic file (type jpg)
  <use figs/dt.JPG>
 Package pdftex.def Info: figs/dt.JPG used on input line 153.
@@ -854,7 +850,7 @@ l.161
 l.161 
        <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/BBD.jpg> <C:/U
 sers/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/dt.JPG>]
-<figs/Flavourosscilatons.JPG, id=510, 337.26pt x 341.77687pt>
+<figs/Flavourosscilatons.JPG, id=512, 337.26pt x 341.77687pt>
 File: figs/Flavourosscilatons.JPG Graphic file (type jpg)
 
 <use figs/Flavourosscilatons.JPG>
@@ -864,7 +860,7 @@ Package pdftex.def Info: figs/Flavourosscilatons.JPG used on input line 189.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] <figs/cpf.JPG, id=530, 307.90031pt x 367.3725pt>
+[23] <figs/cpf.JPG, id=532, 307.90031pt x 367.3725pt>
 File: figs/cpf.JPG Graphic file (type jpg)
  <use figs/cpf.JPG>
 Package pdftex.def Info: figs/cpf.JPG used on input line 205.
@@ -873,7 +869,7 @@ Package pdftex.def Info: figs/cpf.JPG used on input line 205.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/kino.JPG, id=538, 593.21625pt x 391.4625pt>
+<figs/kino.JPG, id=540, 593.21625pt x 391.4625pt>
 File: figs/kino.JPG Graphic file (type jpg)
  <use figs/kino.JPG>
 Package pdftex.def Info: figs/kino.JPG used on input line 226.
@@ -882,7 +878,7 @@ Package pdftex.def Info: figs/kino.JPG used on input line 226.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/gam.JPG, id=539, 507.39563pt x 124.96687pt>
+<figs/gam.JPG, id=541, 507.39563pt x 124.96687pt>
 File: figs/gam.JPG Graphic file (type jpg)
  <use figs/gam.JPG>
 Package pdftex.def Info: figs/gam.JPG used on input line 233.
@@ -903,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--241
                                                   \fi \fi 
 l.241 
        <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/Flavourosscila
-tons.JPG>] <figs/trig.JPG, id=558, 711.4078pt x 322.20375pt>
+tons.JPG>] <figs/trig.JPG, id=560, 711.4078pt x 322.20375pt>
 File: figs/trig.JPG Graphic file (type jpg)
 
 <use figs/trig.JPG>
@@ -931,7 +927,7 @@ JPG> <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/kino.JPG>]
 
 LaTeX Warning: Reference `KevFeyn1.png' on page 1 undefined on input line 7.
 
-<figs/Deon_mixing_feyn.png, id=569, 191.21437pt x 106.89937pt>
+<figs/Deon_mixing_feyn.png, id=571, 191.21437pt x 106.89937pt>
 File: figs/Deon_mixing_feyn.png Graphic file (type png)
 
 <use figs/Deon_mixing_feyn.png>
@@ -958,7 +954,7 @@ l.21 \end{equation}
                     <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/g
 am.JPG> <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/trig.JPG> <C:
 /Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/Deon_mixing_feyn.png>]
-<figs/BaBar_D0_Mixing_Results.png, id=588, 539.01375pt x 490.83376pt>
+<figs/BaBar_D0_Mixing_Results.png, id=590, 539.01375pt x 490.83376pt>
 File: figs/BaBar_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/BaBar_D0_Mixing_Results.png>
@@ -969,7 +965,7 @@ Package pdftex.def Info: figs/BaBar_D0_Mixing_Results.png used on input line 43
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/LHCb_D0_Mixing_Results.png, id=589, 425.59pt x 384.43625pt>
+<figs/LHCb_D0_Mixing_Results.png, id=591, 425.59pt x 384.43625pt>
 File: figs/LHCb_D0_Mixing_Results.png Graphic file (type png)
 
 <use figs/LHCb_D0_Mixing_Results.png>
@@ -1050,7 +1046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-[36] <figs/aspon_kaon.png, id=663, 650.43pt x 392.21532pt>
+[36] <figs/aspon_kaon.png, id=665, 650.43pt x 392.21532pt>
 File: figs/aspon_kaon.png Graphic file (type png)
 
 <use figs/aspon_kaon.png>
@@ -1066,9 +1062,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.63 H
-      ilary Greaves and Terugi Thomas - ``The CPT Theorem" - April 2012, htt...
- <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/aspon_kaon.png>]
+l.59 
+      <C:/Users/John/Documents/GitHub/HEPP-CPV-project/Tex/figs/aspon_kaon.png>
+]
 
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 79.
 
@@ -1081,22 +1077,18 @@ Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
 [39]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
-
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-[40]
+ [40]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (C:\Users\John\Documents\GitHub\HEPP-CPV-project\Tex\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
@@ -1112,13 +1104,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10197 strings out of 493921
- 157302 string characters out of 3144878
+ 10195 strings out of 493921
+ 157289 string characters out of 3144878
  281861 words of memory out of 3000000
- 13121 multiletter control sequences out of 15000+200000
+ 13119 multiletter control sequences out of 15000+200000
  14861 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,16n,31p,2531b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,16n,31p,2531b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/P
@@ -1151,9 +1143,9 @@ s/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 symbols/msbm5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/symbols/msbm7.pfb>
-Output written on main.pdf (41 pages, 1626205 bytes).
+Output written on main.pdf (41 pages, 1627401 bytes).
 PDF statistics:
- 839 PDF objects out of 1000 (max. 8388607)
+ 841 PDF objects out of 1000 (max. 8388607)
  224 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
